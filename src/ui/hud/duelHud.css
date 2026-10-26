@@ -1,0 +1,28 @@
+#interface[data-hud="duel"] .combat-hud{--hud-plate:.7}
+@media(max-width:1100px){#interface[data-hud="duel"] .combat-hud{--hud-plate:.68}}
+@media(max-height:520px) and (orientation:landscape){#interface[data-hud="duel"] .combat-hud{--hud-plate:.6}}
+@media(max-width:620px){#interface[data-hud="duel"] .combat-hud{--hud-plate:.9}}
+#interface[data-hud="duel"] .mode-hud [hidden]{display:none!important}
+#interface[data-hud="duel"]:not([data-hud-phase="waiting"]) .combat-hud .match-status{display:none!important}
+#interface[data-hud="duel"] .combat-hud #target-marker :is(.lk-pin,.lk-stamp){display:none!important}
+#interface[data-hud="duel"] .duel-plaque{--s:var(--hud-status,.72);display:flex;flex-direction:column;align-items:center;min-width:calc(185px * var(--s));padding:calc(9px * var(--s)) calc(30px * var(--s)) calc(11px * var(--s));background:#101114;color:var(--hud-paper,#fff9ef);filter:drop-shadow(3px 2px 0 #ce1c32);clip-path:polygon(6% 0,100% 0,94% 25%,99% 80%,89% 100%,0 100%,7% 74%,0 56%);text-align:center;white-space:nowrap}
+#interface[data-hud="duel"] .duel-plaque strong{font:italic 900 calc(clamp(26px,2.45vw,46px) * var(--s))/1 Impact,'Barlow Condensed',sans-serif;letter-spacing:.02em}
+#interface[data-hud="duel"] .duel-plaque small{margin-top:calc(5px * var(--s));font:800 max(8px,calc(clamp(10px,.82vw,15px) * var(--s)))/1.1 'Barlow Condensed',sans-serif;letter-spacing:.12em;color:#ff8a96}
+#interface[data-hud="duel"] .duel-pips{display:inline-flex;align-items:center;gap:5px;padding:3px 9px 4px;background:var(--hud-paper,#fff9ef);color:var(--hud-ink,#0b0c0e);border:2px solid var(--hud-ink,#0b0c0e);box-shadow:2px 2px 0 var(--hud-red,#d51d34);font:800 clamp(8px,.66vw,12px)/1 'Barlow Condensed',sans-serif;letter-spacing:.1em}
+#interface[data-hud="duel"] .duel-pips::before{content:'ROUNDS';margin-right:3px}
+#interface[data-hud="duel"] .duel-pips:empty{display:none}
+#interface[data-hud="duel"] .duel-pips>i{width:12px;height:12px;border:2px solid var(--hud-ink,#0b0c0e);border-radius:50%;background:#fff}
+#interface[data-hud="duel"] .duel-pips>i.won{background:var(--hud-red,#d51d34)}
+#interface[data-hud="duel"] .duel-pips>i svg{display:none}
+#interface[data-hud="duel"] .duel-plaque .dp-x{display:none}
+#interface[data-hud="duel"] .duel-plaque small :is(b,em){font:inherit;font-style:normal}
+#interface[data-hud="duel"] .duel-plaque small em::before{content:' · '}
+#interface[data-hud="duel"] .duel-ready{padding:4px 14px 5px 18px;background:var(--hud-red,#d51d34);color:var(--hud-paper,#fff9ef);border:2px solid #101114;clip-path:polygon(7% 0,100% 0,95% 100%,0 100%);filter:drop-shadow(2px 2px 0 #08090a);font:italic 900 clamp(12px,.95vw,18px)/1 Impact,'Barlow Condensed',sans-serif;letter-spacing:.06em;white-space:nowrap;animation:duel-ready 1.2s ease-in-out infinite}
+@keyframes duel-ready{50%{background:#a8122a}}
+
+@media(max-width:1100px){
+  #interface[data-hud="duel"] .duel-plaque{min-width:calc(130px * var(--s));padding:calc(7px * var(--s)) calc(20px * var(--s)) calc(8px * var(--s))}
+  #interface[data-hud="duel"] .duel-plaque strong{font-size:calc(24px * var(--s))}
+  #interface[data-hud="duel"] .duel-plaque small{font-size:8px}
+}
+@media(prefers-reduced-motion:reduce){#interface[data-hud="duel"] .duel-ready{animation:none}}

@@ -1,0 +1,69 @@
+#interface .settings-scrim{--pause-ink:#151515;--pause-paper:#fbfaf6;--pause-red:#cc202b;z-index:20;padding:20px;place-items:center;align-items:center;overflow:hidden;background:radial-gradient(#1118 .7px,transparent 1px) 0 0/5px 5px,#101012ad;backdrop-filter:blur(5px)}
+#interface .settings-card.pause-menu{position:relative;display:block;width:min(960px,94vw);max-height:calc(100dvh - 40px);overflow:auto;overscroll-behavior:contain;padding:24px 30px 0;outline:0;border:3px solid var(--pause-ink);background:var(--pause-paper);color:var(--pause-ink);box-shadow:8px 8px 0 var(--pause-red);font:500 14px/1.4 Barlow,system-ui,sans-serif;scrollbar-width:thin;scrollbar-color:#bbb5a8 transparent}
+#interface .pause-header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 33px 18px 0;border-bottom:4px solid var(--pause-ink)}
+#interface .pause-heading{display:flex;gap:17px;align-items:center;min-width:0}
+#interface .pause-symbol{display:grid;place-items:center;width:54px;height:60px;background:var(--pause-red);color:white;font:900 40px/1 system-ui,sans-serif;transform:skew(-7deg);flex:none}
+#interface .pause-heading p{margin:0 0 5px;color:var(--pause-red);font:800 11px Barlow,sans-serif;letter-spacing:.17em}
+#interface .pause-heading h2{margin:0;font:400 clamp(23px,3vw,37px)/1.15 Electroharmonix,Impact,sans-serif;white-space:nowrap}
+#interface .pause-fighter{display:flex;gap:11px;align-items:center;min-width:0;max-width:34%}
+#interface #pause-portrait{width:61px;height:67px;border:2px solid var(--pause-ink);overflow:hidden;transform:skew(-4deg);background:white;flex:none}
+#interface #pause-portrait svg{display:block;width:100%;height:100%;transform:skew(4deg)}
+#interface #pause-fighter-name{font:400 15px/1.3 Electroharmonix,Impact,sans-serif}
+#interface #settings-close{position:absolute;right:13px;top:11px;display:grid;place-items:center;width:36px;height:36px;padding:0;border:0;background:none;color:var(--pause-ink);font:600 28px/1 system-ui,sans-serif;cursor:pointer}
+#interface .pause-menu>#settings-session-note{margin:10px 0 16px;font:500 12px/1.4 Barlow,sans-serif;color:#62605a}
+#interface .pause-settings-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px}
+#interface .pause-group{min-width:0}
+#interface .pause-group h3{display:flex;gap:10px;align-items:center;margin:0 0 8px;padding:0 0 8px;border-bottom:2px solid var(--pause-ink);font:400 16px/1.2 Electroharmonix,sans-serif}
+#interface .pause-group h3>span{display:inline-block;background:var(--pause-ink);color:white;padding:3px 6px;font:800 10px Barlow,sans-serif}
+#interface .pause-menu label{margin:0;padding:7px 0;border:0;border-bottom:1px solid #ddd9ce;font:600 13px/1.4 Barlow,sans-serif;letter-spacing:0;min-height:0}
+#interface .pause-menu .pause-slider{display:grid;grid-template-columns:minmax(0,1fr) 44px;column-gap:10px;row-gap:3px}
+#interface .pause-slider output{text-align:right;font-size:11px;color:#706b62;font-variant-numeric:tabular-nums}
+#interface .pause-slider input{grid-column:1/-1;width:100%;margin:3px 0 2px}
+#interface .pause-menu .pause-toggle,#interface .pause-menu>#sv-fullscreen-setting{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:38px}
+#interface .pause-menu .option-note{display:block;margin-top:2px;font:500 11px/1.4 Barlow,sans-serif;color:#706b62;letter-spacing:0}
+#interface .pause-selects{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+#interface .pause-selects label{display:flex;align-items:center;justify-content:space-between;gap:7px;padding:8px 0;min-width:0}
+#interface .pause-selects label:has(ink-select){display:grid;justify-content:stretch;gap:5px}
+#interface .pause-selects ink-select{width:100%;--ink-paper:#fffdf7}
+#interface .pause-selects .ink-pick-button:not(#ink){font-size:11px!important}
+#interface .pause-selects:has(ink-select){grid-template-columns:repeat(auto-fit,minmax(min(100%,175px),1fr))}
+#interface .pause-report{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:11px 0 0;padding:7px 0;width:100%;background:none;color:#605b52;border:0;font:600 12px Barlow,sans-serif;text-align:left;cursor:pointer}
+#interface .pause-report:hover{color:var(--pause-red)}
+#interface .pause-menu>.training-tools{border:0;border-top:1px solid #aaa18f;margin:15px 0 0;padding:10px 0 0}
+#interface .pause-menu .training-tools legend{font:700 10px Barlow,sans-serif;letter-spacing:.13em;color:#706859;padding:0 8px 0 0}
+#interface .pause-menu .training-actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+#interface .pause-menu .training-actions button{min-height:32px;padding:7px;border:1px solid #a39c8c;background:#efebe1;color:var(--pause-ink);font:600 12px/1.25 Barlow,sans-serif;cursor:pointer}
+#interface .pause-menu .training-actions button[aria-pressed=true]{background:var(--pause-ink);border-color:var(--pause-ink);color:white;box-shadow:inset 3px 0 var(--pause-red)}
+#interface .pause-menu>.key-guide{display:block;margin:15px 0 0;padding:0;border:0;border-top:2px solid var(--pause-ink);color:var(--pause-ink)}
+#interface .pause-controls summary{display:flex;align-items:center;justify-content:space-between;list-style:none;cursor:pointer;min-height:39px;font:400 12px Electroharmonix,sans-serif}
+#interface .pause-controls summary::-webkit-details-marker{display:none}
+#interface .pause-controls summary>span{font:600 20px/1 Barlow,sans-serif}
+#interface .pause-controls[open] summary>span{transform:rotate(45deg)}
+#interface .pause-controls .key-cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:3px 0 10px}
+#interface .pause-controls .key-cards>div{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px;padding:9px;background:#eee9de;color:var(--pause-ink);border:0;min-height:0}
+#interface:not([data-input=controller]) .pause-controls .key-cards small,#interface[data-input=controller] .pause-controls .key-cards kbd{display:none}
+#interface .pause-controls .key-cards strong{font:800 10px Barlow,sans-serif}
+#interface .pause-controls .key-cards small{font:700 10px Barlow,sans-serif;color:var(--pause-red)}
+#interface .pause-controls .key-cards kbd{margin:0;padding:3px 6px;font:700 11px Barlow,sans-serif;background:var(--pause-ink);color:white}
+#interface .pause-controls .secondary-keys{display:flex;flex-wrap:wrap;gap:6px 14px;margin:0 0 12px;font:500 12px Barlow,sans-serif}
+#interface .pause-controls .secondary-keys b{font-size:11px}
+#interface .pause-actions{display:grid;grid-template-columns:1fr 1fr;gap:14px;position:sticky;bottom:0;z-index:1;background:var(--pause-paper);margin:0 -2px;padding:14px 2px 20px;border-top:1px solid #aaa18f}
+#interface .pause-actions button{display:flex;align-items:center;justify-content:space-between;min-height:49px;padding:12px 18px;font:400 16px/1.2 Electroharmonix,sans-serif;cursor:pointer;border:2px solid var(--pause-ink);background:var(--pause-paper);color:var(--pause-ink);margin:0;box-shadow:3px 3px 0 var(--pause-ink)}
+#interface .pause-actions #resume{background:var(--pause-red);color:white;border-color:var(--pause-red);box-shadow:3px 3px 0 var(--pause-ink)}
+#interface .pause-actions button:hover{transform:translateY(-1px)}
+#interface .pause-actions button>span{font:600 17px/1 system-ui,sans-serif}
+#interface .pause-menu :is(button,input,select,summary):focus-visible,#interface[data-input=controller] .pause-menu :is(button,input,select,summary):focus{outline:3px solid var(--pause-red);outline-offset:4px;scroll-margin:15px 0 100px}
+#interface .pause-menu #resume:focus-visible,#interface[data-input=controller] .pause-menu #resume:focus{outline-color:var(--pause-ink)}
+@media(max-width:680px){#interface .settings-scrim{padding:12px}#interface .settings-card.pause-menu{width:100%;max-height:calc(100dvh - 28px);padding:18px 18px 0;box-shadow:5px 5px 0 var(--pause-red)}#interface .pause-header{gap:10px;padding:0 24px 12px 0}#interface .pause-heading{gap:10px}#interface .pause-symbol{width:35px;height:43px;font-size:27px}#interface .pause-heading h2{font-size:22px}#interface .pause-heading p{font-size:9px}#interface .pause-fighter{display:none}#interface .pause-settings-grid{grid-template-columns:1fr;gap:18px}#interface .pause-menu .training-actions{grid-template-columns:1fr 1fr}#interface .pause-actions{gap:10px;padding-bottom:17px}#interface .pause-actions button{padding:12px;font-size:12px}#interface .pause-controls .key-cards{grid-template-columns:1fr 1fr}}
+@media(max-height:600px) and (min-width:681px){#interface .settings-scrim{padding:12px}#interface .settings-card.pause-menu{max-height:calc(100dvh - 26px);padding:15px 22px 0}#interface .pause-header{padding-bottom:10px}#interface .pause-symbol{height:40px;width:40px;font-size:26px}#interface .pause-heading h2{font-size:25px}#interface #pause-portrait{height:45px;width:45px}#interface .pause-actions{padding-bottom:12px}}
+@media(prefers-reduced-motion:reduce){#interface .pause-menu *{transition:none!important}}
+#interface .pause-moves{display:none;margin:4px 0 18px}
+#interface .pause-menu[data-pause-page=moves] .pause-moves{display:block}
+#interface .pause-menu[data-pause-page=moves]>:is(#settings-session-note,.pause-settings-grid,.training-tools,.key-guide,#sv-fullscreen-setting,.objective-pause-shop){display:none!important}
+#interface .pause-moves-head{display:flex;align-items:center;gap:14px;margin:0 0 12px}
+#interface .pause-moves-head h3{margin:0;font:400 20px/1.2 Electroharmonix,Impact,sans-serif}
+#interface .pause-moves-head button,#interface .pause-actions .pause-move-list{border:2px solid var(--pause-ink);background:var(--pause-paper);color:var(--pause-ink);font:800 12px Barlow,sans-serif;letter-spacing:.1em;padding:8px 12px;cursor:pointer}
+#interface .pause-moves-head button:focus-visible,#interface .pause-actions .pause-move-list:focus-visible{outline:3px solid var(--pause-red);outline-offset:2px}
+[data-input="controller"] .keyboard-only{display:none}
+[data-input="touch"] .keyboard-only{display:none}
+#interface[data-input=touch] .pause-controls .key-cards kbd.touch-key{min-width:0;padding:2px 9px;border:2px solid var(--pause-ink);border-radius:999px;background:#fff;color:var(--pause-ink);font:italic 900 12px/1.1 'Barlow Condensed',sans-serif;box-shadow:none}

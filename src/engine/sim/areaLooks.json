@@ -1,0 +1,487 @@
+{
+ "yuta": [
+  "qk_explosion",
+  "blade_iaido",
+  "bonecage"
+ ],
+ "rukia": [
+  "p27_cathedral",
+  "seal_snowcompass",
+  "titan_iceblock"
+ ],
+ "toji": [
+  "blade_iaido",
+  "qk_explosion",
+  "efk_toonwater"
+ ],
+ "crocodile": [
+  "undertow",
+  "aurora",
+  "efk_toonwater"
+ ],
+ "usopp": [
+  "bloomburst",
+  "efk_cosmic",
+  "p27_solarnova"
+ ],
+ "rengoku": [
+  "wildfire",
+  "ext_aura_fire",
+  "fx_icsfire"
+ ],
+ "sakura": [
+  "qk_explosion",
+  "bonecage",
+  "plaguebloom"
+ ],
+ "meliodas": [
+  "qk_explosion",
+  "scifi_emp",
+  "aurora"
+ ],
+ "escanor": [
+  "p27_solarnova",
+  "fx_icsfire",
+  "wildfire"
+ ],
+ "tatsumaki": [
+  "inkbloom",
+  "aurora",
+  "efk_toonwater"
+ ],
+ "makima": [
+  "p27_gravity",
+  "ext_portal",
+  "quench"
+ ],
+ "kenpachi": [
+  "qk_explosion",
+  "blade_iaido",
+  "efk_goldencrash"
+ ],
+ "minato": [
+  "thunderclap",
+  "scifi_emp",
+  "p27_stormdragon"
+ ],
+ "nico-robin": [
+  "qk_explosion",
+  "inkbloom",
+  "seal_stringcage"
+ ],
+ "kaiju-no-8": [
+  "titan_magmafist",
+  "scifi_emp",
+  "nature_lightningstorm"
+ ],
+ "eren": [
+  "qk_explosion",
+  "inkbloom",
+  "scifi_lasergrid"
+ ],
+ "asuka": [
+  "scifi_emp",
+  "nb_starburst",
+  "scifi_lasergrid"
+ ],
+ "netero": [
+  "efk_toonwater",
+  "hivecolumn",
+  "fx_icsfire"
+ ],
+ "shinji": [
+  "scifi_orbitalstrike",
+  "scifi_emp",
+  "nb_starburst"
+ ],
+ "jolyne": [
+  "qk_explosion",
+  "inkbloom",
+  "bloomburst"
+ ],
+ "might-guy": [
+  "qk_explosion",
+  "efk_toonwater",
+  "bonecage"
+ ],
+ "akame": [
+  "blade_iaido",
+  "p27_arsenal",
+  "qk_explosion"
+ ],
+ "pikachu": [
+  "thunderclap",
+  "p27_stormdragon",
+  "snare"
+ ],
+ "garou": [
+  "breath_wind",
+  "qk_explosion",
+  "bonecage"
+ ],
+ "esdeath": [
+  "titan_iceblock",
+  "qk_explosion",
+  "inkbloom"
+ ],
+ "mikasa": [
+  "blade_iaido",
+  "qk_explosion",
+  "inkbloom"
+ ],
+ "alphonse-elric": [
+  "scifi_orbitalstrike",
+  "scifi_emp",
+  "astralgate"
+ ],
+ "ken-kaneki": [
+  "qk_explosion",
+  "efk_toonwater",
+  "bonecage"
+ ],
+ "grimmjow": [
+  "found_attractor",
+  "found_blackhole",
+  "found_caustics"
+ ],
+ "byakuya": [
+  "qk_explosion",
+  "inkbloom",
+  "bloomburst"
+ ],
+ "yamamoto": [
+  "wildfire",
+  "magma",
+  "obsidian"
+ ],
+ "pain": [
+  "bonecage",
+  "bubblecage",
+  "pyroclasm"
+ ],
+ "edward-elric": [
+  "qk_explosion",
+  "blade_iaido",
+  "efk_goldencrash"
+ ],
+ "hiei": [
+  "wildfire",
+  "ext_fireportal",
+  "ext_pyre"
+ ],
+ "aokiji": [
+  "titan_iceblock",
+  "blackice",
+  "ext_pyre"
+ ],
+ "doflamingo": [
+  "qk_explosion",
+  "inkbloom",
+  "seal_stringcage"
+ ],
+ "hisoka": [
+  "qk_explosion",
+  "anvilfall",
+  "inkbloom"
+ ],
+ "blackbeard": [
+  "qk_explosion",
+  "efk_toonwater",
+  "dawnbreak"
+ ],
+ "nanami": [
+  "fx_magiccircle",
+  "qk_explosion",
+  "blade_iaido"
+ ],
+ "josuke": [
+  "inkbloom",
+  "hivecolumn",
+  "bloomburst"
+ ],
+ "tsunade": [
+  "bonecage",
+  "qk_explosion",
+  "efk_toonwater"
+ ],
+ "jiraiya": [
+  "wildfire",
+  "magma",
+  "obsidian"
+ ],
+ "hinata": [
+  "inkbloom",
+  "aurora",
+  "efk_toonwater"
+ ],
+ "gintoki": [
+  "qk_explosion",
+  "blade_iaido",
+  "efk_goldencrash"
+ ],
+ "kizaru": [
+  "p27_megiddo",
+  "scifi_orbitalstrike",
+  "fx_magiccircle"
+ ],
+ "yamato": [
+  "qk_explosion",
+  "titan_thundercloud",
+  "efk_toonwater"
+ ],
+ "jinbe": [
+  "qk_explosion",
+  "inkbloom",
+  "aurora"
+ ],
+ "enel": [
+  "snare",
+  "scifi_emp",
+  "thunderclap"
+ ],
+ "yuji": [
+  "cosmos_blackhole",
+  "cosmos_galaxy",
+  "jutsu_domain"
+ ],
+ "todoroki": [
+  "wildfire",
+  "p27_solarnova",
+  "pyroclasm"
+ ],
+ "endeavor": [
+  "fx_icsfire",
+  "obsidian",
+  "wildfire"
+ ],
+ "yoruichi": [
+  "titan_thundercloud",
+  "sheetlightning",
+  "p27_stormdragon"
+ ],
+ "all-might": [
+  "qk_explosion",
+  "inkbloom",
+  "aurora"
+ ],
+ "bakugo": [
+  "qk_explosion",
+  "efk_cosmic",
+  "p27_solarnova"
+ ],
+ "deku": [
+  "scifi_emp",
+  "aurora",
+  "efk_toonwater"
+ ],
+ "broly": [
+  "efk_toonwater",
+  "p27_megiddo",
+  "fx_icsfire"
+ ],
+ "denji": [
+  "qk_explosion",
+  "inkbloom",
+  "gearlock"
+ ],
+ "akainu": [
+  "obsidian",
+  "wildfire",
+  "p27_solarnova"
+ ],
+ "mihawk": [
+  "eclipse",
+  "jutsu_domain",
+  "ext_pyre"
+ ],
+ "boa-hancock": [
+  "qk_explosion",
+  "inkbloom",
+  "seal_stringcage"
+ ],
+ "nami": [
+  "efk_toonwater",
+  "snare",
+  "scifi_emp"
+ ],
+ "zoro": [
+  "eclipse",
+  "jutsu_domain",
+  "qk_explosion"
+ ],
+ "jotaro": [
+  "qk_explosion",
+  "efk_toonwater",
+  "bonecage"
+ ],
+ "ichigo": [
+  "found_attractor",
+  "found_blackhole",
+  "found_caustics"
+ ],
+ "kakashi": [
+  "snare",
+  "scifi_emp",
+  "thunderclap"
+ ],
+ "sasuke": [
+  "titan_thundercloud",
+  "scifi_emp",
+  "thunderclap"
+ ],
+ "sanji": [
+  "efk_toonwater",
+  "fx_icsfire",
+  "qk_explosion"
+ ],
+ "vegeta": [
+  "found_attractor",
+  "found_blackhole",
+  "found_caustics"
+ ],
+ "goku": [
+  "p27_stormdragon",
+  "scifi_lasergrid",
+  "aurora"
+ ],
+ "luffy": [
+  "qk_explosion",
+  "efk_toonwater",
+  "dawnbreak"
+ ],
+ "naruto": [
+  "inkbloom",
+  "efk_toonwater",
+  "hivecolumn"
+ ],
+ "ace": [
+  "fx_icsfire",
+  "wildfire",
+  "p27_solarnova"
+ ],
+ "law": [
+  "inkbloom",
+  "dawnbreak",
+  "eclipse"
+ ],
+ "gojo": [
+  "cosmos_galaxy",
+  "cosmos_meteorstorm",
+  "cosmos_supernova"
+ ],
+ "dio": [
+  "inkbloom",
+  "hivecolumn",
+  "bloomburst"
+ ],
+ "guts": [
+  "qk_explosion",
+  "anvilfall",
+  "inkbloom"
+ ],
+ "killua": [
+  "titan_thundercloud",
+  "sheetlightning",
+  "p27_stormdragon"
+ ],
+ "kaido": [
+  "efk_toonwater",
+  "p27_stormdragon",
+  "qk_explosion"
+ ],
+ "whitebeard": [
+  "qk_explosion",
+  "efk_toonwater",
+  "dawnbreak"
+ ],
+ "shanks": [
+  "jutsu_domain",
+  "p27_worldrend",
+  "qk_explosion"
+ ],
+ "roger": [
+  "qk_explosion",
+  "inkbloom",
+  "seal_stringcage"
+ ],
+ "aizen": [
+  "p27_megiddo",
+  "sealscript",
+  "scifi_orbitalstrike"
+ ],
+ "sukuna": [
+  "sealscript",
+  "qk_explosion",
+  "fx_magiccircle"
+ ],
+ "griffith": [
+  "qk_explosion",
+  "anvilfall",
+  "inkbloom"
+ ],
+ "meruem": [
+  "qk_explosion",
+  "efk_toonwater",
+  "bonecage"
+ ],
+ "goku-black": [
+  "efk_benediction",
+  "p27_megiddo",
+  "scifi_orbitalstrike"
+ ],
+ "jiren": [
+  "qk_explosion",
+  "aurora",
+  "efk_toonwater"
+ ],
+ "golden-frieza": [
+  "qk_explosion",
+  "found_attractor",
+  "found_blackhole"
+ ],
+ "gohan-beast": [
+  "aurora",
+  "p27_megiddo",
+  "efk_cosmic"
+ ],
+ "saitama": [
+  "qk_explosion",
+  "aurora",
+  "efk_toonwater"
+ ],
+ "akaza": [
+  "qk_explosion",
+  "efk_toonwater",
+  "bonecage"
+ ],
+ "itachi": [
+  "ext_fireportal",
+  "bonecage",
+  "bubblecage"
+ ],
+ "madara": [
+  "fx_icsfire",
+  "ext_aura_fire",
+  "wildfire"
+ ],
+ "tanjiro": [
+  "qk_explosion",
+  "wildfire",
+  "inkbloom"
+ ],
+ "levi": [
+  "qk_explosion",
+  "inkbloom",
+  "gearlock"
+ ],
+ "sung-jinwoo": [
+  "qk_explosion",
+  "inkbloom",
+  "p27_colossus"
+ ],
+ "gon": [
+  "p27_worldrend",
+  "qk_explosion",
+  "efk_toonwater"
+ ]
+}

@@ -1,0 +1,45 @@
+MIT License
+
+Copyright (c) 2026 Impact contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+WHAT THIS LICENCE DOES NOT COVER
+
+The licence above covers the project's own source code in this repository,
+and nothing else. In particular:
+
+1. Characters and series. Impact is an unofficial fan game. The characters,
+   names, likenesses, stories, titles, marks and any other intellectual
+   property of the series the game celebrates belong to their respective
+   owners. Nothing in this repository grants any right to them, and the names
+   that appear in the source code are used only to refer to them.
+
+2. Assets. No models, animations, textures, images, audio, voices, music,
+   fonts or other assets are in this repository, and none are licensed by it.
+   Whatever the game loads when it is played is not part of the Software.
+
+3. Third-party code. Code written by others is under its own licence, which
+   stays with it. NOTICE.md lists what is included and where its licence text
+   is. The packages named in package.json are not in this repository; each
+   comes under its own licence.
+
+4. Names and marks. The licence gives no right to the project's name or logo,
+   or to present a copy or a derivative as the original or as endorsed by it.

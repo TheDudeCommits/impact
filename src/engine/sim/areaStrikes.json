@@ -1,0 +1,1102 @@
+{
+ "afterimage": [
+  0.05
+ ],
+ "anvilfall": [
+  0.03
+ ],
+ "arcanevolley": [
+  0
+ ],
+ "astralgate": [
+  0.58
+ ],
+ "avalanche": [
+  0
+ ],
+ "balllightning": [
+  0
+ ],
+ "beam": [
+  0.03,
+  0.47,
+  0.85,
+  1.23
+ ],
+ "blackice": [
+  0.03
+ ],
+ "blade_barrage": [
+  1.2
+ ],
+ "blade_blackflash": [
+  0.03
+ ],
+ "blade_blink": [
+  0.42
+ ],
+ "blade_crescent": [
+  0.03
+ ],
+ "blade_cyclone": [
+  0.32
+ ],
+ "blade_dash": [
+  0.03
+ ],
+ "blade_iaido": [
+  0.85
+ ],
+ "blade_quake": [
+  0.03,
+  0.65
+ ],
+ "bloomburst": [
+  0,
+  2.55
+ ],
+ "bonecage": [
+  0
+ ],
+ "boulder": [
+  0
+ ],
+ "breath_flame": [
+  0.9
+ ],
+ "breath_insect": [
+  0.78
+ ],
+ "breath_mist": [
+  1.77
+ ],
+ "breath_moon": [
+  1.15
+ ],
+ "breath_sun": [
+  1.05
+ ],
+ "breath_thunder": [
+  0.43,
+  0.98
+ ],
+ "breath_water": [
+  2.07
+ ],
+ "breath_wind": [
+  1.57
+ ],
+ "brinelock": [
+  0.05,
+  0.6
+ ],
+ "broodburst": [
+  0
+ ],
+ "bubblecage": [
+  0.03
+ ],
+ "carapace": [
+  0.03
+ ],
+ "chainarc": [
+  0
+ ],
+ "chronofracture": [
+  2.12
+ ],
+ "cin_amethyst": [
+  2.6
+ ],
+ "cin_chains": [
+  0.52,
+  0.63,
+  0.75,
+  0.87
+ ],
+ "cin_dragon": [
+  0.98
+ ],
+ "cin_gyro": [
+  1.35
+ ],
+ "cin_lance": [
+  0.03
+ ],
+ "cin_reliquary": [
+  0.25
+ ],
+ "cin_tome": [
+  0.85,
+  2.12,
+  2.71
+ ],
+ "cosmos_meteorstorm": [
+  2.4
+ ],
+ "cosmos_nebulabloom": [
+  1.4
+ ],
+ "cosmos_pulsar": [
+  1.1
+ ],
+ "cosmos_starfall": [
+  1.72
+ ],
+ "cosmos_supernova": [
+  1.92
+ ],
+ "cosmos_wormhole": [
+  0.7
+ ],
+ "crimsontide": [
+  0.05
+ ],
+ "cyclone": [
+  0.03
+ ],
+ "dawnbreak": [
+  0.03
+ ],
+ "dragonbreath": [
+  0,
+  0.32,
+  0.62
+ ],
+ "echostep": [
+  0.05
+ ],
+ "eclipse": [
+  0.78
+ ],
+ "edge_blackcrescent": [
+  0.03,
+  0.32
+ ],
+ "edge_chainsaw": [
+  1.1
+ ],
+ "edge_energyclaw": [
+  0.43,
+  0.67
+ ],
+ "edge_fingerbeam": [
+  0.03
+ ],
+ "edge_firearrow": [
+  0.6
+ ],
+ "edge_heartbeam": [
+  0.9,
+  1.7
+ ],
+ "edge_onislash": [
+  1.05
+ ],
+ "edge_palmblast": [
+  0.83,
+  0.95,
+  1.05
+ ],
+ "edge_petalswarm": [
+  2.47
+ ],
+ "edge_scythe": [
+  0.85
+ ],
+ "efk_azureblow": [
+  0.03
+ ],
+ "efk_barrier": [
+  0.03
+ ],
+ "efk_benediction": [
+  0.03
+ ],
+ "efk_bloodlance": [
+  0.03
+ ],
+ "efk_bluelaser": [
+  0.05
+ ],
+ "efk_cosmic": [
+  0.03
+ ],
+ "efk_crimsonclaw": [
+  0.05
+ ],
+ "efk_crimsonstar": [
+  0.05
+ ],
+ "efk_crossfang": [
+  0.05
+ ],
+ "efk_embercrescent": [
+  0.05
+ ],
+ "efk_emeraldray": [
+  0.05
+ ],
+ "efk_fireball": [
+  0.05
+ ],
+ "efk_flameslash": [
+  0.05
+ ],
+ "efk_goldencrash": [
+  0.03
+ ],
+ "efk_meteor": [
+  0.03
+ ],
+ "efk_moonedge": [
+  0.05
+ ],
+ "efk_prismburst": [
+  0.03
+ ],
+ "efk_smashstar": [
+  0.03
+ ],
+ "efk_sonicboom": [
+  0.05
+ ],
+ "efk_thousandcuts": [
+  0.05
+ ],
+ "efk_toonhit": [
+  0.03
+ ],
+ "efk_toonwater": [
+  0.03
+ ],
+ "efk_tornado": [
+  0.03
+ ],
+ "emberflock": [
+  0
+ ],
+ "entropy": [
+  0
+ ],
+ "ext_aether": [
+  0,
+  1.8,
+  2.58
+ ],
+ "ext_aura_electric": [
+  0
+ ],
+ "ext_aura_fire": [
+  0
+ ],
+ "ext_aura_magic": [
+  0
+ ],
+ "ext_bend_air": [
+  0.08
+ ],
+ "ext_bend_earth": [
+  0.08
+ ],
+ "ext_bend_fire": [
+  0.08
+ ],
+ "ext_bend_water": [
+  0.08
+ ],
+ "ext_earth": [
+  0.03
+ ],
+ "ext_electrical": [
+  0
+ ],
+ "ext_kraken": [
+  0,
+  2.4,
+  2.51
+ ],
+ "ext_portal": [
+  0,
+  1.83
+ ],
+ "ext_pyre": [
+  0
+ ],
+ "extd_acid": [
+  0
+ ],
+ "extd_arborbloom": [
+  0,
+  1.95
+ ],
+ "extd_astralvoid": [
+  0.47
+ ],
+ "extd_balefulcascade": [
+  0,
+  1.33
+ ],
+ "extd_celestialrend": [
+  0.62
+ ],
+ "extd_corruptedshard": [
+  0,
+  0.47
+ ],
+ "extd_cyberserpent": [
+  0
+ ],
+ "extd_glacialprison": [
+  0
+ ],
+ "extd_glacialshardstorm": [
+  0.05
+ ],
+ "extd_phoenix": [
+  0.03
+ ],
+ "extd_shimmeringflux": [
+  0.05
+ ],
+ "extd_sumitide": [
+  0.03
+ ],
+ "extd_venomsurge": [
+  0.05
+ ],
+ "extd_voidslash": [
+  0.05
+ ],
+ "extd_ward": [
+  0
+ ],
+ "extra_auraflare": [
+  0.05
+ ],
+ "extra_beam": [
+  1.13
+ ],
+ "extra_bladewave": [
+  0.12
+ ],
+ "extra_celflame": [
+  0.17
+ ],
+ "extra_cross": [
+  0.63
+ ],
+ "extra_dash": [
+  0.47
+ ],
+ "extra_detonation": [
+  0.13,
+  0.23,
+  0.33,
+  0.43,
+  0.53
+ ],
+ "extra_fbmbeam": [
+  0.03,
+  0.15,
+  1.25
+ ],
+ "extra_flurry": [
+  1.03
+ ],
+ "extra_heel": [
+  0.15
+ ],
+ "extra_iaido": [
+  0.55
+ ],
+ "extra_nova": [
+  0.03
+ ],
+ "extra_palm": [
+  0.1,
+  0.25
+ ],
+ "extra_pound": [
+  0.13
+ ],
+ "extra_rush": [
+  0.95
+ ],
+ "extra_shockwave": [
+  0.05
+ ],
+ "extra_slashstorm": [
+  1
+ ],
+ "extra_spin": [
+  0.2
+ ],
+ "extra_spritecombo": [
+  0.63
+ ],
+ "extra_uppercut": [
+  0.12
+ ],
+ "firewalk": [
+  0
+ ],
+ "firewhip": [
+  0,
+  0.55
+ ],
+ "found_attractor": [
+  0
+ ],
+ "found_blackhole": [
+  0
+ ],
+ "found_caustics": [
+  0.35
+ ],
+ "found_flamepillar": [
+  0
+ ],
+ "found_fluid": [
+  0.05
+ ],
+ "found_galaxy": [
+  0
+ ],
+ "found_hologram": [
+  0.03,
+  0.47
+ ],
+ "found_linked": [
+  0,
+  2.57
+ ],
+ "found_nebula": [
+  0
+ ],
+ "found_protoplanet": [
+  0
+ ],
+ "found_ragingsea": [
+  0.43
+ ],
+ "found_sentinels": [
+  0.03,
+  0.68,
+  2.43
+ ],
+ "found_tornado": [
+  0,
+  0.77
+ ],
+ "found_volumefire": [
+  0
+ ],
+ "found_vortexorb": [
+  0.7
+ ],
+ "fx_icsfire": [
+  0
+ ],
+ "fx_lightningstrike": [
+  0,
+  0.15
+ ],
+ "fx_magiccircle": [
+  0.93
+ ],
+ "fx_magmaorb": [
+  0.03
+ ],
+ "gearlock": [
+  0.03,
+  2.25
+ ],
+ "geyser": [
+  0.03,
+  0.77
+ ],
+ "glacier": [
+  0,
+  0.67,
+  1.28,
+  1.92,
+  2.45,
+  2.62
+ ],
+ "glyphstorm": [
+  0,
+  0.23
+ ],
+ "godspear": [
+  0
+ ],
+ "grovecall": [
+  0.03
+ ],
+ "hail": [
+  0.03
+ ],
+ "haki_blackflameaura": [
+  0.03
+ ],
+ "haki_conqueror": [
+  0.03,
+  1.17,
+  2.22,
+  2.63
+ ],
+ "haki_frostaura": [
+  0.03
+ ],
+ "haki_quakebubble": [
+  0.03,
+  0.23,
+  0.42,
+  0.58,
+  0.68
+ ],
+ "haki_steamaura": [
+  0.03
+ ],
+ "haki_toonrubber": [
+  0
+ ],
+ "haki_voltaura_a": [
+  0.03
+ ],
+ "haki_voltaura_b": [
+  0.03
+ ],
+ "haki_voltaura_c": [
+  0.03
+ ],
+ "hemolance": [
+  0,
+  0.15,
+  0.28,
+  0.4,
+  0.52,
+  0.63,
+  0.75
+ ],
+ "hivecolumn": [
+  0
+ ],
+ "hourglass": [
+  0,
+  1.78,
+  1.9
+ ],
+ "ice": [
+  0.05
+ ],
+ "inkbloom": [
+  0.03
+ ],
+ "jutsu_blackflame": [
+  0.43
+ ],
+ "jutsu_clones": [
+  0.3,
+  1.18
+ ],
+ "jutsu_domain": [
+  1.15
+ ],
+ "jutsu_dragonflame": [
+  0.42,
+  1.18,
+  1.4
+ ],
+ "jutsu_fireball": [
+  0.48
+ ],
+ "jutsu_purple": [
+  1.15,
+  1.57
+ ],
+ "jutsu_push": [
+  0.03
+ ],
+ "jutsu_windshuriken": [
+  0.03,
+  1.98
+ ],
+ "ki_aura": [
+  0.03
+ ],
+ "ki_disc": [
+  0.03
+ ],
+ "ki_flash": [
+  0.03
+ ],
+ "ki_genki": [
+  0.03
+ ],
+ "ki_lightning_hand": [
+  0.03
+ ],
+ "ki_spiral": [
+  0.03,
+  0.13,
+  1.02
+ ],
+ "ki_volley": [
+  0.03
+ ],
+ "ki_wave": [
+  0.03
+ ],
+ "locusttide": [
+  0
+ ],
+ "magma": [
+  0.03
+ ],
+ "meteor": [
+  0
+ ],
+ "mycelium": [
+  0
+ ],
+ "nature_avalanche": [
+  2.65
+ ],
+ "nature_firetornado": [
+  1.62
+ ],
+ "nature_geyser_field": [
+  1.4,
+  2.17,
+  2.55,
+  2.73
+ ],
+ "nature_lightningstorm": [
+  1.77,
+  2.08,
+  2.54
+ ],
+ "nature_quake_rift": [
+  0.17,
+  2.42
+ ],
+ "nature_tsunami": [
+  2.6
+ ],
+ "nature_volcano": [
+  2.12
+ ],
+ "nb_bladearc": [
+  0.53
+ ],
+ "nb_funnel": [
+  2.48
+ ],
+ "nb_haloseal": [
+  1.75
+ ],
+ "nb_meteorshower": [
+  1.69,
+  1.84,
+  1.97,
+  2.24,
+  2.44
+ ],
+ "nightfall": [
+  0.03
+ ],
+ "obsidian": [
+  0.03,
+  2.53
+ ],
+ "origami": [
+  0.05
+ ],
+ "p27_chainstorm": [
+  0.75,
+  2.13
+ ],
+ "p27_megiddo": [
+  1.3
+ ],
+ "p27_sandreaper": [
+  0.63
+ ],
+ "p27_spectral": [
+  1.05
+ ],
+ "p27_stormdragon": [
+  2.67
+ ],
+ "p27_thunderlance": [
+  2.07
+ ],
+ "p27_verdict": [
+  1.03
+ ],
+ "p27_worldrend": [
+  0.83,
+  2.37
+ ],
+ "petrify": [
+  0.05
+ ],
+ "photonlattice": [
+  0
+ ],
+ "pistondrive": [
+  0
+ ],
+ "prismlance": [
+  0
+ ],
+ "pyroclasm": [
+  0,
+  0.67,
+  1.02
+ ],
+ "qk_acid": [
+  0.03
+ ],
+ "qk_explosion": [
+  0.03,
+  0.2,
+  0.37
+ ],
+ "qk_muzzle": [
+  0,
+  0.15,
+  0.3,
+  0.43,
+  0.58
+ ],
+ "qk_trail": [
+  0.05
+ ],
+ "qk_vortex": [
+  2.45
+ ],
+ "quench": [
+  0.03
+ ],
+ "railcoil": [
+  0.03
+ ],
+ "refractcascade": [
+  0
+ ],
+ "resonance": [
+  0
+ ],
+ "rewind": [
+  1.22
+ ],
+ "rime": [
+  0,
+  2.08
+ ],
+ "runeseal": [
+  1.72
+ ],
+ "saga_beamclash": [
+  0.03,
+  2.43,
+  2.55,
+  2.65
+ ],
+ "saga_blitz": [
+  0.38,
+  0.6,
+  0.78,
+  0.98,
+  1.17,
+  1.33,
+  1.5,
+  1.87
+ ],
+ "saga_cero": [
+  0.03
+ ],
+ "saga_drillbeam": [
+  0.03
+ ],
+ "saga_redaura": [
+  0.03,
+  0.72,
+  1.35,
+  1.97,
+  2.47,
+  2.62
+ ],
+ "saga_release": [
+  0.03
+ ],
+ "saga_seriouspunch": [
+  0.03,
+  0.13
+ ],
+ "saga_silveraura": [
+  0.03
+ ],
+ "sam_burningslash": [
+  0.2
+ ],
+ "sam_kick": [
+  0.15
+ ],
+ "sam_slashhit": [
+  0.15
+ ],
+ "sam_slidecut": [
+  0.05
+ ],
+ "sanguinepact": [
+  2.57
+ ],
+ "sawline": [
+  0
+ ],
+ "scifi_dissolveteleport": [
+  0.42
+ ],
+ "scifi_emp": [
+  0.03
+ ],
+ "scifi_glitchrift": [
+  1.47
+ ],
+ "scifi_hologram": [
+  2.52
+ ],
+ "scifi_lasergrid": [
+  2.18,
+  2.32,
+  2.43
+ ],
+ "scifi_nanoswarm": [
+  1.58,
+  2.3
+ ],
+ "scifi_orbitalstrike": [
+  1.35
+ ],
+ "scifi_plasmablade": [
+  1.05
+ ],
+ "scifi_railgun": [
+  0.03
+ ],
+ "scifi_shieldbubble": [
+  2.57
+ ],
+ "scrollward": [
+  0.03
+ ],
+ "seal_blackcoffin": [
+  0.95,
+  2.23,
+  2.53
+ ],
+ "seal_cursemark": [
+  0.85,
+  1.45,
+  2.03
+ ],
+ "seal_elasticstrand": [
+  0.25,
+  0.55,
+  0.97
+ ],
+ "seal_ghostrush": [
+  2.18
+ ],
+ "seal_grapple": [
+  0.88
+ ],
+ "seal_hexwall": [
+  0.07,
+  0.88,
+  1.3,
+  1.72
+ ],
+ "seal_pull": [
+  0.23,
+  0.98
+ ],
+ "seal_shrinedomain": [
+  1.2,
+  2.63
+ ],
+ "seal_snowcompass": [
+  0.47,
+  1.92
+ ],
+ "seal_sproutarms": [
+  1.92
+ ],
+ "seal_stringcage": [
+  0.79,
+  2.12
+ ],
+ "seal_teleportmark": [
+  0.7
+ ],
+ "seal_tentacles": [
+  1.93
+ ],
+ "seal_timestop": [
+  2.55
+ ],
+ "seal_trigrams": [
+  2.5
+ ],
+ "sealscript": [
+  2.38
+ ],
+ "shatterlance": [
+  1.18
+ ],
+ "sheetlightning": [
+  0.05
+ ],
+ "shrapnel": [
+  0.03
+ ],
+ "silence": [
+  0.03
+ ],
+ "singularity": [
+  0,
+  2.57
+ ],
+ "sinkhole": [
+  0.58
+ ],
+ "skyfracture": [
+  0.48,
+  0.9
+ ],
+ "slipstream": [
+  0.05
+ ],
+ "snare": [
+  0,
+  0.7,
+  1.37,
+  2.05,
+  2.5
+ ],
+ "solarlens": [
+  0
+ ],
+ "soulchain": [
+  0.05
+ ],
+ "spellbreak": [
+  0.7
+ ],
+ "splatterbrand": [
+  0.05
+ ],
+ "sporefall": [
+  0
+ ],
+ "starfall": [
+  0,
+  1.17,
+  1.28,
+  1.61
+ ],
+ "stasisfield": [
+  0,
+  2.45
+ ],
+ "stonespine": [
+  0.05
+ ],
+ "stormwall": [
+  0.05
+ ],
+ "sumistroke": [
+  0.32
+ ],
+ "sunspear": [
+  0
+ ],
+ "tectonic": [
+  0
+ ],
+ "thornwake": [
+  0.05
+ ],
+ "thunder": [
+  0
+ ],
+ "thunderclap": [
+  0.03,
+  0.45
+ ],
+ "tiderush": [
+  0.05
+ ],
+ "titan_firefist": [
+  0.07
+ ],
+ "titan_hundredpalm": [
+  1.28
+ ],
+ "titan_iceblock": [
+  1
+ ],
+ "titan_lightninghound": [
+  0.52
+ ],
+ "titan_magmafist": [
+  1.1
+ ],
+ "titan_reiatsupillar": [
+  0.03
+ ],
+ "titan_spiritarmor": [
+  2.17
+ ],
+ "titan_thundercloud": [
+  0.9,
+  1.07,
+  1.23,
+  1.38,
+  1.55,
+  1.72,
+  1.87,
+  2.25
+ ],
+ "torrent": [
+  0.05
+ ],
+ "umbralspears": [
+  0.05
+ ],
+ "undertow": [
+  0.03
+ ],
+ "unmake": [
+  0.05
+ ],
+ "vinelash": [
+  0.05
+ ],
+ "voidrift": [
+  0.05
+ ],
+ "waspfunnel": [
+  0.03
+ ],
+ "webline": [
+  0.05
+ ],
+ "wildfire": [
+  0
+ ]
+}

@@ -1,0 +1,51 @@
+#interface .waiting-dock{position:absolute;left:50%;top:16px;z-index:6;display:flex;align-items:center;gap:14px;max-width:calc(100% - 32px);padding:10px 16px 10px 20px;background:#101114;color:#fff;filter:drop-shadow(3px 2px 0 #ce1c32);clip-path:polygon(2% 0,100% 0,98% 100%,0 100%);transform:translateX(-50%);pointer-events:auto;white-space:nowrap}
+#interface .waiting-dock.hidden{display:none}
+#interface .waiting-dock strong{font:italic 900 clamp(16px,1.5vw,24px)/1 Impact,sans-serif;letter-spacing:.01em}
+#interface .waiting-dock span{font:800 clamp(11px,.85vw,13px)/1 'Barlow Condensed',sans-serif;letter-spacing:.08em;color:#e9e3d6;overflow:hidden;text-overflow:ellipsis}
+#interface .waiting-dock button{flex:none;padding:7px 12px;border:2px solid #fff;background:transparent;color:#fff;font:800 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.12em;cursor:pointer}
+#interface .waiting-dock button:hover,#interface .waiting-dock button:focus-visible{background:#fff;color:#101114;outline:0}
+#interface[data-waiting] .combat-hud .match-status{display:none}
+#interface .combat-hud.waiting-room .private-status.waiting{left:auto;right:18px;top:96px;width:min(420px,40vw);min-width:0;max-height:calc(100% - 300px);overflow:hidden auto;padding:16px 18px 18px;transform:none;text-align:left;box-shadow:8px 8px 0 #cc202b;pointer-events:auto}
+#interface .combat-hud.waiting-room .private-status.waiting>strong{font-size:44px;letter-spacing:.12em;margin-left:0}
+#interface .combat-hud.waiting-room .private-status.waiting>span{font-size:12px}
+#interface .combat-hud.waiting-room .private-status.waiting button{margin:4px 4px 0 0}
+#interface .combat-hud.waiting-room .private-status.waiting #private-start{display:block;width:100%;margin-top:12px;padding:12px;font-size:18px}
+#interface .combat-hud.waiting-room .private-status.waiting #private-start[hidden]{display:none}
+#interface .combat-hud.waiting-room .fighter-meter.own,#interface .combat-hud.waiting-room .move-bar{display:flex}
+@media(max-width:760px),(max-height:520px) and (orientation:landscape){
+  #interface .waiting-dock{top:8px;gap:8px;padding:6px 10px 6px 12px}
+  #interface .combat-hud.waiting-room .private-status.waiting{top:60px;right:8px;width:min(330px,46vw);max-height:calc(100% - 70px);padding:10px 12px}
+  #interface .combat-hud.waiting-room .private-status.waiting>strong{font-size:30px}
+}
+#interface[data-hud=arcade] .combat-hud.waiting-room .private-status.waiting{top:160px}
+#interface .objective-scrim:has(>.objective-sheet:not(.objective-result)){place-items:start end;padding:96px 18px 18px;background:linear-gradient(90deg,transparent 40%,#0008);backdrop-filter:none}
+#interface .objective-scrim>.objective-sheet:not(.objective-result){width:min(460px,42vw);max-height:calc(100dvh - 120px);overflow:auto;box-shadow:8px 8px 0 #cc202b}
+@media(max-width:760px),(max-height:520px) and (orientation:landscape){
+  #interface .objective-scrim:has(>.objective-sheet:not(.objective-result)){padding:56px 8px 8px}
+  #interface .objective-scrim>.objective-sheet:not(.objective-result){width:min(360px,52vw);max-height:calc(100dvh - 64px)}
+}
+#interface .waiting-dock button[data-dock-bot]{border-color:#cc202b;background:#cc202b}
+#interface .waiting-dock button[data-dock-bot]:hover,#interface .waiting-dock button[data-dock-bot]:focus-visible{border-color:#fff;background:#fff;color:#cc202b}
+#interface[data-input=controller] .waiting-dock button:focus{border-color:#fff;background:#fff;color:#101114;outline:0}
+#interface .waiting-dock:has(.dock-break){flex-wrap:wrap;justify-content:center;row-gap:9px;padding-bottom:12px}
+#interface .waiting-dock .dock-break{flex-basis:100%;height:0}
+#interface .waiting-dock .dock-pad{flex:none;display:flex;align-items:center;gap:4px;font:800 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;color:#e9e3d6}
+.lone-notice{position:fixed;z-index:60;left:50%;top:16px;max-width:calc(100% - 32px);padding:10px 20px;background:#101114;color:#fff;filter:drop-shadow(3px 2px 0 #ce1c32);clip-path:polygon(2% 0,100% 0,98% 100%,0 100%);transform:translateX(-50%);font:italic 900 clamp(15px,1.4vw,22px)/1.1 Impact,sans-serif;letter-spacing:.01em;text-align:center;pointer-events:none;animation:lone-notice 4.5s both}
+@keyframes lone-notice{0%{opacity:0;transform:translate(-50%,-8px)}6%,88%{opacity:1;transform:translate(-50%,0)}100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.lone-notice{animation:none}}
+@media (max-height:520px) and (orientation:landscape){
+  #interface .waiting-dock{left:auto;right:8px;transform:none;max-width:calc(100% - 268px)}
+  #interface .waiting-dock span{min-width:0}
+  #interface .waiting-dock:has(.dock-break){width:min(330px,calc(100% - 268px))}
+  #interface .waiting-dock:has(.dock-break) span{flex-basis:100%;white-space:normal;text-align:center}
+  #interface[data-hud=arcade] .combat-hud.waiting-room .private-status.waiting{top:100px;max-height:calc(100% - 108px)}
+}
+@media (max-height:520px) and (orientation:landscape){
+  #interface .objective-scrim>.objective-sheet:not(.objective-result) header>span{display:none}
+  #interface .objective-scrim>.objective-sheet:not(.objective-result) header h2{margin:2px 0 6px}
+  #interface .objective-scrim>.objective-sheet:not(.objective-result) :is(.objective-roles,footer) button{min-height:36px;padding:6px 10px}
+  #interface .objective-scrim>.objective-sheet:not(.objective-result) .objective-rosters{margin:6px 0}
+  #interface .objective-scrim>.objective-sheet:not(.objective-result) .objective-rosters h3{margin:0 0 4px;padding-bottom:4px}
+  #interface .objective-scrim>.objective-sheet:not(.objective-result) .objective-seat{min-height:30px;padding-block:3px}
+  #interface .objective-scrim>.objective-sheet:not(.objective-result) .objective-countdown{margin:4px 0}
+}

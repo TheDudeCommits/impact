@@ -1,0 +1,22 @@
+:is(#home-dialog,#interface) .command-list{--cmd-ink:var(--pause-ink,#151515);--cmd-red:var(--pause-red,var(--home-red,#cc202b));--cmd-rule:#ddd9ce;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 28px;color:var(--cmd-ink)}
+:is(#home-dialog,#interface) .command-list .cmd-section{min-width:0}
+:is(#home-dialog,#interface) .command-list h4{display:flex;align-items:center;gap:8px;margin:0 0 6px;padding:0 0 6px;border-bottom:2px solid var(--cmd-ink);font:400 15px/1.2 Electroharmonix,Impact,sans-serif;letter-spacing:.02em}
+:is(#home-dialog,#interface) .command-list h4::before{content:'';width:9px;height:14px;background:var(--cmd-red);transform:skew(-12deg)}
+:is(#home-dialog,#interface) .command-list p{margin:0 0 6px;font:500 11.5px/1.35 Barlow,system-ui,sans-serif;color:#66625a}
+:is(#home-dialog,#interface) .command-list ol{list-style:none;margin:0;padding:0}
+:is(#home-dialog,#interface) .command-list .cmd-row{display:grid;grid-template-columns:auto minmax(0,1fr);grid-template-areas:'input name' 'input tags';column-gap:12px;align-items:center;padding:7px 0;border-bottom:1px solid var(--cmd-rule)}
+:is(#home-dialog,#interface) .command-list .cmd-input{grid-area:input;display:flex;align-items:center;gap:3px;min-width:96px}
+:is(#home-dialog,#interface) .command-list .cmd-input i{font:800 11px Barlow,sans-serif;color:#8a857b;font-style:normal}
+:is(#home-dialog,#interface) .command-list .cmd-input kbd{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 5px;border:2px solid var(--cmd-ink);border-bottom-width:3px;background:#fff;color:var(--cmd-ink);font:800 11px/1 Barlow,system-ui,sans-serif;border-radius:3px}
+:is(#home-dialog,#interface) .command-list .cmd-name{grid-area:name;font:700 14px/1.25 Barlow,system-ui,sans-serif;letter-spacing:.01em;text-transform:none;overflow-wrap:anywhere}
+:is(#home-dialog,#interface) .command-list .cmd-tags{grid-area:tags;display:flex;flex-wrap:wrap;gap:4px;margin-top:2px}
+:is(#home-dialog,#interface) .command-list .cmd-tags b{padding:1px 6px;background:var(--cmd-ink);color:#fff;font:800 9.5px/1.5 Barlow,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+:is(#home-dialog,#interface) .command-list .cmd-ender .cmd-tags b{background:var(--cmd-red)}
+:is(#home-dialog,#interface) .command-list .cmd-tags small{padding:1px 5px;border:1px solid #bdb7aa;color:#5d594f;font:700 9.5px/1.4 Barlow,sans-serif;letter-spacing:.05em;text-transform:uppercase}
+@media (max-width:680px){:is(#home-dialog,#interface) .command-list{grid-template-columns:minmax(0,1fr)}}
+:is(#home-dialog,#interface) .command-list :is(.cmd-name,p,.cmd-tags small){font-family:Barlow,system-ui,sans-serif!important;font-style:normal!important}
+:is(#home-dialog,#interface) .command-list .cmd-name{font-weight:700!important}
+:is(#home-dialog,#interface) .command-list p{font-weight:500!important}
+:is(#home-dialog,#interface) .command-list .cmd-tags small{font-weight:700!important}
+:is(#home-dialog,#interface) .command-list .cmd-tags :is(b,small){display:inline-block;height:auto;min-height:0;margin:0;line-height:1.5;white-space:nowrap}
+:is(#home-dialog,#interface) .command-list .cmd-tags small{font-family:Barlow,system-ui,sans-serif}

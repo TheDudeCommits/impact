@@ -1,0 +1,29 @@
+.combat-hud .mode-hud{
+  --mh-edge:18px;
+  --mh-plate:var(--hud-plate,.62);
+  --mh-under-plates:calc(9px + clamp(112px,10vw,180px) * var(--mh-plate) + 8px);
+  --mh-under-status:calc(20px + clamp(56px,4.4vw,84px) * var(--hud-status,.72) + 8px);
+  --mh-above-strip:calc(1vw + clamp(52px,4vw,80px) * var(--hud-strip,.72) + 10px);
+  --mh-lane:24%;
+  position:absolute;inset:0;z-index:4;pointer-events:none;
+}
+#interface[data-objective] .combat-hud .mode-hud{--mh-plate:1}
+.mode-hud>[data-zone]{position:absolute;display:flex;flex-direction:column;gap:6px;min-width:0}
+.mode-hud>[data-zone]:empty{display:none}
+.mode-hud>[data-zone] :is(button,a,input,select,summary,[role=button]){pointer-events:auto}
+.mode-hud>[data-zone="1b"]{left:var(--mh-edge);top:var(--mh-under-plates);align-items:flex-start}
+.mode-hud>[data-zone="2"]{left:50%;top:20px;transform:translateX(-50%);align-items:center}
+.mode-hud>[data-zone="2b"]{left:50%;top:var(--mh-under-status);transform:translateX(-50%);align-items:center}
+.mode-hud>[data-zone="3"]{right:var(--mh-edge);top:9px;align-items:flex-end}
+.mode-hud>[data-zone="3b"]{right:var(--mh-edge);top:var(--mh-under-plates);align-items:flex-end}
+.mode-hud>[data-zone="5"]{left:var(--mh-edge);bottom:var(--mh-above-strip);align-items:flex-start}
+.mode-hud>[data-zone="6"]{left:50%;bottom:var(--mh-lane);transform:translateX(-50%);align-items:center}
+.mode-hud>[data-zone="6a"]{left:50%;bottom:calc(var(--mh-lane) + 58px);transform:translateX(-50%);align-items:center}
+.mode-hud>[data-zone="7"]{left:50%;top:26%;transform:translateX(-50%);align-items:center}
+.mode-hud>[data-zone="8"]{inset:0;display:block}
+.mode-hud>[data-zone="8b"]{left:var(--mh-edge);top:calc(var(--mh-under-plates) + 64px);align-items:flex-start}
+.mode-hud>[data-zone="9"]{left:50%;bottom:calc(14vh + 26px);transform:translateX(-50%);align-items:center}
+@media(max-height:520px) and (orientation:landscape){.combat-hud .mode-hud{--mh-edge:9px;--mh-lane:36%}}
+@media(max-width:620px){.combat-hud .mode-hud{--mh-edge:8px;--mh-lane:30%}}
+@media(max-height:520px) and (orientation:landscape){#interface[data-input="touch"] .combat-hud .mode-hud>:is([data-zone="6"],[data-zone="6a"]){left:43%;scale:.86;transform-origin:0 50%}}
+#interface[data-cinema] .mode-hud>:is([data-zone="6"],[data-zone="6a"],[data-zone="7"]){visibility:hidden}

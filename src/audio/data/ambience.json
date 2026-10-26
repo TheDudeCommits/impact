@@ -1,0 +1,167 @@
+{
+ "level": -20,
+ "rate": 48000,
+ "files": {
+  "wind": {
+   "seconds": 20.6,
+   "loop": [
+    0.3,
+    20.3
+   ],
+   "lufs": -20,
+   "source": "JC Sounds, Winter Wind (CC-BY 4.0)"
+  },
+  "fire": {
+   "seconds": 16.6,
+   "loop": [
+    0.3,
+    16.3
+   ],
+   "lufs": -21.8,
+   "source": "JC Sounds, Large Bonfire (CC-BY 4.0)"
+  },
+  "crackle": {
+   "seconds": 16.6,
+   "loop": [
+    0.3,
+    16.3
+   ],
+   "lufs": -35.5,
+   "source": "JC Sounds, Campfire Crackling (CC-BY 4.0)"
+  },
+  "hell": {
+   "seconds": 24.6,
+   "loop": [
+    0.3,
+    24.3
+   ],
+   "lufs": -22.8,
+   "source": "Little Robot Sound Factory, Hell (CC-BY 3.0)"
+  },
+  "crowd": {
+   "seconds": 18.6,
+   "loop": [
+    0.3,
+    18.3
+   ],
+   "lufs": -20,
+   "source": "StarNinjas, Crowd Shouting Ambience (CC0), distanced"
+  },
+  "crows": {
+   "seconds": 12,
+   "lufs": -20,
+   "source": "Little Robot Sound Factory, Murder of Crows (CC-BY 3.0)"
+  },
+  "room": {
+   "seconds": 16.6,
+   "loop": [
+    0.3,
+    16.3
+   ],
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "water": {
+   "seconds": 16.6,
+   "loop": [
+    0.3,
+    16.3
+   ],
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "drone": {
+   "seconds": 20.6,
+   "loop": [
+    0.3,
+    20.3
+   ],
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "surf": {
+   "seconds": 16.6,
+   "loop": [
+    0.3,
+    16.3
+   ],
+   "lufs": -22.5,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "flag-1": {
+   "seconds": 2.4,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "flag-2": {
+   "seconds": 2.6,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "flag-3": {
+   "seconds": 2.8,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "splash-1": {
+   "seconds": 0.4,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "splash-2": {
+   "seconds": 0.4,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "splash-3": {
+   "seconds": 0.4,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "splash-4": {
+   "seconds": 0.4,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "splash-big-1": {
+   "seconds": 0.95,
+   "lufs": -20.5,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "splash-big-2": {
+   "seconds": 0.95,
+   "lufs": -20.3,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "bird-1": {
+   "seconds": 0.6946,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "bird-2": {
+   "seconds": 0.91,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "bird-3": {
+   "seconds": 0.6389,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "bird-4": {
+   "seconds": 0.6973,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "bird-5": {
+   "seconds": 0.82,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  },
+  "bird-6": {
+   "seconds": 0.635,
+   "lufs": -20,
+   "source": "synthesised (scripts/audio/ambienceDsp.ts)"
+  }
+ }
+}

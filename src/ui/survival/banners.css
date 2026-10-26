@@ -1,0 +1,40 @@
+.sv-streak{position:absolute;left:0;right:0;top:19%;height:clamp(110px,15vw,210px);display:grid;place-items:center;pointer-events:none;z-index:6;animation:sv-streak-out 2.3s linear forwards}
+@keyframes sv-streak-out{0%,86%{opacity:1}100%{opacity:0}}
+.sv-streak-words{position:relative;z-index:3;display:grid;justify-items:center;gap:4px;transform:skewX(-6deg)}
+.sv-streak-words b{font:900 clamp(40px,5.4vw,96px)/1 'Hiragino Mincho ProN','Yu Mincho','Noto Serif JP',serif;letter-spacing:.04em;white-space:nowrap}
+.sv-streak-words span{font:italic 800 clamp(12px,1.1vw,19px)/1 'Barlow Condensed',Impact,sans-serif;letter-spacing:.34em}
+.b-brush .sv-streak-stroke{position:absolute;inset:0 3%;width:94%;height:100%;fill:#0b0b0f;animation:sv-brush-in .32s cubic-bezier(.2,.8,.3,1) both,sv-brush-off .4s 1.85s cubic-bezier(.6,0,.8,.4) forwards;filter:drop-shadow(0 6px 0 rgba(0,0,0,.18))}
+.b-brush .sv-streak-stroke .dry{fill:#f4f1ea}
+.b-brush .sv-streak-stroke.second{inset:12% 8%;width:84%;height:76%;transform:rotate(-5deg);animation-delay:.12s,1.9s;opacity:.92}
+.b-brush .sv-streak-words{color:#fff;animation:sv-brush-words .5s .12s cubic-bezier(.2,1.5,.4,1) both}
+.b-brush .sv-streak-words b{text-shadow:0 0 1px #000}
+.b-brush .sv-streak-words span{color:#e8e2d6}
+.b-brush .sv-streak-seal{position:absolute;z-index:4;right:12%;top:50%;display:grid;place-items:center;min-width:clamp(46px,4.6vw,78px);height:clamp(46px,4.6vw,78px);padding:0 6px;border:4px double #fff;background:#cc202b;color:#fff;font:400 clamp(18px,2vw,34px)/1 Impact,sans-serif;font-style:normal;transform:translateY(-50%) rotate(-8deg);animation:sv-brush-seal .34s .3s cubic-bezier(.2,1.8,.4,1) both;box-shadow:3px 3px 0 #0b0b0f}
+.b-brush.t-1 .sv-streak-stroke{inset:14% 18%;width:64%;height:72%}
+.b-brush.t-1 .sv-streak-seal{right:21%}
+.b-brush.t-4 .sv-streak-stroke:not(.second){fill:#0b0b0f;filter:drop-shadow(0 0 0 #d9a520) drop-shadow(0 5px 0 #a8740a)}
+.b-brush.t-4 .sv-streak-words b{color:#ffe08a}
+@keyframes sv-brush-in{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes sv-brush-off{from{clip-path:inset(0 0 0 0)}to{clip-path:inset(0 0 0 100%)}}
+@keyframes sv-brush-words{from{opacity:0;transform:skewX(-6deg) translateX(-40px) scale(1.2)}to{opacity:1;transform:skewX(-6deg)}}
+@keyframes sv-brush-seal{from{opacity:0;transform:translateY(-50%) rotate(-30deg) scale(2.6)}to{opacity:1;transform:translateY(-50%) rotate(-8deg) scale(1)}}
+.b-taiko .sv-streak-band{position:absolute;left:0;right:0;top:22%;bottom:22%;background:linear-gradient(180deg,#d9a520 0 5%,#8a0d16 5% 9%,#c8141f 9% 91%,#8a0d16 91% 95%,#d9a520 95%);box-shadow:0 8px 0 rgba(0,0,0,.25);animation:sv-taiko-band .28s cubic-bezier(.2,.9,.3,1) both,sv-taiko-band-off .35s 1.9s ease-in forwards}
+.b-taiko .sv-streak-crest{position:absolute;z-index:4;left:calc(50% - clamp(210px,24vw,420px));top:50%;width:clamp(96px,11vw,190px);height:clamp(96px,11vw,190px);margin-top:calc(clamp(96px,11vw,190px) / -2);animation:sv-taiko-crest .5s cubic-bezier(.2,1.4,.4,1) both;filter:drop-shadow(4px 5px 0 rgba(0,0,0,.35))}
+.b-taiko .sv-streak-crest .rim{fill:#d9a520;stroke:#5a3a05;stroke-width:3}
+.b-taiko .sv-streak-crest .face{fill:#f3e6c8}
+.b-taiko .sv-streak-crest path,.b-taiko .sv-streak-crest circle:not(.rim):not(.face){fill:#1a0a08}
+.b-taiko .sv-streak-words{color:#ffd76a;animation:sv-taiko-words .42s .1s cubic-bezier(.2,1.6,.4,1) both}
+.b-taiko .sv-streak-words b{-webkit-text-stroke:2px #3a0508;paint-order:stroke fill;text-shadow:3px 4px 0 #3a0508}
+.b-taiko .sv-streak-words span{color:#fff3d0}
+.b-taiko .sv-streak-flakes{position:absolute;left:50%;top:50%;z-index:2}
+.b-taiko .sv-streak-flakes i{position:absolute;width:calc(var(--w) * 5px);height:calc(var(--w) * 8px);background:linear-gradient(135deg,#fff2b0,#d9a520 55%,#8a5a00);transform:rotate(var(--a)) translateY(0);animation:sv-taiko-flake 1.4s calc(var(--d) * .12s) cubic-bezier(.1,.7,.3,1) both}
+.b-taiko.t-3 .sv-streak-band,.b-taiko.t-4 .sv-streak-band{top:14%;bottom:14%}
+.b-taiko.t-4 .sv-streak-band{background:linear-gradient(180deg,#fff2b0 0 3%,#d9a520 3% 7%,#1a0a08 7% 10%,#c8141f 10% 90%,#1a0a08 90% 93%,#d9a520 93% 97%,#fff2b0 97%)}
+.b-taiko.t-4 .sv-streak-crest{animation:sv-taiko-crest .5s cubic-bezier(.2,1.4,.4,1) both,sv-taiko-spin 1.6s .5s linear}
+@keyframes sv-taiko-band{from{transform:scaleX(0);transform-origin:left}to{transform:scaleX(1);transform-origin:left}}
+@keyframes sv-taiko-band-off{to{transform:scaleY(0)}}
+@keyframes sv-taiko-crest{from{opacity:0;transform:translateX(-60vw) rotate(-540deg) scale(.6)}to{opacity:1;transform:none}}
+@keyframes sv-taiko-spin{to{transform:rotate(360deg)}}
+@keyframes sv-taiko-words{from{opacity:0;transform:skewX(-6deg) scale(2.4)}to{opacity:1;transform:skewX(-6deg) scale(1)}}
+@keyframes sv-taiko-flake{from{opacity:1;transform:rotate(var(--a)) translateY(0) rotate(0)}to{opacity:0;transform:rotate(var(--a)) translateY(calc(var(--d) * -34vh)) rotate(540deg)}}
+@media (prefers-reduced-motion:reduce){.sv-streak *{animation-duration:.01s!important}}

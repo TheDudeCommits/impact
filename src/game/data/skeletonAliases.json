@@ -1,0 +1,189 @@
+{
+  "Hips": [
+    "Hips",
+    "DEF_Pelvis",
+    "Pelvis",
+    "Bip001Pelvis",
+    "mixamorig:Hips",
+    "JNT_Hips",
+    "hip"
+  ],
+  "Spine": [
+    "Spine",
+    "DEF_Spine_001",
+    "Bip001Spine",
+    "Spine_01",
+    "JNT_Spine",
+    "waist"
+  ],
+  "Spine1": [
+    "Spine1",
+    "DEF_Spine_002",
+    "Bip001Spine1",
+    "Spine_02",
+    "Chest",
+    "JNT_Spine1"
+  ],
+  "Spine2": [
+    "Spine2",
+    "DEF_Spine_003",
+    "Bip001Spine2",
+    "Spine_03",
+    "UpperChest",
+    "JNT_Spine2"
+  ],
+  "Neck": [
+    "Neck",
+    "DEF_Neck",
+    "Bip001Neck",
+    "JNT_Neck"
+  ],
+  "Head": [
+    "Head",
+    "DEF_Head",
+    "Bip001Head",
+    "JNT_Head"
+  ],
+  "LeftShoulder": [
+    "LeftShoulder",
+    "DEF_Shoulder.L",
+    "Shoulder.L",
+    "Bip001LClavicle",
+    "Clavicle.L",
+    "JNT_LeftShoulder",
+    "L_collar"
+  ],
+  "LeftArm": [
+    "LeftArm",
+    "DEF_Upperarm.L",
+    "Upperarm.L",
+    "Bip001LUpperArm",
+    "UpperArm.L",
+    "JNT_LeftArm",
+    "L_arm"
+  ],
+  "LeftForeArm": [
+    "LeftForeArm",
+    "DEF_Forearm.L",
+    "Forearm.L",
+    "Bip001LForearm",
+    "LowerArm.L",
+    "JNT_LeftForeArm",
+    "L_elbow"
+  ],
+  "LeftHand": [
+    "LeftHand",
+    "DEF_Hand.L",
+    "Hand.L",
+    "Bip001LHand",
+    "JNT_LeftHand",
+    "L_hand"
+  ],
+  "RightShoulder": [
+    "RightShoulder",
+    "DEF_Shoulder.R",
+    "Shoulder.R",
+    "Bip001RClavicle",
+    "Clavicle.R",
+    "JNT_RightShoulder",
+    "R_collar"
+  ],
+  "RightArm": [
+    "RightArm",
+    "DEF_Upperarm.R",
+    "Upperarm.R",
+    "Bip001RUpperArm",
+    "UpperArm.R",
+    "JNT_RightArm",
+    "R_arm"
+  ],
+  "RightForeArm": [
+    "RightForeArm",
+    "DEF_Forearm.R",
+    "Forearm.R",
+    "Bip001RForearm",
+    "LowerArm.R",
+    "JNT_RightForeArm",
+    "R_elbow"
+  ],
+  "RightHand": [
+    "RightHand",
+    "DEF_Hand.R",
+    "Hand.R",
+    "Bip001RHand",
+    "JNT_RightHand",
+    "R_hand"
+  ],
+  "LeftUpLeg": [
+    "LeftUpLeg",
+    "DEF_Thigh.L",
+    "Thigh.L",
+    "Bip001LThigh",
+    "UpLeg.L",
+    "JNT_LeftUpLeg",
+    "L_leg"
+  ],
+  "LeftLeg": [
+    "LeftLeg",
+    "DEF_Calf.L",
+    "Calf.L",
+    "Bip001LCalf",
+    "Shin.L",
+    "LowerLeg.L",
+    "JNT_LeftLeg",
+    "L_knee"
+  ],
+  "LeftFoot": [
+    "LeftFoot",
+    "DEF_Foot.L",
+    "Foot.L",
+    "Bip001LFoot",
+    "JNT_LeftFoot",
+    "L_ankle"
+  ],
+  "LeftToeBase": [
+    "LeftToeBase",
+    "DEF_Toe.L",
+    "Toe.L",
+    "Bip001LToe0",
+    "ToeBase.L",
+    "JNT_LeftFootThumb1",
+    "L_toe"
+  ],
+  "RightUpLeg": [
+    "RightUpLeg",
+    "DEF_Thigh.R",
+    "Thigh.R",
+    "Bip001RThigh",
+    "UpLeg.R",
+    "JNT_RightUpLeg",
+    "R_leg"
+  ],
+  "RightLeg": [
+    "RightLeg",
+    "DEF_Calf.R",
+    "Calf.R",
+    "Bip001RCalf",
+    "Shin.R",
+    "LowerLeg.R",
+    "JNT_RightLeg",
+    "R_knee"
+  ],
+  "RightFoot": [
+    "RightFoot",
+    "DEF_Foot.R",
+    "Foot.R",
+    "Bip001RFoot",
+    "JNT_RightFoot",
+    "R_ankle"
+  ],
+  "RightToeBase": [
+    "RightToeBase",
+    "DEF_Toe.R",
+    "Toe.R",
+    "Bip001RToe0",
+    "ToeBase.R",
+    "JNT_RightFootThumb1",
+    "R_toe"
+  ]
+}

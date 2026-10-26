@@ -1,0 +1,2281 @@
+{
+ "ace": {
+  "bell": [
+   "vo-ace-bell-a",
+   "vo-ace-bell-b"
+  ],
+  "kill": [
+   "vo-ace-kill-a",
+   "vo-ace-kill-b"
+  ],
+  "ko": [
+   "vo-ace-ko-a"
+  ],
+  "loss": [
+   "vo-ace-loss-a"
+  ],
+  "low": [
+   "vo-ace-low-a"
+  ],
+  "parry": [
+   "vo-ace-parry-a"
+  ],
+  "taunt": [
+   "vo-ace-taunt-a",
+   "vo-ace-taunt-b"
+  ],
+  "win": [
+   "vo-ace-win-a"
+  ]
+ },
+ "aizen": {
+  "bell": [
+   "vo-aizen-bell-a"
+  ],
+  "kill": [
+   "vo-aizen-kill-a",
+   "vo-aizen-kill-b"
+  ],
+  "loss": [
+   "vo-aizen-loss-a"
+  ],
+  "low": [
+   "vo-aizen-low-a"
+  ],
+  "parry": [
+   "vo-aizen-parry-a"
+  ],
+  "taunt": [
+   "vo-aizen-taunt-a"
+  ],
+  "win": [
+   "vo-aizen-win-a"
+  ]
+ },
+ "akainu": {
+  "bell": [
+   "vo-akainu-bell-a"
+  ],
+  "taunt": [
+   "vo-akainu-taunt-a"
+  ]
+ },
+ "akaza": {
+  "bell": [
+   "vo-akaza-bell-a",
+   "vo-akaza-bell-b"
+  ],
+  "hurt": [
+   "vo-akaza-hurt-a",
+   "vo-akaza-hurt-b",
+   "vo-akaza-hurt-c"
+  ],
+  "kill": [
+   "vo-akaza-kill-a",
+   "vo-akaza-kill-b"
+  ],
+  "ko": [
+   "vo-akaza-ko-a"
+  ],
+  "loss": [
+   "vo-akaza-loss-a"
+  ],
+  "low": [
+   "vo-akaza-low-a"
+  ],
+  "parry": [
+   "vo-akaza-parry-a"
+  ],
+  "taunt": [
+   "vo-akaza-taunt-a",
+   "vo-akaza-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-akaza-thrown-a",
+   "vo-akaza-thrown-b"
+  ],
+  "win": [
+   "vo-akaza-win-a"
+  ]
+ },
+ "all-might": {
+  "bell": [
+   "vo-all-might-bell-a",
+   "vo-all-might-bell-b"
+  ],
+  "hurt": [
+   "vo-all-might-hurt-a",
+   "vo-all-might-hurt-b",
+   "vo-all-might-hurt-c"
+  ],
+  "kill": [
+   "vo-all-might-kill-a",
+   "vo-all-might-kill-b"
+  ],
+  "ko": [
+   "vo-all-might-ko-a"
+  ],
+  "loss": [
+   "vo-all-might-loss-a"
+  ],
+  "low": [
+   "vo-all-might-low-a"
+  ],
+  "parry": [
+   "vo-all-might-parry-a"
+  ],
+  "taunt": [
+   "vo-all-might-taunt-a",
+   "vo-all-might-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-all-might-thrown-a",
+   "vo-all-might-thrown-b"
+  ],
+  "win": [
+   "vo-all-might-win-a"
+  ]
+ },
+ "alphonse-elric": {
+  "bell": [
+   "vo-alphonse-elric-bell-a"
+  ],
+  "low": [
+   "vo-alphonse-elric-low-a"
+  ]
+ },
+ "aokiji": {
+  "bell": [
+   "vo-aokiji-bell-a"
+  ],
+  "kill": [
+   "vo-aokiji-kill-a",
+   "vo-aokiji-kill-b"
+  ],
+  "loss": [
+   "vo-aokiji-loss-a"
+  ],
+  "parry": [
+   "vo-aokiji-parry-a"
+  ],
+  "taunt": [
+   "vo-aokiji-taunt-a"
+  ]
+ },
+ "asuka": {
+  "bell": [
+   "vo-asuka-bell-a"
+  ],
+  "kill": [
+   "vo-asuka-kill-a",
+   "vo-asuka-kill-b"
+  ],
+  "loss": [
+   "vo-asuka-loss-a"
+  ],
+  "low": [
+   "vo-asuka-low-a"
+  ],
+  "taunt": [
+   "vo-asuka-taunt-a"
+  ],
+  "win": [
+   "vo-asuka-win-a"
+  ]
+ },
+ "bakugo": {
+  "bell": [
+   "vo-bakugo-bell-a",
+   "vo-bakugo-bell-b"
+  ],
+  "hurt": [
+   "vo-bakugo-hurt-a",
+   "vo-bakugo-hurt-b",
+   "vo-bakugo-hurt-c"
+  ],
+  "kill": [
+   "vo-bakugo-kill-a",
+   "vo-bakugo-kill-b"
+  ],
+  "loss": [
+   "vo-bakugo-loss-a"
+  ],
+  "low": [
+   "vo-bakugo-low-a"
+  ],
+  "parry": [
+   "vo-bakugo-parry-a"
+  ],
+  "taunt": [
+   "vo-bakugo-taunt-a",
+   "vo-bakugo-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-bakugo-thrown-a",
+   "vo-bakugo-thrown-b"
+  ],
+  "win": [
+   "vo-bakugo-win-a"
+  ]
+ },
+ "blackbeard": {
+  "bell": [
+   "vo-blackbeard-bell-a"
+  ],
+  "hurt": [
+   "vo-blackbeard-hurt-a",
+   "vo-blackbeard-hurt-b",
+   "vo-blackbeard-hurt-c"
+  ],
+  "kill": [
+   "vo-blackbeard-kill-a",
+   "vo-blackbeard-kill-b"
+  ],
+  "loss": [
+   "vo-blackbeard-loss-a"
+  ],
+  "hurt-heavy": [
+   "vo-blackbeard-thrown-a"
+  ],
+  "win": [
+   "vo-blackbeard-win-a"
+  ]
+ },
+ "boa-hancock": {
+  "bell": [
+   "vo-boa-hancock-bell-a",
+   "vo-boa-hancock-bell-b"
+  ],
+  "hurt": [
+   "vo-boa-hancock-hurt-a",
+   "vo-boa-hancock-hurt-b"
+  ],
+  "ko": [
+   "vo-boa-hancock-ko-a"
+  ],
+  "low": [
+   "vo-boa-hancock-low-a"
+  ],
+  "parry": [
+   "vo-boa-hancock-parry-a"
+  ],
+  "taunt": [
+   "vo-boa-hancock-taunt-a"
+  ],
+  "win": [
+   "vo-boa-hancock-win-a"
+  ]
+ },
+ "broly": {
+  "bell": [
+   "vo-broly-bell-a"
+  ],
+  "hurt": [
+   "vo-broly-hurt-a",
+   "vo-broly-hurt-b",
+   "vo-broly-hurt-c"
+  ],
+  "kill": [
+   "vo-broly-kill-a"
+  ],
+  "low": [
+   "vo-broly-low-a"
+  ],
+  "hurt-heavy": [
+   "vo-broly-thrown-a",
+   "vo-broly-thrown-b"
+  ],
+  "win": [
+   "vo-broly-win-a"
+  ]
+ },
+ "crocodile": {
+  "bell": [
+   "vo-crocodile-bell-a"
+  ],
+  "win": [
+   "vo-crocodile-win-a"
+  ]
+ },
+ "deku": {
+  "bell": [
+   "vo-deku-bell-a",
+   "vo-deku-bell-b"
+  ],
+  "hurt": [
+   "vo-deku-hurt-a",
+   "vo-deku-hurt-b",
+   "vo-deku-hurt-c"
+  ],
+  "kill": [
+   "vo-deku-kill-a",
+   "vo-deku-kill-b"
+  ],
+  "ko": [
+   "vo-deku-ko-a"
+  ],
+  "low": [
+   "vo-deku-low-a"
+  ],
+  "parry": [
+   "vo-deku-parry-a"
+  ],
+  "taunt": [
+   "vo-deku-taunt-a",
+   "vo-deku-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-deku-thrown-a",
+   "vo-deku-thrown-b"
+  ],
+  "win": [
+   "vo-deku-win-a"
+  ]
+ },
+ "denji": {
+  "bell": [
+   "vo-denji-bell-a",
+   "vo-denji-bell-b"
+  ],
+  "kill": [
+   "vo-denji-kill-a",
+   "vo-denji-kill-b"
+  ],
+  "ko": [
+   "vo-denji-ko-a"
+  ],
+  "loss": [
+   "vo-denji-loss-a"
+  ],
+  "low": [
+   "vo-denji-low-a"
+  ],
+  "parry": [
+   "vo-denji-parry-a"
+  ],
+  "taunt": [
+   "vo-denji-taunt-a",
+   "vo-denji-taunt-b"
+  ],
+  "win": [
+   "vo-denji-win-a"
+  ]
+ },
+ "dio": {
+  "bell": [
+   "vo-dio-bell-a",
+   "vo-dio-bell-b"
+  ],
+  "hurt": [
+   "vo-dio-hurt-a",
+   "vo-dio-hurt-b"
+  ],
+  "kill": [
+   "vo-dio-kill-a",
+   "vo-dio-kill-b"
+  ],
+  "ko": [
+   "vo-dio-ko-a"
+  ],
+  "loss": [
+   "vo-dio-loss-a"
+  ],
+  "low": [
+   "vo-dio-low-a"
+  ],
+  "parry": [
+   "vo-dio-parry-a"
+  ],
+  "taunt": [
+   "vo-dio-taunt-a"
+  ],
+  "hurt-heavy": [
+   "vo-dio-thrown-a",
+   "vo-dio-thrown-b"
+  ],
+  "win": [
+   "vo-dio-win-a"
+  ]
+ },
+ "doflamingo": {
+  "bell": [
+   "vo-doflamingo-bell-a"
+  ],
+  "hurt": [
+   "vo-doflamingo-hurt-a",
+   "vo-doflamingo-hurt-b"
+  ],
+  "kill": [
+   "vo-doflamingo-kill-a",
+   "vo-doflamingo-kill-b"
+  ],
+  "loss": [
+   "vo-doflamingo-loss-a"
+  ],
+  "low": [
+   "vo-doflamingo-low-a"
+  ],
+  "parry": [
+   "vo-doflamingo-parry-a"
+  ],
+  "taunt": [
+   "vo-doflamingo-taunt-a",
+   "vo-doflamingo-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-doflamingo-thrown-a"
+  ],
+  "win": [
+   "vo-doflamingo-win-a"
+  ]
+ },
+ "edward-elric": {
+  "bell": [
+   "vo-edward-elric-bell-a"
+  ],
+  "kill": [
+   "vo-edward-elric-kill-a",
+   "vo-edward-elric-kill-b"
+  ],
+  "ko": [
+   "vo-edward-elric-ko-a"
+  ],
+  "low": [
+   "vo-edward-elric-low-a"
+  ],
+  "parry": [
+   "vo-edward-elric-parry-a"
+  ],
+  "taunt": [
+   "vo-edward-elric-taunt-a",
+   "vo-edward-elric-taunt-b"
+  ]
+ },
+ "endeavor": {
+  "bell": [
+   "vo-endeavor-bell-a",
+   "vo-endeavor-bell-b"
+  ],
+  "hurt": [
+   "vo-endeavor-hurt-a",
+   "vo-endeavor-hurt-b",
+   "vo-endeavor-hurt-c"
+  ],
+  "kill": [
+   "vo-endeavor-kill-a",
+   "vo-endeavor-kill-b"
+  ],
+  "ko": [
+   "vo-endeavor-ko-a"
+  ],
+  "loss": [
+   "vo-endeavor-loss-a"
+  ],
+  "low": [
+   "vo-endeavor-low-a"
+  ],
+  "parry": [
+   "vo-endeavor-parry-a"
+  ],
+  "taunt": [
+   "vo-endeavor-taunt-a",
+   "vo-endeavor-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-endeavor-thrown-a",
+   "vo-endeavor-thrown-b"
+  ],
+  "win": [
+   "vo-endeavor-win-a"
+  ]
+ },
+ "enel": {
+  "bell": [
+   "vo-enel-bell-a"
+  ],
+  "hurt": [
+   "vo-enel-hurt-a",
+   "vo-enel-hurt-b",
+   "vo-enel-hurt-c"
+  ],
+  "kill": [
+   "vo-enel-kill-a"
+  ],
+  "ko": [
+   "vo-enel-ko-a"
+  ],
+  "loss": [
+   "vo-enel-loss-a"
+  ],
+  "low": [
+   "vo-enel-low-a"
+  ],
+  "parry": [
+   "vo-enel-parry-a"
+  ],
+  "taunt": [
+   "vo-enel-taunt-a",
+   "vo-enel-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-enel-thrown-a",
+   "vo-enel-thrown-b"
+  ],
+  "win": [
+   "vo-enel-win-a"
+  ]
+ },
+ "eren": {
+  "bell": [
+   "vo-eren-bell-a"
+  ],
+  "kill": [
+   "vo-eren-kill-a",
+   "vo-eren-kill-b"
+  ],
+  "ko": [
+   "vo-eren-ko-a"
+  ],
+  "low": [
+   "vo-eren-low-a"
+  ],
+  "taunt": [
+   "vo-eren-taunt-a",
+   "vo-eren-taunt-b"
+  ],
+  "win": [
+   "vo-eren-win-a"
+  ]
+ },
+ "garou": {
+  "bell": [
+   "vo-garou-bell-a",
+   "vo-garou-bell-b"
+  ],
+  "hurt": [
+   "vo-garou-hurt-a",
+   "vo-garou-hurt-b",
+   "vo-garou-hurt-c"
+  ],
+  "kill": [
+   "vo-garou-kill-a",
+   "vo-garou-kill-b"
+  ],
+  "ko": [
+   "vo-garou-ko-a"
+  ],
+  "loss": [
+   "vo-garou-loss-a"
+  ],
+  "taunt": [
+   "vo-garou-taunt-a"
+  ],
+  "hurt-heavy": [
+   "vo-garou-thrown-a"
+  ],
+  "win": [
+   "vo-garou-win-a"
+  ]
+ },
+ "gintoki": {
+  "bell": [
+   "vo-gintoki-bell-a",
+   "vo-gintoki-bell-b"
+  ],
+  "loss": [
+   "vo-gintoki-loss-a"
+  ],
+  "parry": [
+   "vo-gintoki-parry-a"
+  ],
+  "taunt": [
+   "vo-gintoki-taunt-a",
+   "vo-gintoki-taunt-b"
+  ],
+  "win": [
+   "vo-gintoki-win-a"
+  ]
+ },
+ "gohan-beast": {
+  "bell": [
+   "vo-gohan-beast-bell-a",
+   "vo-gohan-beast-bell-b"
+  ],
+  "hurt": [
+   "vo-gohan-beast-hurt-a",
+   "vo-gohan-beast-hurt-b",
+   "vo-gohan-beast-hurt-c"
+  ],
+  "kill": [
+   "vo-gohan-beast-kill-a",
+   "vo-gohan-beast-kill-b"
+  ],
+  "ko": [
+   "vo-gohan-beast-ko-a"
+  ],
+  "loss": [
+   "vo-gohan-beast-loss-a"
+  ],
+  "low": [
+   "vo-gohan-beast-low-a"
+  ],
+  "parry": [
+   "vo-gohan-beast-parry-a"
+  ],
+  "taunt": [
+   "vo-gohan-beast-taunt-a",
+   "vo-gohan-beast-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-gohan-beast-thrown-a",
+   "vo-gohan-beast-thrown-b"
+  ],
+  "win": [
+   "vo-gohan-beast-win-a"
+  ]
+ },
+ "gojo": {
+  "bell": [
+   "vo-gojo-bell-a",
+   "vo-gojo-bell-b"
+  ],
+  "hurt": [
+   "vo-gojo-hurt-a",
+   "vo-gojo-hurt-b"
+  ],
+  "kill": [
+   "vo-gojo-kill-a",
+   "vo-gojo-kill-b"
+  ],
+  "low": [
+   "vo-gojo-low-a"
+  ],
+  "parry": [
+   "vo-gojo-parry-a"
+  ],
+  "taunt": [
+   "vo-gojo-taunt-a",
+   "vo-gojo-taunt-b"
+  ],
+  "win": [
+   "vo-gojo-win-a"
+  ]
+ },
+ "goku": {
+  "bell": [
+   "vo-goku-bell-a",
+   "vo-goku-bell-b"
+  ],
+  "hurt": [
+   "vo-goku-hurt-a",
+   "vo-goku-hurt-b",
+   "vo-goku-hurt-c"
+  ],
+  "kill": [
+   "vo-goku-kill-a",
+   "vo-goku-kill-b"
+  ],
+  "ko": [
+   "vo-goku-ko-a"
+  ],
+  "loss": [
+   "vo-goku-loss-a"
+  ],
+  "low": [
+   "vo-goku-low-a",
+   "vo-goku-low-b"
+  ],
+  "parry": [
+   "vo-goku-parry-a"
+  ],
+  "taunt": [
+   "vo-goku-taunt-a",
+   "vo-goku-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-goku-thrown-a",
+   "vo-goku-thrown-b"
+  ],
+  "win": [
+   "vo-goku-win-a"
+  ]
+ },
+ "goku-black": {
+  "bell": [
+   "vo-goku-black-bell-a",
+   "vo-goku-black-bell-b"
+  ],
+  "hurt": [
+   "vo-goku-black-hurt-a",
+   "vo-goku-black-hurt-b",
+   "vo-goku-black-hurt-c"
+  ],
+  "kill": [
+   "vo-goku-black-kill-a",
+   "vo-goku-black-kill-b"
+  ],
+  "loss": [
+   "vo-goku-black-loss-a"
+  ],
+  "parry": [
+   "vo-goku-black-parry-a"
+  ],
+  "taunt": [
+   "vo-goku-black-taunt-a",
+   "vo-goku-black-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-goku-black-thrown-a",
+   "vo-goku-black-thrown-b"
+  ],
+  "win": [
+   "vo-goku-black-win-a"
+  ]
+ },
+ "golden-frieza": {
+  "bell": [
+   "vo-golden-frieza-bell-a"
+  ],
+  "hurt": [
+   "vo-golden-frieza-hurt-a",
+   "vo-golden-frieza-hurt-b",
+   "vo-golden-frieza-hurt-c"
+  ],
+  "kill": [
+   "vo-golden-frieza-kill-a",
+   "vo-golden-frieza-kill-b"
+  ],
+  "loss": [
+   "vo-golden-frieza-loss-a"
+  ],
+  "low": [
+   "vo-golden-frieza-low-a"
+  ],
+  "parry": [
+   "vo-golden-frieza-parry-a"
+  ],
+  "taunt": [
+   "vo-golden-frieza-taunt-a",
+   "vo-golden-frieza-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-golden-frieza-thrown-a"
+  ],
+  "win": [
+   "vo-golden-frieza-win-a"
+  ]
+ },
+ "grimmjow": {
+  "bell": [
+   "vo-grimmjow-bell-a",
+   "vo-grimmjow-bell-b"
+  ],
+  "kill": [
+   "vo-grimmjow-kill-a",
+   "vo-grimmjow-kill-b"
+  ],
+  "ko": [
+   "vo-grimmjow-ko-a"
+  ],
+  "loss": [
+   "vo-grimmjow-loss-a"
+  ],
+  "low": [
+   "vo-grimmjow-low-a"
+  ],
+  "parry": [
+   "vo-grimmjow-parry-a"
+  ],
+  "taunt": [
+   "vo-grimmjow-taunt-a",
+   "vo-grimmjow-taunt-b"
+  ],
+  "win": [
+   "vo-grimmjow-win-a"
+  ]
+ },
+ "guts": {
+  "bell": [
+   "vo-guts-bell-a",
+   "vo-guts-bell-b"
+  ]
+ },
+ "hiei": {
+  "hurt": [
+   "vo-hiei-hurt-a",
+   "vo-hiei-hurt-b",
+   "vo-hiei-hurt-c"
+  ],
+  "kill": [
+   "vo-hiei-kill-a",
+   "vo-hiei-kill-b"
+  ],
+  "ko": [
+   "vo-hiei-ko-a"
+  ],
+  "loss": [
+   "vo-hiei-loss-a"
+  ],
+  "low": [
+   "vo-hiei-low-a"
+  ],
+  "parry": [
+   "vo-hiei-parry-a"
+  ],
+  "taunt": [
+   "vo-hiei-taunt-a",
+   "vo-hiei-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-hiei-thrown-a",
+   "vo-hiei-thrown-b"
+  ],
+  "win": [
+   "vo-hiei-win-a"
+  ]
+ },
+ "hinata": {
+  "low": [
+   "vo-hinata-low-a"
+  ]
+ },
+ "hisoka": {
+  "bell": [
+   "vo-hisoka-bell-a",
+   "vo-hisoka-bell-b"
+  ],
+  "hurt": [
+   "vo-hisoka-hurt-a",
+   "vo-hisoka-hurt-b",
+   "vo-hisoka-hurt-c"
+  ],
+  "kill": [
+   "vo-hisoka-kill-a",
+   "vo-hisoka-kill-b"
+  ],
+  "ko": [
+   "vo-hisoka-ko-a"
+  ],
+  "loss": [
+   "vo-hisoka-loss-a"
+  ],
+  "parry": [
+   "vo-hisoka-parry-a"
+  ],
+  "taunt": [
+   "vo-hisoka-taunt-a",
+   "vo-hisoka-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-hisoka-thrown-a",
+   "vo-hisoka-thrown-b"
+  ]
+ },
+ "ichigo": {
+  "bell": [
+   "vo-ichigo-bell-a",
+   "vo-ichigo-bell-b"
+  ],
+  "hurt": [
+   "vo-ichigo-hurt-a",
+   "vo-ichigo-hurt-b",
+   "vo-ichigo-hurt-c"
+  ],
+  "kill": [
+   "vo-ichigo-kill-a",
+   "vo-ichigo-kill-b"
+  ],
+  "ko": [
+   "vo-ichigo-ko-a"
+  ],
+  "low": [
+   "vo-ichigo-low-a"
+  ],
+  "parry": [
+   "vo-ichigo-parry-a"
+  ],
+  "taunt": [
+   "vo-ichigo-taunt-a",
+   "vo-ichigo-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-ichigo-thrown-a",
+   "vo-ichigo-thrown-b"
+  ],
+  "win": [
+   "vo-ichigo-win-a"
+  ]
+ },
+ "itachi": {
+  "bell": [
+   "vo-itachi-bell-a",
+   "vo-itachi-bell-b"
+  ],
+  "kill": [
+   "vo-itachi-kill-a"
+  ],
+  "low": [
+   "vo-itachi-low-a"
+  ],
+  "parry": [
+   "vo-itachi-parry-a"
+  ],
+  "taunt": [
+   "vo-itachi-taunt-a",
+   "vo-itachi-taunt-b"
+  ],
+  "win": [
+   "vo-itachi-win-a"
+  ]
+ },
+ "jinbe": {
+  "bell": [
+   "vo-jinbe-bell-a"
+  ],
+  "hurt": [
+   "vo-jinbe-hurt-a"
+  ],
+  "low": [
+   "vo-jinbe-low-a"
+  ],
+  "parry": [
+   "vo-jinbe-parry-a"
+  ],
+  "taunt": [
+   "vo-jinbe-taunt-a"
+  ],
+  "hurt-heavy": [
+   "vo-jinbe-thrown-a",
+   "vo-jinbe-thrown-b"
+  ]
+ },
+ "jiraiya": {
+  "bell": [
+   "vo-jiraiya-bell-a"
+  ]
+ },
+ "jiren": {
+  "bell": [
+   "vo-jiren-bell-a"
+  ],
+  "kill": [
+   "vo-jiren-kill-a",
+   "vo-jiren-kill-b"
+  ],
+  "low": [
+   "vo-jiren-low-a"
+  ],
+  "parry": [
+   "vo-jiren-parry-a"
+  ],
+  "taunt": [
+   "vo-jiren-taunt-a",
+   "vo-jiren-taunt-b"
+  ],
+  "win": [
+   "vo-jiren-win-a"
+  ]
+ },
+ "jolyne": {
+  "bell": [
+   "vo-jolyne-bell-a"
+  ],
+  "kill": [
+   "vo-jolyne-kill-a"
+  ],
+  "taunt": [
+   "vo-jolyne-taunt-a",
+   "vo-jolyne-taunt-b"
+  ]
+ },
+ "josuke": {
+  "bell": [
+   "vo-josuke-bell-a"
+  ],
+  "kill": [
+   "vo-josuke-kill-a",
+   "vo-josuke-kill-b"
+  ],
+  "ko": [
+   "vo-josuke-ko-a"
+  ],
+  "loss": [
+   "vo-josuke-loss-a"
+  ],
+  "low": [
+   "vo-josuke-low-a"
+  ],
+  "parry": [
+   "vo-josuke-parry-a"
+  ],
+  "taunt": [
+   "vo-josuke-taunt-a",
+   "vo-josuke-taunt-b"
+  ],
+  "win": [
+   "vo-josuke-win-a"
+  ]
+ },
+ "jotaro": {
+  "bell": [
+   "vo-jotaro-bell-a",
+   "vo-jotaro-bell-b"
+  ],
+  "hurt": [
+   "vo-jotaro-hurt-a",
+   "vo-jotaro-hurt-b",
+   "vo-jotaro-hurt-c"
+  ],
+  "kill": [
+   "vo-jotaro-kill-a",
+   "vo-jotaro-kill-b"
+  ],
+  "ko": [
+   "vo-jotaro-ko-a"
+  ],
+  "loss": [
+   "vo-jotaro-loss-a"
+  ],
+  "low": [
+   "vo-jotaro-low-a"
+  ],
+  "parry": [
+   "vo-jotaro-parry-a"
+  ],
+  "taunt": [
+   "vo-jotaro-taunt-a",
+   "vo-jotaro-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-jotaro-thrown-a",
+   "vo-jotaro-thrown-b"
+  ],
+  "win": [
+   "vo-jotaro-win-a"
+  ]
+ },
+ "kaido": {
+  "bell": [
+   "vo-kaido-bell-a"
+  ],
+  "hurt": [
+   "vo-kaido-hurt-a",
+   "vo-kaido-hurt-b",
+   "vo-kaido-hurt-c"
+  ],
+  "low": [
+   "vo-kaido-low-a"
+  ],
+  "taunt": [
+   "vo-kaido-taunt-a"
+  ],
+  "hurt-heavy": [
+   "vo-kaido-thrown-a",
+   "vo-kaido-thrown-b"
+  ]
+ },
+ "kakashi": {
+  "bell": [
+   "vo-kakashi-bell-a",
+   "vo-kakashi-bell-b"
+  ],
+  "hurt": [
+   "vo-kakashi-hurt-a",
+   "vo-kakashi-hurt-b",
+   "vo-kakashi-hurt-c"
+  ],
+  "kill": [
+   "vo-kakashi-kill-a",
+   "vo-kakashi-kill-b"
+  ],
+  "ko": [
+   "vo-kakashi-ko-a"
+  ],
+  "loss": [
+   "vo-kakashi-loss-a"
+  ],
+  "low": [
+   "vo-kakashi-low-a"
+  ],
+  "parry": [
+   "vo-kakashi-parry-a"
+  ],
+  "taunt": [
+   "vo-kakashi-taunt-a",
+   "vo-kakashi-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-kakashi-thrown-a",
+   "vo-kakashi-thrown-b"
+  ],
+  "win": [
+   "vo-kakashi-win-a"
+  ]
+ },
+ "ken-kaneki": {
+  "bell": [
+   "vo-ken-kaneki-bell-a"
+  ],
+  "ko": [
+   "vo-ken-kaneki-ko-a"
+  ],
+  "low": [
+   "vo-ken-kaneki-low-a"
+  ],
+  "taunt": [
+   "vo-ken-kaneki-taunt-a",
+   "vo-ken-kaneki-taunt-b"
+  ]
+ },
+ "kenpachi": {
+  "kill": [
+   "vo-kenpachi-kill-a",
+   "vo-kenpachi-kill-b"
+  ],
+  "low": [
+   "vo-kenpachi-low-a"
+  ],
+  "parry": [
+   "vo-kenpachi-parry-a"
+  ],
+  "taunt": [
+   "vo-kenpachi-taunt-a"
+  ],
+  "win": [
+   "vo-kenpachi-win-a"
+  ]
+ },
+ "killua": {
+  "bell": [
+   "vo-killua-bell-a",
+   "vo-killua-bell-b"
+  ],
+  "hurt": [
+   "vo-killua-hurt-a",
+   "vo-killua-hurt-b",
+   "vo-killua-hurt-c"
+  ],
+  "kill": [
+   "vo-killua-kill-a",
+   "vo-killua-kill-b"
+  ],
+  "ko": [
+   "vo-killua-ko-a"
+  ],
+  "loss": [
+   "vo-killua-loss-a"
+  ],
+  "low": [
+   "vo-killua-low-a"
+  ],
+  "parry": [
+   "vo-killua-parry-a"
+  ],
+  "taunt": [
+   "vo-killua-taunt-a",
+   "vo-killua-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-killua-thrown-a",
+   "vo-killua-thrown-b"
+  ],
+  "win": [
+   "vo-killua-win-a"
+  ]
+ },
+ "kizaru": {
+  "hurt": [
+   "vo-kizaru-hurt-a"
+  ],
+  "kill": [
+   "vo-kizaru-kill-a",
+   "vo-kizaru-kill-b"
+  ],
+  "ko": [
+   "vo-kizaru-ko-a"
+  ],
+  "taunt": [
+   "vo-kizaru-taunt-a"
+  ],
+  "hurt-heavy": [
+   "vo-kizaru-thrown-a"
+  ],
+  "win": [
+   "vo-kizaru-win-a"
+  ]
+ },
+ "law": {
+  "bell": [
+   "vo-law-bell-a",
+   "vo-law-bell-b"
+  ],
+  "hurt": [
+   "vo-law-hurt-a",
+   "vo-law-hurt-b",
+   "vo-law-hurt-c"
+  ],
+  "kill": [
+   "vo-law-kill-a",
+   "vo-law-kill-b"
+  ],
+  "ko": [
+   "vo-law-ko-a"
+  ],
+  "loss": [
+   "vo-law-loss-a"
+  ],
+  "low": [
+   "vo-law-low-a"
+  ],
+  "parry": [
+   "vo-law-parry-a"
+  ],
+  "taunt": [
+   "vo-law-taunt-a",
+   "vo-law-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-law-thrown-a",
+   "vo-law-thrown-b"
+  ],
+  "win": [
+   "vo-law-win-a"
+  ]
+ },
+ "levi": {
+  "bell": [
+   "vo-levi-bell-a",
+   "vo-levi-bell-b"
+  ],
+  "hurt": [
+   "vo-levi-hurt-a",
+   "vo-levi-hurt-b",
+   "vo-levi-hurt-c"
+  ],
+  "kill": [
+   "vo-levi-kill-a",
+   "vo-levi-kill-b"
+  ],
+  "ko": [
+   "vo-levi-ko-a"
+  ],
+  "loss": [
+   "vo-levi-loss-a"
+  ],
+  "low": [
+   "vo-levi-low-a"
+  ],
+  "parry": [
+   "vo-levi-parry-a"
+  ],
+  "taunt": [
+   "vo-levi-taunt-a",
+   "vo-levi-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-levi-thrown-a"
+  ],
+  "win": [
+   "vo-levi-win-a"
+  ]
+ },
+ "luffy": {
+  "bell": [
+   "vo-luffy-bell-a",
+   "vo-luffy-bell-b"
+  ],
+  "hurt": [
+   "vo-luffy-hurt-a",
+   "vo-luffy-hurt-b",
+   "vo-luffy-hurt-c"
+  ],
+  "kill": [
+   "vo-luffy-kill-a",
+   "vo-luffy-kill-b"
+  ],
+  "ko": [
+   "vo-luffy-ko-a"
+  ],
+  "low": [
+   "vo-luffy-low-a"
+  ],
+  "parry": [
+   "vo-luffy-parry-a"
+  ],
+  "taunt": [
+   "vo-luffy-taunt-a",
+   "vo-luffy-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-luffy-thrown-a",
+   "vo-luffy-thrown-b"
+  ]
+ },
+ "madara": {
+  "bell": [
+   "vo-madara-bell-a"
+  ],
+  "kill": [
+   "vo-madara-kill-a",
+   "vo-madara-kill-b"
+  ],
+  "parry": [
+   "vo-madara-parry-a"
+  ],
+  "taunt": [
+   "vo-madara-taunt-a"
+  ],
+  "win": [
+   "vo-madara-win-a"
+  ]
+ },
+ "makima": {
+  "bell": [
+   "vo-makima-bell-a",
+   "vo-makima-bell-b"
+  ],
+  "kill": [
+   "vo-makima-kill-a"
+  ],
+  "loss": [
+   "vo-makima-loss-a"
+  ],
+  "low": [
+   "vo-makima-low-a"
+  ],
+  "parry": [
+   "vo-makima-parry-a"
+  ],
+  "taunt": [
+   "vo-makima-taunt-a",
+   "vo-makima-taunt-b"
+  ]
+ },
+ "meliodas": {
+  "bell": [
+   "vo-meliodas-bell-a"
+  ]
+ },
+ "meruem": {
+  "bell": [
+   "vo-meruem-bell-a",
+   "vo-meruem-bell-b"
+  ],
+  "hurt": [
+   "vo-meruem-hurt-a",
+   "vo-meruem-hurt-b",
+   "vo-meruem-hurt-c"
+  ],
+  "kill": [
+   "vo-meruem-kill-a",
+   "vo-meruem-kill-b"
+  ],
+  "low": [
+   "vo-meruem-low-a"
+  ],
+  "parry": [
+   "vo-meruem-parry-a"
+  ],
+  "taunt": [
+   "vo-meruem-taunt-a",
+   "vo-meruem-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-meruem-thrown-a",
+   "vo-meruem-thrown-b"
+  ],
+  "win": [
+   "vo-meruem-win-a"
+  ]
+ },
+ "might-guy": {
+  "bell": [
+   "vo-might-guy-bell-a",
+   "vo-might-guy-bell-b"
+  ],
+  "loss": [
+   "vo-might-guy-loss-a"
+  ],
+  "taunt": [
+   "vo-might-guy-taunt-a"
+  ]
+ },
+ "mihawk": {
+  "bell": [
+   "vo-mihawk-bell-a",
+   "vo-mihawk-bell-b"
+  ],
+  "hurt": [
+   "vo-mihawk-hurt-a",
+   "vo-mihawk-hurt-b",
+   "vo-mihawk-hurt-c"
+  ],
+  "kill": [
+   "vo-mihawk-kill-a",
+   "vo-mihawk-kill-b"
+  ],
+  "ko": [
+   "vo-mihawk-ko-a"
+  ],
+  "loss": [
+   "vo-mihawk-loss-a"
+  ],
+  "low": [
+   "vo-mihawk-low-a"
+  ],
+  "parry": [
+   "vo-mihawk-parry-a"
+  ],
+  "taunt": [
+   "vo-mihawk-taunt-a",
+   "vo-mihawk-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-mihawk-thrown-a"
+  ],
+  "win": [
+   "vo-mihawk-win-a"
+  ]
+ },
+ "mikasa": {
+  "bell": [
+   "vo-mikasa-bell-a",
+   "vo-mikasa-bell-b"
+  ],
+  "low": [
+   "vo-mikasa-low-a"
+  ],
+  "taunt": [
+   "vo-mikasa-taunt-a"
+  ],
+  "win": [
+   "vo-mikasa-win-a"
+  ]
+ },
+ "minato": {
+  "kill": [
+   "vo-minato-kill-a"
+  ],
+  "low": [
+   "vo-minato-low-a"
+  ]
+ },
+ "nami": {
+  "bell": [
+   "vo-nami-bell-a",
+   "vo-nami-bell-b"
+  ],
+  "hurt": [
+   "vo-nami-hurt-a",
+   "vo-nami-hurt-b",
+   "vo-nami-hurt-c"
+  ],
+  "kill": [
+   "vo-nami-kill-a",
+   "vo-nami-kill-b"
+  ],
+  "ko": [
+   "vo-nami-ko-a"
+  ],
+  "loss": [
+   "vo-nami-loss-a"
+  ],
+  "low": [
+   "vo-nami-low-a"
+  ],
+  "parry": [
+   "vo-nami-parry-a"
+  ],
+  "taunt": [
+   "vo-nami-taunt-a",
+   "vo-nami-taunt-b"
+  ]
+ },
+ "nanami": {
+  "bell": [
+   "vo-nanami-bell-a",
+   "vo-nanami-bell-b"
+  ],
+  "kill": [
+   "vo-nanami-kill-a",
+   "vo-nanami-kill-b"
+  ],
+  "ko": [
+   "vo-nanami-ko-a"
+  ],
+  "loss": [
+   "vo-nanami-loss-a"
+  ],
+  "low": [
+   "vo-nanami-low-a"
+  ],
+  "taunt": [
+   "vo-nanami-taunt-a",
+   "vo-nanami-taunt-b"
+  ]
+ },
+ "naruto": {
+  "bell": [
+   "vo-naruto-bell-a",
+   "vo-naruto-bell-b"
+  ],
+  "hurt": [
+   "vo-naruto-hurt-a",
+   "vo-naruto-hurt-b",
+   "vo-naruto-hurt-c"
+  ],
+  "kill": [
+   "vo-naruto-kill-a"
+  ],
+  "ko": [
+   "vo-naruto-ko-a"
+  ],
+  "loss": [
+   "vo-naruto-loss-a"
+  ],
+  "low": [
+   "vo-naruto-low-a"
+  ],
+  "parry": [
+   "vo-naruto-parry-a"
+  ],
+  "taunt": [
+   "vo-naruto-taunt-a",
+   "vo-naruto-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-naruto-thrown-a",
+   "vo-naruto-thrown-b"
+  ],
+  "win": [
+   "vo-naruto-win-a"
+  ]
+ },
+ "netero": {
+  "bell": [
+   "vo-netero-bell-a"
+  ],
+  "low": [
+   "vo-netero-low-a"
+  ],
+  "parry": [
+   "vo-netero-parry-a"
+  ],
+  "win": [
+   "vo-netero-win-a"
+  ]
+ },
+ "nico-robin": {
+  "bell": [
+   "vo-nico-robin-bell-a",
+   "vo-nico-robin-bell-b"
+  ],
+  "hurt": [
+   "vo-nico-robin-hurt-a",
+   "vo-nico-robin-hurt-b"
+  ],
+  "kill": [
+   "vo-nico-robin-kill-a",
+   "vo-nico-robin-kill-b"
+  ],
+  "loss": [
+   "vo-nico-robin-loss-a"
+  ],
+  "low": [
+   "vo-nico-robin-low-a"
+  ],
+  "parry": [
+   "vo-nico-robin-parry-a"
+  ],
+  "taunt": [
+   "vo-nico-robin-taunt-a",
+   "vo-nico-robin-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-nico-robin-thrown-a"
+  ]
+ },
+ "pain": {
+  "bell": [
+   "vo-pain-bell-a",
+   "vo-pain-bell-b"
+  ],
+  "kill": [
+   "vo-pain-kill-a",
+   "vo-pain-kill-b"
+  ],
+  "ko": [
+   "vo-pain-ko-a"
+  ],
+  "loss": [
+   "vo-pain-loss-a"
+  ],
+  "low": [
+   "vo-pain-low-a"
+  ],
+  "parry": [
+   "vo-pain-parry-a"
+  ],
+  "taunt": [
+   "vo-pain-taunt-a",
+   "vo-pain-taunt-b"
+  ]
+ },
+ "rengoku": {
+  "bell": [
+   "vo-rengoku-bell-a"
+  ],
+  "hurt": [
+   "vo-rengoku-hurt-a",
+   "vo-rengoku-hurt-b",
+   "vo-rengoku-hurt-c"
+  ],
+  "kill": [
+   "vo-rengoku-kill-a",
+   "vo-rengoku-kill-b"
+  ],
+  "ko": [
+   "vo-rengoku-ko-a"
+  ],
+  "loss": [
+   "vo-rengoku-loss-a"
+  ],
+  "low": [
+   "vo-rengoku-low-a"
+  ],
+  "taunt": [
+   "vo-rengoku-taunt-a",
+   "vo-rengoku-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-rengoku-thrown-a",
+   "vo-rengoku-thrown-b"
+  ],
+  "win": [
+   "vo-rengoku-win-a"
+  ]
+ },
+ "roger": {
+  "bell": [
+   "vo-roger-bell-a",
+   "vo-roger-bell-b"
+  ],
+  "kill": [
+   "vo-roger-kill-a"
+  ],
+  "taunt": [
+   "vo-roger-taunt-a",
+   "vo-roger-taunt-b"
+  ],
+  "win": [
+   "vo-roger-win-a"
+  ]
+ },
+ "rukia": {
+  "bell": [
+   "vo-rukia-bell-a",
+   "vo-rukia-bell-b"
+  ],
+  "hurt": [
+   "vo-rukia-hurt-a",
+   "vo-rukia-hurt-b",
+   "vo-rukia-hurt-c"
+  ],
+  "kill": [
+   "vo-rukia-kill-a",
+   "vo-rukia-kill-b"
+  ],
+  "ko": [
+   "vo-rukia-ko-a"
+  ],
+  "loss": [
+   "vo-rukia-loss-a"
+  ],
+  "low": [
+   "vo-rukia-low-a"
+  ],
+  "parry": [
+   "vo-rukia-parry-a"
+  ],
+  "taunt": [
+   "vo-rukia-taunt-a",
+   "vo-rukia-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-rukia-thrown-a",
+   "vo-rukia-thrown-b"
+  ],
+  "win": [
+   "vo-rukia-win-a"
+  ]
+ },
+ "saitama": {
+  "bell": [
+   "vo-saitama-bell-a",
+   "vo-saitama-bell-b"
+  ],
+  "kill": [
+   "vo-saitama-kill-a",
+   "vo-saitama-kill-b"
+  ],
+  "low": [
+   "vo-saitama-low-a"
+  ],
+  "parry": [
+   "vo-saitama-parry-a"
+  ],
+  "taunt": [
+   "vo-saitama-taunt-a",
+   "vo-saitama-taunt-b"
+  ],
+  "win": [
+   "vo-saitama-win-a"
+  ]
+ },
+ "sakura": {
+  "bell": [
+   "vo-sakura-bell-a",
+   "vo-sakura-bell-b"
+  ],
+  "kill": [
+   "vo-sakura-kill-a",
+   "vo-sakura-kill-b"
+  ],
+  "ko": [
+   "vo-sakura-ko-a"
+  ],
+  "low": [
+   "vo-sakura-low-a"
+  ],
+  "taunt": [
+   "vo-sakura-taunt-a",
+   "vo-sakura-taunt-b"
+  ],
+  "win": [
+   "vo-sakura-win-a"
+  ]
+ },
+ "sanji": {
+  "bell": [
+   "vo-sanji-bell-a",
+   "vo-sanji-bell-b"
+  ],
+  "hurt": [
+   "vo-sanji-hurt-a",
+   "vo-sanji-hurt-b",
+   "vo-sanji-hurt-c"
+  ],
+  "kill": [
+   "vo-sanji-kill-a",
+   "vo-sanji-kill-b"
+  ],
+  "ko": [
+   "vo-sanji-ko-a"
+  ],
+  "loss": [
+   "vo-sanji-loss-a"
+  ],
+  "low": [
+   "vo-sanji-low-a"
+  ],
+  "parry": [
+   "vo-sanji-parry-a"
+  ],
+  "taunt": [
+   "vo-sanji-taunt-a",
+   "vo-sanji-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-sanji-thrown-a",
+   "vo-sanji-thrown-b"
+  ],
+  "win": [
+   "vo-sanji-win-a"
+  ]
+ },
+ "sasuke": {
+  "bell": [
+   "vo-sasuke-bell-a",
+   "vo-sasuke-bell-b"
+  ],
+  "hurt": [
+   "vo-sasuke-hurt-a",
+   "vo-sasuke-hurt-b",
+   "vo-sasuke-hurt-c"
+  ],
+  "kill": [
+   "vo-sasuke-kill-a",
+   "vo-sasuke-kill-b"
+  ],
+  "ko": [
+   "vo-sasuke-ko-a"
+  ],
+  "loss": [
+   "vo-sasuke-loss-a"
+  ],
+  "low": [
+   "vo-sasuke-low-a"
+  ],
+  "parry": [
+   "vo-sasuke-parry-a"
+  ],
+  "taunt": [
+   "vo-sasuke-taunt-a",
+   "vo-sasuke-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-sasuke-thrown-a"
+  ],
+  "win": [
+   "vo-sasuke-win-a"
+  ]
+ },
+ "shanks": {
+  "bell": [
+   "vo-shanks-bell-a",
+   "vo-shanks-bell-b"
+  ],
+  "hurt": [
+   "vo-shanks-hurt-a",
+   "vo-shanks-hurt-b",
+   "vo-shanks-hurt-c"
+  ],
+  "kill": [
+   "vo-shanks-kill-a",
+   "vo-shanks-kill-b"
+  ],
+  "ko": [
+   "vo-shanks-ko-a"
+  ],
+  "loss": [
+   "vo-shanks-loss-a"
+  ],
+  "low": [
+   "vo-shanks-low-a"
+  ],
+  "parry": [
+   "vo-shanks-parry-a"
+  ],
+  "taunt": [
+   "vo-shanks-taunt-a",
+   "vo-shanks-taunt-b"
+  ],
+  "win": [
+   "vo-shanks-win-a"
+  ]
+ },
+ "sukuna": {
+  "bell": [
+   "vo-sukuna-bell-a"
+  ],
+  "kill": [
+   "vo-sukuna-kill-a"
+  ],
+  "ko": [
+   "vo-sukuna-ko-a"
+  ],
+  "parry": [
+   "vo-sukuna-parry-a"
+  ],
+  "taunt": [
+   "vo-sukuna-taunt-a"
+  ],
+  "win": [
+   "vo-sukuna-win-a"
+  ]
+ },
+ "tanjiro": {
+  "bell": [
+   "vo-tanjiro-bell-a",
+   "vo-tanjiro-bell-b"
+  ],
+  "hurt": [
+   "vo-tanjiro-hurt-a",
+   "vo-tanjiro-hurt-b",
+   "vo-tanjiro-hurt-c"
+  ],
+  "kill": [
+   "vo-tanjiro-kill-a"
+  ],
+  "ko": [
+   "vo-tanjiro-ko-a"
+  ],
+  "loss": [
+   "vo-tanjiro-loss-a"
+  ],
+  "low": [
+   "vo-tanjiro-low-a"
+  ],
+  "parry": [
+   "vo-tanjiro-parry-a"
+  ],
+  "taunt": [
+   "vo-tanjiro-taunt-a",
+   "vo-tanjiro-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-tanjiro-thrown-a",
+   "vo-tanjiro-thrown-b"
+  ]
+ },
+ "tatsumaki": {
+  "bell": [
+   "vo-tatsumaki-bell-a"
+  ],
+  "kill": [
+   "vo-tatsumaki-kill-a",
+   "vo-tatsumaki-kill-b"
+  ],
+  "low": [
+   "vo-tatsumaki-low-a"
+  ],
+  "parry": [
+   "vo-tatsumaki-parry-a"
+  ],
+  "taunt": [
+   "vo-tatsumaki-taunt-a",
+   "vo-tatsumaki-taunt-b"
+  ],
+  "win": [
+   "vo-tatsumaki-win-a"
+  ]
+ },
+ "todoroki": {
+  "bell": [
+   "vo-todoroki-bell-a"
+  ],
+  "hurt": [
+   "vo-todoroki-hurt-a",
+   "vo-todoroki-hurt-b",
+   "vo-todoroki-hurt-c"
+  ],
+  "kill": [
+   "vo-todoroki-kill-a",
+   "vo-todoroki-kill-b"
+  ],
+  "ko": [
+   "vo-todoroki-ko-a"
+  ],
+  "loss": [
+   "vo-todoroki-loss-a"
+  ],
+  "low": [
+   "vo-todoroki-low-a"
+  ],
+  "parry": [
+   "vo-todoroki-parry-a"
+  ],
+  "taunt": [
+   "vo-todoroki-taunt-a",
+   "vo-todoroki-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-todoroki-thrown-a",
+   "vo-todoroki-thrown-b"
+  ],
+  "win": [
+   "vo-todoroki-win-a"
+  ]
+ },
+ "toji": {
+  "bell": [
+   "vo-toji-bell-a"
+  ],
+  "hurt": [
+   "vo-toji-hurt-a",
+   "vo-toji-hurt-b",
+   "vo-toji-hurt-c"
+  ],
+  "kill": [
+   "vo-toji-kill-a",
+   "vo-toji-kill-b"
+  ],
+  "ko": [
+   "vo-toji-ko-a"
+  ],
+  "loss": [
+   "vo-toji-loss-a"
+  ],
+  "low": [
+   "vo-toji-low-a"
+  ],
+  "parry": [
+   "vo-toji-parry-a"
+  ],
+  "taunt": [
+   "vo-toji-taunt-a"
+  ],
+  "hurt-heavy": [
+   "vo-toji-thrown-a",
+   "vo-toji-thrown-b"
+  ],
+  "win": [
+   "vo-toji-win-a"
+  ]
+ },
+ "tsunade": {
+  "bell": [
+   "vo-tsunade-bell-a",
+   "vo-tsunade-bell-b"
+  ],
+  "kill": [
+   "vo-tsunade-kill-a",
+   "vo-tsunade-kill-b"
+  ],
+  "ko": [
+   "vo-tsunade-ko-a"
+  ],
+  "low": [
+   "vo-tsunade-low-a"
+  ],
+  "parry": [
+   "vo-tsunade-parry-a"
+  ],
+  "taunt": [
+   "vo-tsunade-taunt-a",
+   "vo-tsunade-taunt-b"
+  ],
+  "win": [
+   "vo-tsunade-win-a"
+  ]
+ },
+ "vegeta": {
+  "bell": [
+   "vo-vegeta-bell-a",
+   "vo-vegeta-bell-b"
+  ],
+  "hurt": [
+   "vo-vegeta-hurt-a",
+   "vo-vegeta-hurt-b",
+   "vo-vegeta-hurt-c"
+  ],
+  "kill": [
+   "vo-vegeta-kill-a",
+   "vo-vegeta-kill-b"
+  ],
+  "ko": [
+   "vo-vegeta-ko-a"
+  ],
+  "loss": [
+   "vo-vegeta-loss-a"
+  ],
+  "low": [
+   "vo-vegeta-low-a"
+  ],
+  "parry": [
+   "vo-vegeta-parry-a"
+  ],
+  "taunt": [
+   "vo-vegeta-taunt-a",
+   "vo-vegeta-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-vegeta-thrown-a",
+   "vo-vegeta-thrown-b"
+  ],
+  "win": [
+   "vo-vegeta-win-a"
+  ]
+ },
+ "whitebeard": {
+  "bell": [
+   "vo-whitebeard-bell-a"
+  ],
+  "loss": [
+   "vo-whitebeard-loss-a"
+  ],
+  "low": [
+   "vo-whitebeard-low-a"
+  ],
+  "taunt": [
+   "vo-whitebeard-taunt-a"
+  ]
+ },
+ "yamamoto": {
+  "bell": [
+   "vo-yamamoto-bell-a",
+   "vo-yamamoto-bell-b"
+  ],
+  "kill": [
+   "vo-yamamoto-kill-a",
+   "vo-yamamoto-kill-b"
+  ],
+  "ko": [
+   "vo-yamamoto-ko-a"
+  ],
+  "low": [
+   "vo-yamamoto-low-a"
+  ],
+  "parry": [
+   "vo-yamamoto-parry-a"
+  ],
+  "taunt": [
+   "vo-yamamoto-taunt-a",
+   "vo-yamamoto-taunt-b"
+  ],
+  "win": [
+   "vo-yamamoto-win-a"
+  ]
+ },
+ "yamato": {
+  "bell": [
+   "vo-yamato-bell-a"
+  ],
+  "low": [
+   "vo-yamato-low-a"
+  ]
+ },
+ "yoruichi": {
+  "bell": [
+   "vo-yoruichi-bell-a"
+  ],
+  "hurt": [
+   "vo-yoruichi-hurt-a",
+   "vo-yoruichi-hurt-b",
+   "vo-yoruichi-hurt-c"
+  ],
+  "kill": [
+   "vo-yoruichi-kill-a",
+   "vo-yoruichi-kill-b"
+  ],
+  "ko": [
+   "vo-yoruichi-ko-a"
+  ],
+  "loss": [
+   "vo-yoruichi-loss-a"
+  ],
+  "low": [
+   "vo-yoruichi-low-a"
+  ],
+  "parry": [
+   "vo-yoruichi-parry-a"
+  ],
+  "taunt": [
+   "vo-yoruichi-taunt-a",
+   "vo-yoruichi-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-yoruichi-thrown-a"
+  ],
+  "win": [
+   "vo-yoruichi-win-a"
+  ]
+ },
+ "yuji": {
+  "bell": [
+   "vo-yuji-bell-a",
+   "vo-yuji-bell-b"
+  ],
+  "hurt": [
+   "vo-yuji-hurt-a",
+   "vo-yuji-hurt-b",
+   "vo-yuji-hurt-c"
+  ],
+  "kill": [
+   "vo-yuji-kill-a",
+   "vo-yuji-kill-b"
+  ],
+  "ko": [
+   "vo-yuji-ko-a"
+  ],
+  "loss": [
+   "vo-yuji-loss-a"
+  ],
+  "low": [
+   "vo-yuji-low-a"
+  ],
+  "parry": [
+   "vo-yuji-parry-a"
+  ],
+  "taunt": [
+   "vo-yuji-taunt-a",
+   "vo-yuji-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-yuji-thrown-a",
+   "vo-yuji-thrown-b"
+  ],
+  "win": [
+   "vo-yuji-win-a"
+  ]
+ },
+ "yuta": {
+  "bell": [
+   "vo-yuta-bell-a",
+   "vo-yuta-bell-b"
+  ],
+  "hurt": [
+   "vo-yuta-hurt-a",
+   "vo-yuta-hurt-b",
+   "vo-yuta-hurt-c"
+  ],
+  "kill": [
+   "vo-yuta-kill-a",
+   "vo-yuta-kill-b"
+  ],
+  "ko": [
+   "vo-yuta-ko-a"
+  ],
+  "loss": [
+   "vo-yuta-loss-a"
+  ],
+  "low": [
+   "vo-yuta-low-a"
+  ],
+  "parry": [
+   "vo-yuta-parry-a"
+  ],
+  "taunt": [
+   "vo-yuta-taunt-a",
+   "vo-yuta-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-yuta-thrown-a",
+   "vo-yuta-thrown-b"
+  ],
+  "win": [
+   "vo-yuta-win-a"
+  ]
+ },
+ "zoro": {
+  "bell": [
+   "vo-zoro-bell-a",
+   "vo-zoro-bell-b"
+  ],
+  "hurt": [
+   "vo-zoro-hurt-a",
+   "vo-zoro-hurt-b",
+   "vo-zoro-hurt-c"
+  ],
+  "kill": [
+   "vo-zoro-kill-a",
+   "vo-zoro-kill-b"
+  ],
+  "ko": [
+   "vo-zoro-ko-a",
+   "vo-zoro-ko-b"
+  ],
+  "loss": [
+   "vo-zoro-loss-a"
+  ],
+  "low": [
+   "vo-zoro-low-a",
+   "vo-zoro-low-b"
+  ],
+  "parry": [
+   "vo-zoro-parry-a",
+   "vo-zoro-parry-b"
+  ],
+  "taunt": [
+   "vo-zoro-taunt-a",
+   "vo-zoro-taunt-b"
+  ],
+  "hurt-heavy": [
+   "vo-zoro-thrown-a",
+   "vo-zoro-thrown-b"
+  ],
+  "win": [
+   "vo-zoro-win-a"
+  ]
+ }
+}

@@ -1,0 +1,139 @@
+:root{--hud-ink:#0b0c0e;--hud-paper:#fff9ef;--hud-red:#d51d34}
+.combat-hud{border:0;outline:0}
+.combat-hud:before{height:8px;background:radial-gradient(#0b0c0e .8px,transparent 1.1px) 0 0/4px 4px;opacity:.45}
+.combat-hud:after{display:none}
+.fighter-meter{top:9px;width:min(36.5vw,710px);height:clamp(112px,10vw,180px);gap:0;filter:none;isolation:isolate}
+.fighter-meter.own{left:18px}.fighter-meter.foe{right:18px}
+.fighter-meter:before{z-index:-2;inset:0;background:radial-gradient(#fff9ef .7px,transparent 1.15px) 0 0/4px 4px,linear-gradient(155deg,#090a0c 5%,#141317 70%,#070809);clip-path:polygon(0 4%,12% 0,18% 5%,36% 1%,48% 6%,71% 0,85% 7%,100% 10%,94% 14%,99% 22%,92% 28%,98% 36%,93% 47%,98% 60%,91% 67%,100% 74%,93% 82%,98% 88%,81% 87%,76% 98%,62% 90%,48% 96%,31% 89%,16% 100%,14% 88%,2% 91%,5% 75%,0 68%,5% 57%,0 45%,4% 31%,0 22%)}
+.fighter-meter.foe:before{transform:scaleX(-1)}
+.fighter-meter:after{z-index:-1;top:auto;bottom:10px;left:5%;right:1%;height:14px;background:linear-gradient(90deg,#dc1a32 0 58%,#120d11 88%);clip-path:polygon(0 28%,61% 0,100% 40%,96% 81%,55% 58%,0 100%);opacity:1}
+.fighter-meter.foe:after{left:1%;right:5%;transform:scaleX(-1)}
+.fighter-meter .ink-sweep{position:absolute;z-index:-1;top:29px;right:-95px;width:205px;height:74px;background:url('/assets/ui/hud/ink-sweep.svg') center/contain no-repeat;pointer-events:none}
+.fighter-meter.foe .ink-sweep{right:auto;left:-95px;transform:scaleX(-1)}
+.fighter-meter .portrait-frame{position:absolute;top:0;left:0;width:min(9.7vw,188px);height:min(9.6vw,187px);flex:none;transform:none;outline:0;border:0;background:#f7f5ee;clip-path:polygon(0 0,94% 2%,100% 13%,95% 84%,81% 99%,12% 93%,0 77%,5% 49%);overflow:hidden}
+.fighter-meter.foe .portrait-frame{left:auto;right:0;clip-path:polygon(6% 2%,100% 0,95% 49%,100% 77%,88% 93%,19% 99%,5% 84%,0 13%)}
+.fighter-meter .portrait-frame svg{width:100%;height:100%;transform:scale(1.22);filter:grayscale(1) contrast(1.3)}
+.fighter-meter .portrait-frame:after{content:'';position:absolute;inset:0;background:radial-gradient(#0b0c0e 1px,transparent 1.4px) right top/4px 4px;mask-image:linear-gradient(90deg,transparent 60%,#000);opacity:.65;pointer-events:none}
+.fighter-meter.foe .portrait-frame:after{mask-image:linear-gradient(90deg,#000,transparent 40%)}
+.fighter-meter.own>div,.fighter-meter.foe>div{position:absolute;top:1.15vw;left:8.8vw;width:calc(100% - 9.1vw);height:7.3vw;min-width:0;max-height:142px;padding:9px 30px 10px 23px;background:var(--hud-paper);color:var(--hud-ink);border:0;clip-path:polygon(0 0,90% 0,100% 10%,96% 19%,100% 29%,94% 36%,99% 50%,96% 66%,100% 83%,96% 100%,0 96%,3% 81%,0 72%,2% 50%)}
+.fighter-meter.foe>div{left:auto;right:8.8vw;padding:9px 23px 10px 30px;clip-path:polygon(10% 0,100% 0,98% 50%,100% 72%,97% 81%,100% 96%,4% 100%,0 83%,4% 66%,1% 50%,6% 36%,0 29%,4% 19%,0 10%)}
+.fighter-meter.own>div:before,.fighter-meter.foe>div:before{content:'';position:absolute;z-index:0;top:0;right:3%;width:30%;height:42%;background:repeating-linear-gradient(-11deg,transparent 0 4px,#0b0c0e 5px 6px,transparent 6px 10px);clip-path:polygon(0 0,100% 0,95% 82%,47% 42%,0 69%);opacity:.82;pointer-events:none}
+.fighter-meter.foe>div:before{left:3%;right:auto;transform:scaleX(-1)}
+.fighter-meter .meter-title{position:relative;z-index:1;display:flex;align-items:center;height:2.9vw;max-height:56px;min-width:0;justify-content:flex-start;overflow:visible}
+.fighter-meter .meter-title strong{display:block;max-width:100%;font:italic 900 clamp(25px,2.7vw,53px)/1 Impact,'Barlow Condensed',sans-serif;letter-spacing:-.025em;color:var(--hud-ink);text-shadow:none;white-space:nowrap;overflow:hidden;text-overflow:clip}
+.fighter-meter.foe .meter-title{flex-direction:row;justify-content:flex-end}
+.fighter-meter.foe .meter-title strong{text-align:right}
+.fighter-meter .meter-title strong{padding-left:.06em;padding-right:.25em;margin-left:-.06em;margin-right:-.25em}
+.fighter-meter .health-track{position:relative;z-index:1;height:1.2vw;max-height:24px;margin:2px 2px 0;transform:skew(-10deg);border:2px solid var(--hud-ink);background:#fafafa;box-shadow:1px 2px 0 #0b0c0e;overflow:hidden}
+.fighter-meter .health-track i:not(.health-echo){background:linear-gradient(90deg,#a9102d,#e72b47 55%,#f25468);box-shadow:inset 0 2px #fa7282}
+.fighter-meter .meter-bottom{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:8px;height:1.6vw;max-height:30px;margin-top:5px;font:italic 900 clamp(11px,.95vw,19px)/1 'Barlow Condensed',sans-serif}
+.fighter-meter #own-hp,.fighter-meter #foe-hp{position:static;display:inline-block;min-width:145px;padding:3px 12px 3px 7px;background:var(--hud-ink);color:#fff;font:italic 900 clamp(11px,.95vw,19px)/1 Impact,'Barlow Condensed',sans-serif;white-space:nowrap;clip-path:polygon(0 0,100% 0,91% 100%,0 100%)}
+.fighter-meter.foe #foe-hp{padding:3px 7px 3px 12px;clip-path:polygon(9% 0,100% 0,100% 100%,0 100%)}
+.fighter-meter.foe .meter-bottom{justify-content:flex-end}
+.fighter-meter .stamina-track{width:45%;height:7px;margin:0 4px 0 0;border:1px solid var(--hud-ink);background:#dbe0e3;transform:skew(-10deg)}
+.fighter-meter .stamina-track i{background:#526674}
+.fighter-meter.offline:after{background:#808b91;animation:hud-disconnected 1.1s steps(2,end) infinite}
+.match-status{top:20px;min-width:185px;padding:10px 19px 11px;background:#101114;filter:drop-shadow(3px 2px 0 #ce1c32);clip-path:polygon(6% 0,100% 0,94% 25%,99% 80%,89% 100%,0 100%,7% 74%,0 56%)}
+.match-status strong{font:italic 900 clamp(22px,2vw,38px)/1 Impact,'Barlow Condensed',sans-serif}
+.match-status span{font:800 clamp(8px,.7vw,13px)/1.1 'Barlow Condensed',sans-serif;letter-spacing:.025em;margin-top:4px}
+.move-bar{right:1vw;bottom:4.3vw;left:auto;gap:.5vw;transform:none;isolation:auto}
+.move-bar:before{display:none}
+.move-bar .move-slot{width:clamp(96px,8.75vw,172px);height:clamp(128px,11.6vw,228px);flex:0 0 clamp(96px,8.75vw,172px);border:4px solid var(--hud-ink);outline:1px solid #f9f5ec;border-radius:0;background:var(--hud-ink);box-shadow:3px 4px 0 var(--hud-red);transform:skew(-3deg);transition:transform .16s,box-shadow .16s,border-color .16s;isolation:isolate}
+.move-bar .move-slot:before{content:'';display:block;position:absolute;z-index:5;inset:-3px;border-top:2px solid #fffaf2;border-right:1px solid #fffaf2;background:none;opacity:1;mask-image:none;pointer-events:none}
+.move-bar .move-icon{position:relative;height:calc(100% - clamp(25px,2.25vw,44px));margin:0;border:0;border-bottom:2px solid #f9f5ec;background:#0d1825;overflow:hidden}
+.move-bar .move-art,.move-bar .move-art-reveal{position:absolute;inset:0;display:block;background-image:var(--move-sheet);background-size:500% auto;background-position:var(--art-x) center;background-repeat:no-repeat}
+.move-bar .move-art-reveal{z-index:1;clip-path:inset(calc(100% - var(--charge,0%)) 0 0);transition:clip-path .18s ease-out}
+.move-bar .move-slot.charged .move-art{filter:grayscale(1) brightness(1.25) contrast(.8)}
+.move-bar .move-slot.charged .move-art-reveal{filter:none}
+.move-bar .move-slot.charged:not(.ready) .move-icon:after{content:'';position:absolute;z-index:3;inset:auto auto 0 0;width:var(--charge,0%);height:4px;background:#fff;opacity:1;pointer-events:none}
+.move-bar .move-title{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;width:100%;height:clamp(25px,2.25vw,44px);padding:2px 3px;background:var(--hud-ink);border:0;color:#fff;font:italic 900 clamp(10px,.9vw,17px)/1 Impact,'Barlow Condensed',sans-serif;letter-spacing:-.01em;text-shadow:none;white-space:nowrap;overflow:hidden;text-overflow:clip}
+.move-bar .move-slot kbd{bottom:-33px;min-width:clamp(31px,2.6vw,50px);padding:2px 5px;border:2px solid var(--hud-ink);box-shadow:2px 3px 0 var(--hud-red);background:#fff;color:var(--hud-ink);font:italic 900 clamp(17px,1.5vw,29px)/1 Impact,'Barlow Condensed',sans-serif;transform:translateX(-50%) skew(3deg)}
+.move-bar .move-slot.active{transform:skew(-3deg) translateY(-7px);border-color:#fff;box-shadow:4px 7px 0 var(--hud-red)}
+.move-bar .move-slot.unavailable{opacity:1;filter:none}
+.move-bar .move-slot.charged{opacity:1}
+.move-bar .move-slot.ready{border-color:#fff;animation:cutout-ready 1.7s ease-in-out infinite}
+.move-bar .move-slot.awake{border-color:#fff;box-shadow:3px 4px 0 var(--hud-red)}
+.move-bar .move-cooldown,.move-bar .move-charge-text{position:absolute;z-index:6;top:5px;right:6px;left:auto;min-width:0;padding:0;border:0;background:none;color:#fff;font:italic 900 clamp(17px,1.55vw,30px)/1 Impact,'Barlow Condensed',sans-serif;letter-spacing:0;text-shadow:2px 2px 0 #090a0c,-1px -1px 0 #090a0c,1px -1px 0 #090a0c;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap;transform:none}
+.move-bar .move-cooldown:empty{display:none}
+.move-bar .move-slot.cooling .move-charge-text{display:none}
+.move-bar .move-slot.charged.ready .move-icon:before{display:none}
+.move-bar .move-slot.awake .move-icon{animation:none}
+@keyframes cutout-ready{50%{box-shadow:3px 4px 0 var(--hud-red),0 0 0 2px #fff}}
+.controls-hint{left:0;bottom:1.8vw;display:flex;align-items:center;justify-content:flex-start;gap:clamp(8px,1.15vw,24px);width:min(45.5vw,905px);max-width:none;height:clamp(52px,4vw,80px);padding:10px 29px 13px 33px;background:var(--hud-paper);color:var(--hud-ink);border:4px solid var(--hud-ink);box-shadow:none;clip-path:polygon(3% 0,100% 0,97% 82%,94% 100%,0 100%,1% 70%,0 45%);filter:drop-shadow(3px 4px 0 #08090a);font:italic 900 clamp(10px,.9vw,18px)/1 Impact,'Barlow Condensed',sans-serif;letter-spacing:.005em;text-shadow:none;white-space:nowrap;flex-wrap:nowrap;z-index:3}
+.controls-hint:before{content:'';position:absolute;inset:auto 0 0;height:5px;background:var(--hud-red);border:0;pointer-events:none}
+.controls-hint:after{content:'';position:absolute;right:1%;top:0;width:9%;height:18px;background:radial-gradient(#0b0c0e .8px,transparent 1.1px) 0 0/4px 4px;opacity:.65;pointer-events:none}
+.controls-hint .control-item{display:inline-flex;align-items:center;gap:4px;white-space:nowrap}
+.controls-hint .wasd-keys{display:inline-flex;gap:2px}
+.controls-hint kbd{display:inline-block;min-width:21px;margin:0;padding:3px 5px;background:var(--hud-ink);color:#fff!important;border:1px solid #fff;box-shadow:1px 1px 0 var(--hud-red);font:italic 900 clamp(10px,.82vw,16px)/1 Impact,'Barlow Condensed',sans-serif;text-align:center}
+
+@media(max-width:1100px){
+  .fighter-meter .ink-sweep{top:26px;right:-55px;width:130px;height:48px}.fighter-meter.foe .ink-sweep{right:auto;left:-55px}
+  .fighter-meter{top:7px;width:39vw;height:118px}.fighter-meter.own{left:9px}.fighter-meter.foe{right:9px}
+  .fighter-meter .portrait-frame{width:10.5vw;height:108px}
+  .fighter-meter.own>div,.fighter-meter.foe>div{top:15px;left:9.3vw;width:calc(100% - 9.5vw);height:89px;padding:7px 15px 6px 15px}
+  .fighter-meter.foe>div{left:auto;right:9.3vw}
+  .fighter-meter .meter-title{height:32px}.fighter-meter .meter-title strong{font-size:clamp(22px,2.7vw,30px)}
+  .fighter-meter .health-track{height:14px}.fighter-meter .meter-bottom{height:19px;margin-top:4px}
+  .fighter-meter #own-hp,.fighter-meter #foe-hp{font-size:11px;min-width:0;padding:2px 5px}
+  .fighter-meter .stamina-track{height:5px}
+  .match-status{top:16px;min-width:130px;padding:7px 10px}.match-status strong{font-size:21px}.match-status span{font-size:8px}
+  .move-bar{right:1.5vw;bottom:50px;gap:5px}.move-bar .move-slot{width:clamp(70px,8.75vw,96px);height:clamp(94px,11.6vw,128px);flex-basis:clamp(70px,8.75vw,96px)}
+  .move-bar .move-icon{height:calc(100% - 25px)}.move-bar .move-title{height:25px;font-size:clamp(9px,1vw,11px)}
+  .move-bar .move-slot kbd{bottom:-25px;min-width:27px;font-size:16px}
+  .move-bar .move-cooldown,.move-bar .move-charge-text{font-size:17px}
+  .controls-hint{bottom:15px;width:52vw;height:52px;gap:6px;padding:7px 14px 10px 22px;font-size:10px}
+  .controls-hint kbd{font-size:9px;min-width:15px;padding:2px 3px}
+}
+@media(max-width:620px){
+  .fighter-meter .ink-sweep{display:none}
+  .fighter-meter{top:5px;width:47vw;height:75px}.fighter-meter.own{left:5px}.fighter-meter.foe{right:5px}
+  .fighter-meter:after{bottom:1px;height:6px}
+  .fighter-meter .portrait-frame{width:52px;height:66px}
+  .fighter-meter.own>div,.fighter-meter.foe>div{top:9px;left:42px;width:calc(100% - 43px);height:54px;padding:4px 7px 4px 10px}
+  .fighter-meter.foe>div{left:auto;right:42px;padding:4px 10px 4px 7px}
+  .fighter-meter .meter-title{height:19px}.fighter-meter .meter-title strong{font-size:clamp(12px,3.5vw,18px)}
+  .fighter-meter .health-track{height:9px;margin:1px 0 0;border-width:1px}
+  .fighter-meter .meter-bottom{height:10px;margin-top:2px}
+  .fighter-meter #own-hp,.fighter-meter #foe-hp{font-size:8px;padding:1px 3px}
+  .fighter-meter .stamina-track{height:4px;width:25%}
+  .match-status{top:76px;min-width:105px;padding:5px 8px}.match-status strong{font-size:16px}.match-status span{font-size:7px;margin-top:2px}
+  .move-bar{right:8px;bottom:78px;gap:4px}
+  .move-bar .move-slot{width:min(15vw,62px);height:80px;flex-basis:min(15vw,62px);border-width:2px}
+  .move-bar .move-icon{height:64px}.move-bar .move-title{height:14px;font-size:7px}
+  .move-bar .move-slot kbd{bottom:-17px;min-width:22px;font-size:11px;padding:1px 2px}
+  .move-bar .move-cooldown,.move-bar .move-charge-text{top:2px;right:2px;font-size:12px}
+  .controls-hint{left:5px;bottom:13px;width:calc(100vw - 10px);max-width:none;height:auto;min-height:44px;padding:7px 10px 9px 14px;gap:4px 8px;font-size:8px;flex-wrap:wrap}
+  .controls-hint kbd{font-size:8px;min-width:12px;padding:1px 2px}
+}
+@media(max-width:620px) and (orientation:portrait){.move-bar{bottom:116px}}
+@media(prefers-reduced-motion:reduce){.fighter-meter.offline:after,.move-bar .move-slot.ready{animation:none}.move-bar .move-art-reveal{transition:none}}
+.combat-hud{--hud-plate:.62;--hud-cards:.64;--hud-strip:.72;--hud-status:.72}
+:where(#interface:not([data-objective])) .combat-hud .fighter-meter{scale:var(--hud-plate)}
+:where(#interface:not([data-objective])) .combat-hud .fighter-meter.own{transform-origin:0 0}
+:where(#interface:not([data-objective])) .combat-hud .fighter-meter.foe{transform-origin:100% 0}
+:where(#interface:not([data-objective])) .combat-hud .match-status{scale:var(--hud-status);transform-origin:0 0}
+:where(#interface:not([data-objective])) .combat-hud .move-bar{right:max(46px,3.2vw);bottom:3vw;scale:var(--hud-cards);transform-origin:100% 100%}
+:where(#interface:not([data-objective])) .combat-hud .controls-hint{bottom:1vw;scale:var(--hud-strip);transform-origin:0 100%;opacity:.45}
+:where(#interface:not([data-objective])) .combat-hud .fighter-meter :is(#own-hp,#foe-hp){font-size:clamp(13px,1.25vw,24px)}
+:where(#interface:not([data-objective])) .combat-hud .fighter-meter .meter-bottom{height:1.85vw;max-height:36px}
+:where(#interface:not([data-objective])) .combat-hud .move-bar .move-title{font-size:clamp(12px,1.12vw,21px)}
+:where(#interface:not([data-objective])) .combat-hud .move-bar :is(.move-cooldown,.move-charge-text){font-size:clamp(20px,1.95vw,37px)}
+@media(max-width:1100px){
+  :where(#interface:not([data-objective])) .combat-hud .fighter-meter :is(#own-hp,#foe-hp){font-size:14px}
+  :where(#interface:not([data-objective])) .combat-hud .fighter-meter .meter-bottom{height:21px}
+  :where(#interface:not([data-objective])) .combat-hud .move-bar{bottom:42px}
+  :where(#interface:not([data-objective])) .combat-hud .move-bar .move-title{font-size:clamp(9px,1vw,11px)}
+  :where(#interface:not([data-objective])) .combat-hud .move-bar :is(.move-cooldown,.move-charge-text){font-size:22px}
+  :where(#interface:not([data-objective])) .combat-hud .controls-hint{bottom:10px}
+}
+@media(max-width:620px){
+  .combat-hud{--hud-plate:.9;--hud-cards:.86;--hud-strip:.86;--hud-status:.86}
+  :where(#interface:not([data-objective])) .combat-hud .fighter-meter :is(#own-hp,#foe-hp){font-size:9px}
+  :where(#interface:not([data-objective])) .combat-hud .fighter-meter .meter-bottom{height:11px}
+  :where(#interface:not([data-objective])) .combat-hud .move-bar{right:8px;bottom:72px}
+  :where(#interface:not([data-objective])) .combat-hud .move-bar .move-title{font-size:7px}
+  :where(#interface:not([data-objective])) .combat-hud .move-bar :is(.move-cooldown,.move-charge-text){font-size:14px}
+  :where(#interface:not([data-objective])) .combat-hud .controls-hint{bottom:8px}
+}
+@media(max-width:620px) and (orientation:portrait){:where(#interface:not([data-objective])) .combat-hud .move-bar{bottom:96px}}
+@media(max-height:520px) and (orientation:landscape){.combat-hud{--hud-plate:.56;--hud-cards:.66;--hud-strip:.66;--hud-status:.66}}

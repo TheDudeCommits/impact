@@ -1,0 +1,35 @@
+#interface .hd-skin,#interface .hd-clock{display:none}
+#interface[data-skin="halo"] .combat-hud .hd-halo{display:block}
+#interface[data-proto] .combat-hud .fighter-meter.ik-plate>:is(.ik-plate-hull,.ik-rival-hull,.ik-portrait,.ik-body){display:none!important}
+
+#interface .combat-hud .hd-skin{position:absolute;left:0;top:0;pointer-events:none;--hp:1;--st:1;--ult:0;--awk:0;--accent:#ff8a4c;--flood:#ff7a3a;--deep:#4a1d0c;
+  --aura1:#ffffff;--aura2:#9fefff;-webkit-font-smoothing:antialiased;font-synthesis:none}
+#interface .combat-hud .hd-skin *{box-sizing:border-box}
+#interface .combat-hud .hd-skin :is(b,i,em,small,span,strong){font-style:normal}
+#interface .combat-hud .hd-foe{left:auto;right:0;transform:scaleX(-1)}
+#interface .combat-hud .hd-foe .hd-txt{scale:-1 1;display:inline-block}
+#interface .combat-hud .hd-foe .hd-txt .hd-txt{scale:none}
+#interface[data-proto]{--hd-k:min(var(--hud-k),var(--hud-kw,9));--hd-kp:1;--hd-kt:1;--hd-top:10px;--hd-own:1;--hd-foe:.88;--hd-foe-k:var(--hd-kt);
+  --hd-own-s:calc(var(--hd-k) * var(--hd-kp) * var(--hd-own));--hd-foe-s:calc(var(--hd-k) * var(--hd-foe-k) * var(--hd-foe))}
+#interface[data-proto]:is([data-hud="duel"],[data-hud="royale"]){--hd-foe:1;--hd-foe-k:var(--hd-kp)}
+#interface[data-proto][data-hud="training"]{--hd-own:.7;--hd-foe:.7;--hd-foe-k:var(--hd-kp)}
+@media(max-height:520px) and (orientation:landscape),(max-width:620px){
+  #interface[data-proto]{--hd-kp:.62;--hd-kt:.58;--hd-top:4px;--hd-own:.84;--hd-foe:.76}
+  #interface[data-proto]:is([data-hud="duel"],[data-hud="royale"]){--hd-foe:.84}
+  #interface[data-proto][data-hud="training"]{--hd-own:.7;--hd-foe:.7}
+}
+#interface[data-proto] .combat-hud .fighter-meter.own.ik-plate{top:calc(var(--hd-top) * var(--hud-k));scale:var(--hd-own-s)}
+#interface[data-proto] .combat-hud .fighter-meter.foe.ik-plate{top:calc(var(--hd-top) * var(--hud-k));scale:var(--hd-foe-s)}
+#interface .combat-hud .hd-skin.hd-snap,#interface .combat-hud .hd-skin.hd-snap *{transition:none!important}
+#interface .combat-hud .hd-skin img{display:block;max-width:none;border:0;outline:0;background:none;box-shadow:none;filter:none}
+#interface .combat-hud .hd-skin .hd-ink>svg{display:block;width:100%;height:100%}
+#interface .combat-hud .hd-clock{position:absolute;left:50%;top:calc(14px * var(--hud-k));translate:-50% 0;scale:calc(var(--hd-k,var(--hud-k)) * var(--hd-kp,1));transform-origin:50% 0;
+  pointer-events:none;z-index:2}
+#interface[data-proto][data-hud="training"] .combat-hud .hd-clock{display:none!important}
+#interface .combat-hud .hd-clock [data-hd-time]{display:none}
+#interface .combat-hud .hd-clock.hd-timed [data-hd-time]{display:block}
+#interface .combat-hud .hd-clock.hd-timed svg{display:none}
+
+@media(prefers-reduced-motion:reduce){
+  #interface[data-proto] .combat-hud .hd-skin,#interface[data-proto] .combat-hud .hd-skin *,#interface[data-proto] .combat-hud .hd-clock *{animation-iteration-count:1!important}
+}

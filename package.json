@@ -1,0 +1,39 @@
+{
+  "name": "anime-arena-royale",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "server": "tsx src/server/index.ts",
+    "build": "tsc --noEmit && vite build",
+    "build:lab": "tsc --noEmit && vite build --mode fighter-lab",
+    "test": "vitest run",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@colyseus/sdk": "0.18.2",
+    "@dimforge/rapier3d-compat": "0.20.0",
+    "colyseus": "0.18.5",
+    "msgpackr": "2.1.0",
+    "three": "0.186.0",
+    "tsx": "4.23.13"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@privy-io/react-auth": "3.46.0",
+    "@solana-program/system": "0.15.0",
+    "@solana-program/token": "0.17.0",
+    "@solana/kit": "8.4.0",
+    "@types/node": "26.5.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "meshoptimizer": "1.1.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.0",
+    "vitest": "5.0.0"
+  }
+}

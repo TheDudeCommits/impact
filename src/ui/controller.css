@@ -1,0 +1,18 @@
+.ps-face{font-family:'Apple Symbols','Segoe UI Symbol','Arial Unicode MS',sans-serif!important;font-style:normal!important;font-weight:700!important}
+.ps-south{color:#2f62cf!important}.ps-east{color:#d3303a!important}.ps-west{color:#b93d95!important}.ps-north{color:#0f967a!important}
+.controls-hint kbd.ps-south,.sv-draft-hint kbd.ps-south,.key-cards small.ps-south{color:#8fb4ff!important}
+.controls-hint kbd.ps-east,.sv-draft-hint kbd.ps-east,.key-cards small.ps-east{color:#ff7474!important}
+.controls-hint kbd.ps-west,.sv-draft-hint kbd.ps-west,.key-cards small.ps-west{color:#f38fdb!important}
+.controls-hint kbd.ps-north,.sv-draft-hint kbd.ps-north,.key-cards small.ps-north{color:#46e2b5!important}
+.move-bar .move-slot kbd.ps-face{font-size:clamp(19px,1.7vw,32px)}
+.key-cards small.ps-face{font-size:1.5em;line-height:1}
+.home-control-list kbd.ps-face,.home-move-list kbd.ps-face{font-size:1.6em;line-height:.8}
+[data-input=controller] .manga-home button:focus{outline:3px solid var(--home-red);outline-offset:3px}
+[data-input=controller] .manga-home .home-fighter:focus,[data-input=controller] .manga-home .home-mode:focus{outline:5px solid var(--home-ink);outline-offset:4px;box-shadow:0 0 0 9px #fff,0 0 0 12px var(--home-red)}
+[data-input=controller] .home-dialog button:focus,[data-input=controller] .home-dialog input:focus,[data-input=controller] .home-dialog select:focus{outline:3px solid var(--home-red,#cc202b);outline-offset:3px}
+html[data-focus-by=pointer] :focus:not(:focus-visible){outline:0!important}
+html[data-focus-by=pointer] .manga-home :is(.home-fighter,.home-mode):focus:not(:focus-visible){box-shadow:none}
+[data-input=controller] .home-options-grid{grid-template-columns:1fr}
+.sv-hud[data-input=controller] .sv-card kbd{transition:opacity .12s}
+.sv-hud[data-input=controller] .sv-card:not(.focused) kbd{opacity:0}
+.sv-draft-hint kbd{display:inline-block;min-width:22px;margin:0 4px;padding:2px 6px;border:1px solid currentColor;background:#0008;font-size:1.25em;font-style:normal;line-height:1;text-align:center;vertical-align:middle}

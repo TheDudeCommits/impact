@@ -1,0 +1,5 @@
+.mode-hud .coach-tip{display:none}
+.mode-hud .coach-tip.on{display:block;animation:coach-in .22s ease-out both}
+.mode-hud .coach-tip .ux-prompt{font-size:clamp(15px,1.25vw,22px)}
+@keyframes coach-in{from{opacity:0;translate:0 10px}}
+@media(prefers-reduced-motion:reduce){.mode-hud .coach-tip.on{animation:none}}

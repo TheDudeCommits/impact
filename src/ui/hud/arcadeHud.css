@@ -1,0 +1,67 @@
+#interface[data-hud="arcade"] .sv-hud :is(.sv-score,.sv-style,.sv-level,.sv-build,.sv-party){display:none!important}
+#interface[data-hud="arcade"] .sv-hud .sv-chain>:is(b,span){display:none}
+#interface[data-hud="arcade"]:is([data-hud-phase="waiting"],[data-hud-phase="over"]) .mode-hud>:is([data-zone="1b"],[data-zone="3"],[data-zone="3b"],[data-zone="5"]){visibility:hidden}
+#interface[data-hud="arcade"] .ah-score{--h:calc(clamp(112px,10vw,180px) * var(--hud-plate,.62));position:relative;display:flex;flex-direction:column;align-items:flex-end;justify-content:center;
+  height:var(--h);min-width:calc(var(--h) * 2);padding:0 calc(var(--h) * .16) 0 calc(var(--h) * .3);background:var(--hk-paper);color:var(--hk-ink);text-align:right;
+  clip-path:polygon(9% 0,100% 0,98% 50%,100% 72%,97% 100%,4% 96%,0 80%,4% 60%);box-shadow:inset 0 -3px var(--hk-red)}
+#interface[data-hud="arcade"] .ah-score:before{content:'';position:absolute;inset:0;background:radial-gradient(#0b0c0e .8px,transparent 1.1px) 0 0/4px 4px;opacity:.14;pointer-events:none}
+#interface[data-hud="arcade"] .ah-score-label{font:800 max(8px,calc(var(--h) * .085))/1 'Barlow Condensed',sans-serif;letter-spacing:.2em;color:var(--hk-red)}
+#interface[data-hud="arcade"] .ah-score strong{font:italic 900 calc(var(--h) * .34)/1 Impact,'Barlow Condensed',sans-serif;letter-spacing:-.02em;font-variant-numeric:tabular-nums;padding-right:.08em;white-space:nowrap}
+#interface[data-hud="arcade"] .ah-style{position:relative;display:flex;align-items:baseline;gap:calc(var(--h) * .05);margin-top:calc(var(--h) * .02);padding-bottom:calc(var(--h) * .04);white-space:nowrap}
+#interface[data-hud="arcade"] .ah-style b{font:italic 900 max(14px,calc(var(--h) * .22))/1 Impact,'Barlow Condensed',sans-serif;letter-spacing:-.04em;color:#7d7a73;padding-right:.1em}
+#interface[data-hud="arcade"] .ah-style span{font:italic 900 max(10px,calc(var(--h) * .105))/1 Impact,'Barlow Condensed',sans-serif;letter-spacing:.02em}
+#interface[data-hud="arcade"] .ah-style em{font:italic 900 max(10px,calc(var(--h) * .115))/1 Impact,'Barlow Condensed',sans-serif;color:#b8860b}
+#interface[data-hud="arcade"] .ah-style-track{position:absolute;left:0;right:0;bottom:0;display:block;height:2px;background:#d8d3c9;overflow:hidden}
+#interface[data-hud="arcade"] .ah-style-track>i{position:absolute;inset:0;background:var(--hk-red);transform-origin:0 50%}
+#interface[data-hud="arcade"] .ah-style[data-rank="1"] b{color:#2f7fb8}
+#interface[data-hud="arcade"] .ah-style[data-rank="2"] b{color:#23934f}
+#interface[data-hud="arcade"] .ah-style[data-rank="3"] b{color:#c99400}
+#interface[data-hud="arcade"] .ah-style[data-rank="4"] b{color:#e0621a}
+#interface[data-hud="arcade"] .ah-style:is([data-rank="5"],[data-rank="6"]) b{color:var(--hk-red)}
+#interface[data-hud="arcade"] .ah-style[data-up=a]{animation:ah-up-a .38s cubic-bezier(.2,1.6,.4,1)}
+#interface[data-hud="arcade"] .ah-style[data-up=b]{animation:ah-up-b .38s cubic-bezier(.2,1.6,.4,1)}
+@keyframes ah-up-a{0%{transform:scale(1.25)}100%{transform:none}}
+@keyframes ah-up-b{0%{transform:scale(1.25)}100%{transform:none}}
+#interface[data-hud="arcade"] .ah-meta{display:flex;gap:calc(var(--h) * .07);font:800 max(9.5px,calc(var(--h) * .1))/1 'Barlow Condensed',sans-serif;letter-spacing:.06em;color:#3b3833;white-space:nowrap}
+#interface[data-hud="arcade"] .ah-chain{color:var(--hk-red);transition:opacity .5s}
+#interface[data-hud="arcade"] .ah-chain.fading{opacity:.45}
+#interface[data-hud="arcade"] .ah-personal{display:flex;flex-direction:column;align-items:flex-start;gap:6px}
+#interface[data-hud="arcade"] .ah-progress{display:flex;align-items:center;gap:8px}
+#interface[data-hud="arcade"] .ah-level{display:flex;align-items:center;gap:calc(6px * var(--hk-k));width:calc(clamp(160px,13vw,240px) * var(--hk-k));
+  padding:calc(4px * var(--hk-k)) calc(14px * var(--hk-k)) calc(5px * var(--hk-k)) calc(9px * var(--hk-k));background:var(--hk-ink);color:#fff;clip-path:polygon(0 0,100% 0,96% 100%,2% 100%)}
+#interface[data-hud="arcade"] .ah-level small{font:italic 900 calc(clamp(10px,.75vw,14px) * var(--hk-k))/1 Impact,sans-serif;color:#ffcf5a}
+#interface[data-hud="arcade"] .ah-level b{min-width:1.2em;font:italic 900 calc(clamp(16px,1.25vw,24px) * var(--hk-k))/1 Impact,sans-serif}
+#interface[data-hud="arcade"] .ah-xp{position:relative;flex:1;display:block;height:calc(6px * var(--hk-k));transform:skew(-10deg);background:rgba(255,255,255,.18);overflow:hidden}
+#interface[data-hud="arcade"] .ah-xp>i{position:absolute;inset:0;background:#ffcf5a;transform-origin:0 50%}
+#interface[data-hud="arcade"] .ah-tree{padding:0;border:0;background:none;cursor:pointer;pointer-events:auto}
+#interface[data-hud="arcade"] .ah-tree .ux-prompt{font-size:calc(clamp(12px,.95vw,17px) * var(--hk-k));padding:4px 12px 6px 5px;pointer-events:none}
+#interface[data-hud="arcade"] .ah-tree:focus-visible{outline:3px solid #fff;outline-offset:3px}
+#interface[data-hud="arcade"] .ah-tree[data-earned=a]{animation:ah-earned-a .5s cubic-bezier(.2,1.6,.4,1)}
+#interface[data-hud="arcade"] .ah-tree[data-earned=b]{animation:ah-earned-b .5s cubic-bezier(.2,1.6,.4,1)}
+@keyframes ah-earned-a{0%{transform:scale(1.3)}100%{transform:none}}
+@keyframes ah-earned-b{0%{transform:scale(1.3)}100%{transform:none}}
+#interface[data-hud="arcade"] .ah-party{display:flex;flex-direction:column;gap:calc(4px * var(--hk-k))}
+#interface[data-hud="arcade"] .ah-party:empty{display:none}
+#interface[data-hud="arcade"] .ah-ally{width:calc(clamp(160px,12vw,220px) * var(--hk-k))}
+#interface[data-hud="arcade"] .mode-hud .sv-relics{position:static;zoom:1;gap:calc(6px * var(--hk-k))}
+#interface[data-hud="arcade"] .mode-hud .sv-relics .sv-relic{width:auto}
+#interface[data-hud="arcade"] .mode-hud .sv-relics .sv-seal{--size:calc(clamp(30px,2.5vw,46px) * var(--hk-k))}
+#interface[data-hud="arcade"] .mode-hud .sv-relics .sv-relic>small{display:none}
+html.rift-splash #interface[data-hud="arcade"] .mode-hud .sv-relics{visibility:hidden}
+#interface[data-hud="arcade"] .mode-hud .sv-map{position:static;zoom:1;width:clamp(84px,10vw,180px);height:clamp(84px,10vw,180px)}
+:where(body).pf-sv-modal.pf-sv-modal #interface[data-hud="arcade"] .mode-hud .sv-map{display:none}
+@media(max-height:520px) and (orientation:landscape){
+  #interface[data-hud="arcade"] .sv-hud{--svk:.72}
+  #interface[data-hud="arcade"] .mode-hud .sv-map{width:min(84px,22vh);height:min(84px,22vh)}
+  #interface[data-hud="arcade"] .ah-personal{flex-direction:row;align-items:center}
+  #interface[data-hud="arcade"] .ah-level{width:130px}
+}
+@media(prefers-reduced-motion:reduce){
+  #interface[data-hud="arcade"] :is(.ah-style,.ah-tree){animation:none!important}
+  #interface[data-hud="arcade"] .ah-chain{transition:none}
+}
+#interface[data-hud="arcade"] .sv-round-row{align-items:center}
+#interface[data-hud="arcade"] .sv-rank-stamp{position:relative;margin-left:calc(18px + .6em)}
+#interface[data-hud="arcade"] .sv-rank-stamp::before{content:'RANK';position:absolute;right:calc(100% + 6px);top:50%;translate:0 -50%;rotate:8deg;font:800 clamp(9px,.62vw,11px)/1 'Barlow Condensed',sans-serif;font-style:normal;letter-spacing:.12em;color:#fff;text-shadow:0 1px 2px #000}
+#interface[data-hud="arcade"] .ah-style b{display:none}
+#interface[data-hud="arcade"]:is(:has(.cos-entrance),:has(#sv-entrance:not(.hidden))) :is(.mode-hud,.fighter-meter,.move-bar,.sv-round,.sv-map,.controls-hint){visibility:hidden}

@@ -1,0 +1,64 @@
+#interface[data-objective='bad-blood'] .objective-hud{
+  --blood-paper:#faf5e9;--blood-ink:#15171b;--blood-hero:#246557;--blood-villain:#b51e37;
+  top:20px;right:22px;width:390px;padding:12px 16px 10px;
+  background:var(--blood-paper);color:var(--blood-ink);border:2px solid var(--blood-ink);box-shadow:5px 5px var(--blood-ink);
+}
+#interface[data-objective='bad-blood'] .objective-hud-heading>b{font:400 26px/1 Bangers,Impact,sans-serif;letter-spacing:.04em}
+#interface[data-objective='bad-blood'] .objective-hud-heading>span{background:var(--blood-ink);color:var(--blood-paper);padding:5px 9px;font:400 19px/1 Bangers,Impact,sans-serif;font-variant-numeric:tabular-nums}
+#interface[data-objective='bad-blood'] .objective-versus{margin-top:10px;gap:13px;align-items:center}
+.blood-side{--team-ink:var(--blood-hero);flex:1;min-width:0}
+.blood-side.villains{--team-ink:var(--blood-villain)}
+#interface[data-objective='bad-blood'] .blood-side>small{display:flex;align-items:center;justify-content:space-between;font:400 19px/1 Bangers,Impact,sans-serif;letter-spacing:.03em;color:var(--team-ink);margin-bottom:7px}
+.blood-side>small>b{font:800 11px/1 system-ui;font-variant-numeric:tabular-nums}
+#interface[data-objective='bad-blood'] .objective-team-strip{gap:6px}
+#interface[data-objective='bad-blood'] .objective-mini{flex:1;width:auto;height:45px;min-width:0}
+#interface[data-objective='bad-blood'] .objective-mini>span{width:100%;height:38px;border:1px solid var(--blood-ink);background:#ded8cd}
+#interface[data-objective='bad-blood'] .objective-mini>i{height:4px;max-width:none;background:var(--team-ink);margin-top:2px}
+#interface[data-objective='bad-blood'] .objective-mini>b{color:#fff;background:var(--team-ink);font:800 10px/1.1 system-ui;right:0;bottom:7px;padding:2px}
+#interface[data-objective='bad-blood'] .objective-mini>b:empty{display:none}
+#interface[data-objective='bad-blood'] .objective-mini.is-you>span{outline:2px solid var(--team-ink);outline-offset:1px}
+#interface[data-objective='bad-blood'] .objective-mini.fallen>span{filter:grayscale(1);opacity:.28}
+#interface[data-objective='bad-blood'] .objective-mini.returning>span{opacity:.6;border-color:var(--blood-hero)}
+#interface[data-objective='bad-blood'] .objective-versus>strong{color:var(--blood-ink);font:400 17px Bangers,Impact,sans-serif}
+.blood-allegiance{border-top:1px solid #b7b1a6;padding-top:7px;margin-top:8px;font:800 9px/1.3 system-ui;letter-spacing:.05em}
+#interface[data-objective='bad-blood'] .objective-alert{color:var(--blood-villain);font:800 9px/1.35 system-ui;letter-spacing:0;margin-top:6px;max-height:none}
+#interface[data-objective='bad-blood'] .objective-respawn{background:#faf5e9;border:2px solid #14171b;box-shadow:4px 4px #b51e37;color:#14171b}
+#interface[data-objective='bad-blood'] .objective-return-copy b{color:#14171b}
+#interface[data-objective='bad-blood'] .objective-return-copy span{color:#42464b}
+#interface[data-objective='bad-blood'] .objective-return-copy small{color:#246557}
+#interface[data-objective='bad-blood'] .objective-return-dial{background:conic-gradient(#246557 var(--return-progress,0%),#d6d0c5 0)}
+#interface[data-objective='bad-blood'] .objective-return-dial:before{background:#faf5e9}
+#interface[data-objective='bad-blood'] .objective-return-dial strong{color:#14171b}
+.objective-setup[data-mode='bad-blood'] .objective-rules{margin:18px 0;gap:13px}
+@media(max-width:900px){
+  #interface[data-objective='bad-blood'] .objective-hud{top:12px;right:12px;width:320px;padding:10px 12px}
+  #interface[data-objective='bad-blood'] .objective-hud-heading>b{font-size:23px}
+}
+@media(max-width:600px){
+  #interface[data-objective='bad-blood'] .objective-hud{top:10px;right:9px;width:calc(56vw - 16px);padding:8px}
+  #interface[data-objective='bad-blood'] .objective-hud-heading{gap:5px}
+  #interface[data-objective='bad-blood'] .objective-hud-heading>b{font-size:19px}
+  #interface[data-objective='bad-blood'] .objective-hud-heading>span{font-size:14px;padding:3px 5px}
+  #interface[data-objective='bad-blood'] .objective-versus{gap:6px;margin-top:7px}
+  #interface[data-objective='bad-blood'] .blood-side>small{font-size:14px;letter-spacing:0;margin-bottom:5px}
+  .blood-side>small>b{font-size:8px}
+  #interface[data-objective='bad-blood'] .objective-team-strip{gap:3px}
+  #interface[data-objective='bad-blood'] .objective-mini{height:30px}
+  #interface[data-objective='bad-blood'] .objective-mini>span{height:24px}
+  #interface[data-objective='bad-blood'] .objective-mini>b{font-size:8px;bottom:6px;padding:1px}
+  #interface[data-objective='bad-blood'] .objective-versus>strong{font-size:11px}
+  .blood-allegiance{font-size:7px;letter-spacing:0;padding-top:5px;margin-top:5px}
+  #interface[data-objective='bad-blood'] .objective-alert{font-size:8px;margin-top:5px}
+}
+@media(max-height:540px) and (orientation:landscape){
+  #interface[data-objective='bad-blood'] .objective-hud{width:290px;padding:8px 11px}
+  #interface[data-objective='bad-blood'] .objective-hud-heading>b{font-size:20px}
+  #interface[data-objective='bad-blood'] .objective-versus{margin-top:6px;gap:8px}
+  #interface[data-objective='bad-blood'] .blood-side>small{font-size:15px;margin-bottom:4px}
+  #interface[data-objective='bad-blood'] .objective-mini{height:30px}
+  #interface[data-objective='bad-blood'] .objective-mini>span{height:24px}
+  .blood-allegiance{padding-top:5px;margin-top:4px;font-size:8px}
+}
+#interface[data-objective='bad-blood'] .objective-alert{display:block}
+#interface[data-objective='bad-blood'] .objective-alert:empty{display:none}
+@media(max-width:600px){#interface[data-objective='bad-blood'] .fighter-meter.own .stamina-track{display:block;min-width:20px;max-width:34px}}

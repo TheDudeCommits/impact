@@ -1,0 +1,9 @@
+node_modules
+dist/
+.env*
+.DS_Store
+test-results/
+playwright-report/
+.vercel/
+# Assets are not part of this repository (README.md).
+public/assets/

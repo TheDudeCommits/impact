@@ -1,0 +1,30 @@
+.cutin{position:fixed;inset:0;z-index:7;pointer-events:none;overflow:hidden;--cut-color:#e64536}
+.cutin[hidden]{display:none}
+.cutin-card{position:absolute;left:3.2vw;bottom:7.5vh;isolation:isolate;box-sizing:border-box;width:max-content;max-width:min(40vw,620px);
+  display:flex;flex-direction:column;align-items:flex-start;gap:.08em;padding:.34em 1.5em .42em .8em;
+  font:italic 900 clamp(18px,2vw,33px)/.95 'Barlow Condensed','Arial Narrow',Impact,sans-serif;color:#fff8ec;letter-spacing:.012em}
+.cutin-theirs .cutin-card{align-items:flex-end;padding:.34em .8em .42em 1.5em;text-align:right}
+.cutin-stroke{position:absolute;z-index:-1;left:-.35em;right:-.2em;top:-.12em;bottom:-.2em;width:calc(100% + .55em);height:calc(100% + .32em);overflow:visible}
+.cutin-theirs .cutin-stroke{transform:scaleX(-1)}
+.cutin-ink{fill:#0b0a10;opacity:.9}
+.cutin-edge{fill:var(--cut-color);transform:translate(9px,13px)}
+.cutin-card small{font-size:.4em;font-weight:900;letter-spacing:.2em;text-transform:uppercase;color:color-mix(in srgb,var(--cut-color) 62%,#fff);text-shadow:0 1px 0 #000,0 0 6px rgb(0 0 0/.6)}
+.cutin-card b{display:block;white-space:nowrap;text-transform:uppercase;-webkit-text-stroke:1.5px #0b0a10;paint-order:stroke fill;text-shadow:2px 2px 0 rgb(0 0 0/.55)}
+.cutin-go .cutin-card{animation:cutin-in .09s cubic-bezier(.3,.9,.4,1) both,cutin-off .1s .3s cubic-bezier(.6,0,.9,.6) forwards}
+.cutin-go.cutin-theirs .cutin-card{animation:cutin-in-r .09s cubic-bezier(.3,.9,.4,1) both,cutin-off-r .1s .3s cubic-bezier(.6,0,.9,.6) forwards}
+.cutin-go .cutin-card b{animation:cutin-word .1s .025s cubic-bezier(.2,1.2,.4,1) both}
+.cutin-go .cutin-card small{animation:cutin-word .1s .045s cubic-bezier(.2,1.2,.4,1) both}
+.cutin-go.cutin-theirs .cutin-card :is(b,small){animation-name:cutin-word-r}
+@keyframes cutin-in{from{clip-path:inset(-20% 100% -20% -6%)}to{clip-path:inset(-20% -6% -20% -6%)}}
+@keyframes cutin-in-r{from{clip-path:inset(-20% -6% -20% 100%)}to{clip-path:inset(-20% -6% -20% -6%)}}
+@keyframes cutin-off{from{clip-path:inset(-20% -6% -20% -6%);translate:0 0}to{clip-path:inset(-20% -6% -20% 100%);translate:14px 0}}
+@keyframes cutin-off-r{from{clip-path:inset(-20% -6% -20% -6%);translate:0 0}to{clip-path:inset(-20% 100% -20% -6%);translate:-14px 0}}
+@keyframes cutin-word{from{translate:-16px 0;opacity:0}to{translate:0 0;opacity:1}}
+@keyframes cutin-word-r{from{translate:16px 0;opacity:0}to{translate:0 0;opacity:1}}
+@media(max-width:700px){.cutin-card{max-width:66vw;font-size:17px}}
+@media(prefers-reduced-motion:reduce){
+  .cutin-go .cutin-card,.cutin-go.cutin-theirs .cutin-card{animation:cutin-fade-in .06s both,cutin-fade-out .1s .3s forwards}
+  .cutin-go .cutin-card :is(b,small){animation:none}
+  @keyframes cutin-fade-in{from{opacity:0}}
+  @keyframes cutin-fade-out{to{opacity:0}}
+}

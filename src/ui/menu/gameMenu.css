@@ -1,0 +1,57 @@
+#interface .settings-card.pause-menu[data-menu]{display:grid;grid-template-columns:minmax(210px,260px) minmax(0,1fr);grid-auto-rows:min-content;column-gap:28px;width:min(1180px,94vw);padding-bottom:22px}
+#interface .pause-menu[data-menu]>.pause-header{grid-column:1/-1}
+#interface .pause-menu[data-menu]>.gm-nav{grid-column:1;grid-row:2/span 40;align-self:start;position:sticky;top:0;display:flex;flex-direction:column;gap:8px;padding:16px 0 6px}
+#interface .pause-menu[data-menu]>:not(.gm-nav):not(.pause-header){grid-column:2;min-width:0}
+#interface .pause-menu[data-menu]>:is(#settings-session-note,.pause-actions){display:none!important}
+#interface .pause-menu[data-menu] #pause-mode{display:none}
+#interface .pause-menu[data-menu]>:where(.gm-live,.gm-howto,.gm-leave,.pause-moves,.pause-settings-grid,.training-tools,.key-guide,#sv-fullscreen-setting,.objective-pause-shop){display:none!important}
+#interface .pause-menu[data-menu=home]>.gm-live,#interface .pause-menu[data-menu=home]>.gm-howto,#interface .pause-menu[data-menu=howto]>.gm-live,#interface .pause-menu[data-menu=howto]>.gm-howto{display:block!important}
+#interface .pause-menu[data-menu=moves]>.pause-moves{display:block!important}
+#interface .pause-menu[data-menu=moves] .pause-moves-head{display:none}
+#interface .pause-menu[data-menu=controls]>.key-guide{display:block!important}
+#interface .pause-menu[data-menu=settings]>.pause-settings-grid{display:grid!important;margin-top:16px}
+#interface .pause-menu[data-menu=settings]>#sv-fullscreen-setting{display:flex!important}
+#interface .pause-menu[data-menu=tools]>.training-tools:not(.hidden){display:block!important}
+#interface .pause-menu[data-menu=leave]>.gm-leave{display:block!important}
+#interface .gm-nav button{display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:44px;padding:10px 14px;border:2px solid var(--pause-ink);background:#fff;color:var(--pause-ink);font:400 16px/1.1 Electroharmonix,Impact,sans-serif;text-align:left;transform:skewX(-3deg);cursor:pointer}
+#interface .gm-nav button small{font:800 10px/1.2 'Barlow Condensed',sans-serif;letter-spacing:.08em;color:#77716a;text-align:right}
+#interface .gm-nav button[aria-current=true]{background:var(--pause-red);color:#fff;box-shadow:4px 4px 0 var(--pause-ink)}
+#interface .gm-nav button[aria-current=true] small{color:#ffd7da}
+#interface .gm-nav button:hover{border-color:var(--pause-red)}
+#interface .gm-nav hr{width:100%;margin:6px 0;border:0;border-top:2px dashed #b3ab9c}
+#interface .gm-nav p{margin:0;font:800 10px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;color:#77716a}
+#interface .gm-nav :is(button):focus-visible,#interface[data-input=controller] .gm-nav button:focus{outline:3px solid var(--pause-red);outline-offset:3px}
+#interface .gm-live{margin:16px 0 4px;padding:12px 16px;background:var(--pause-ink);color:#fff}
+#interface .gm-live small{display:block;font:800 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;color:#ff9aa3}
+#interface .gm-live strong{display:block;margin-top:6px;font:italic 900 clamp(17px,1.6vw,24px)/1.1 Impact,sans-serif;letter-spacing:.01em}
+#interface .gm-note{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin:10px 0 0;font:600 13px/1.35 Barlow,sans-serif;color:#d8d1c3}
+#interface .gm-note b{padding:4px 9px;font:800 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.12em}
+#interface .gm-paused{background:#fff;color:var(--pause-ink)}
+#interface .gm-on{background:var(--pause-red);color:#fff}
+#interface .gm-howto h3,#interface .gm-leave h3{display:flex;align-items:center;gap:8px;margin:16px 0 8px;padding-bottom:6px;border-bottom:2px solid var(--pause-ink);font:400 17px/1.2 Electroharmonix,Impact,sans-serif}
+#interface .gm-howto h3:before,#interface .gm-leave h3:before{content:'';width:9px;height:15px;background:var(--pause-red);transform:skew(-12deg)}
+#interface .gm-goal{margin:0 0 4px;font:600 17px/1.35 Barlow,sans-serif}
+#interface .gm-win{margin:0;color:#55534e;font:500 14px/1.4 Barlow,sans-serif}
+#interface .gm-howto ol{margin:0;padding-left:22px;font:600 15px/1.6 Barlow,sans-serif}
+#interface .gm-defence{margin:0;padding-left:20px;font:500 14px/1.5 Barlow,sans-serif;color:#3b3833}
+#interface .gm-leave p{margin:0 0 14px;font:600 15px/1.4 Barlow,sans-serif}
+#interface .gm-leave div{display:flex;gap:12px}
+#interface .gm-leave button{min-height:44px;padding:10px 18px;border:2px solid var(--pause-ink);background:#fff;font:400 16px/1 Electroharmonix,Impact,sans-serif;cursor:pointer}
+#interface .gm-leave .gm-danger{background:var(--pause-red);color:#fff}
+@media(max-width:760px),(max-height:520px) and (orientation:landscape){
+  #interface .settings-card.pause-menu[data-menu]{grid-template-columns:minmax(0,1fr)}
+  #interface .pause-menu[data-menu]>.pause-header{grid-row:1}
+  #interface .pause-menu[data-menu]>.gm-nav{grid-column:1;grid-row:2;position:static;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;padding:10px 0 4px}
+  #interface .pause-menu[data-menu]>:not(.gm-nav):not(.pause-header){grid-column:1}
+  #interface .gm-nav hr,#interface .gm-nav p{display:none}
+  #interface .gm-nav button{min-height:36px;padding:6px 8px;font-size:12px}#interface .gm-nav button small{display:none}
+}
+#interface .pause-menu[data-gm-paused="false"] .pause-symbol{display:none}
+#interface .settings-scrim.gm-behind{visibility:hidden}
+#interface .gm-nav button>span{font:italic 900 17px/1.1 Impact,'Barlow Condensed',sans-serif;letter-spacing:.03em}
+#interface .gm-nav button{font-family:Impact,'Barlow Condensed',sans-serif}
+#interface .gm-leave button{font:italic 900 16px/1 Impact,'Barlow Condensed',sans-serif;letter-spacing:.03em}
+body.pf-behind.pf-behind #sv-tree-ready{font-size:0!important}
+body.pf-behind.pf-behind #sv-tree-ready::after{content:'BACK TO MENU';font:400 clamp(15px,1.2vw,20px)/1 Electroharmonix,Impact,sans-serif}
+#interface .gm-nav button.gm-flash{flex-wrap:wrap}
+#interface .gm-nav button.gm-flash small{display:block;flex-basis:100%;text-align:left;color:var(--pause-red)}

@@ -1,0 +1,8 @@
+.ink-count{position:absolute;left:0;top:0;width:0;height:0;pointer-events:none;color:#c8102e;font:italic 900 32px/1 'Barlow Condensed',Impact,sans-serif}
+.ink-count>*{position:absolute;left:0;top:0}
+.ink-splat,.ink-digits{will-change:transform,opacity}
+.ink-splat{z-index:7;width:96px;height:96px;overflow:visible;fill:currentColor;transform:translate(-50%,-50%)}
+.ink-shade{fill:#13050a}
+.ink-drop{z-index:7;width:.34em;height:.19em;margin:-.095em 0 0 -.17em;border-radius:50%;background:currentColor;box-shadow:.05em .06em 0 #13050a;opacity:0}
+.ink-digits{z-index:9;font-size:1em;line-height:1;letter-spacing:-.005em;white-space:nowrap;color:#fffaf1;-webkit-text-stroke:.16em #13050a;paint-order:stroke fill;text-shadow:.045em .075em 0 #13050a;transform:translate(-50%,-50%)}
+.ink-count[data-bull]>.ink-digits::before{content:'BULLSEYE';position:absolute;left:50%;bottom:88%;transform:translateX(-50%) rotate(-7deg);font-size:.36em;letter-spacing:.14em;color:#ffd34d;-webkit-text-stroke:.16em #13050a;paint-order:stroke fill;text-shadow:.05em .08em 0 #13050a;white-space:nowrap}

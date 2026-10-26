@@ -1,0 +1,5 @@
+#interface[data-hud] .combat-hud .controls-hint{transition:opacity .8s ease,translate .8s ease}
+#interface[data-hud]:not([data-strip]) .combat-hud:not(.survival) .controls-hint{opacity:0!important;translate:0 10px;pointer-events:none}
+#interface #pointer-hint{display:none!important}
+@media(max-height:520px) and (orientation:landscape){#interface[data-hud="bad-blood"] .combat-hud .controls-hint{opacity:0!important;pointer-events:none}}
+

@@ -1,0 +1,1384 @@
+{
+ "version": 1,
+ "generatedAt": "2026-10-01",
+ "generator": "OpenAI built-in image_gen",
+ "purpose": "Prepared assets for all upcoming expansion candidates; this manifest does not activate gameplay fighters.",
+ "spriteFormat": {
+  "columns": 4,
+  "rows": 4,
+  "frames": 16,
+  "cellWidth": 384,
+  "cellHeight": 512,
+  "anchor": [
+   192,
+   500
+  ],
+  "signatureFrame": 7
+ },
+ "moveCardFormat": {
+  "panels": 5,
+  "order": [
+   "light",
+   "heavy",
+   "special",
+   "ultimate",
+   "awakening"
+  ],
+  "cssBackgroundSize": "500% auto",
+  "cssBackgroundPositions": [
+   "0% center",
+   "25% center",
+   "50% center",
+   "75% center",
+   "100% center"
+  ],
+  "width": 2172,
+  "height": 724
+ },
+ "fighters": [
+  {
+   "id": "griffith",
+   "name": "Griffith",
+   "series": "Berserk",
+   "pose": "First-duel recruitment gesture (existing art)",
+   "form": "Home: human White Hawk in the white blouse from the first-duel recruitment scene, sword sheathed. Move cards: silver-armored White Hawk with curved sabre; Femto only in the awakening panel.",
+   "assets": {
+    "portrait": "/assets/home/portraits/griffith.webp",
+    "spriteSheet": "/assets/home/sprites/griffith.webp",
+    "poster": "/assets/home/sprites/griffith-poster.webp",
+    "moveCards": "/assets/ui/moves/griffith.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     200,
+     400,
+     600,
+     800,
+     1000,
+     1200,
+     1400,
+     2100,
+     2700,
+     3200,
+     3800,
+     4100,
+     4350,
+     4600,
+     4850
+    ],
+    "loopMs": 5200
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Sabre Thrust: forward fencing lunge with curved sabre"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Hawk's Talon: two-handed overhead sabre cut"
+    },
+    {
+     "slot": "special",
+     "subject": "Spear Throw: Released spear in flight, replacing Falcon Dive."
+    },
+    {
+     "slot": "ultimate",
+     "subject": "The Eclipse: sabre raised before a black sun with crimson rim"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Femto: closeup dark falcon helmet and sweeping black wings"
+    }
+   ],
+   "integrationNote": "Reviewed against current moveFor definitions on 2026-10-08; see art/fighter-accuracy-2026-10-08/audit.json.",
+   "voiceStatus": "Existing original-anime home clip is prepared.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 155144,
+     "sha256": "f44e883d3bd0298801474b00b8f5fafffb5a4bb90e79958b66fe80449093f578"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 662778,
+     "sha256": "d0e4cecc9404522fd0e8d182f8ed5b535c3dc2e9c557dc0f32c32e83112703be"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 41912,
+     "sha256": "e3771db126b16882c4d78f13b0483c54993b6c05b7f67ff3077aeaf97cb1a4e4"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 427350,
+     "sha256": "82a81360750535c4d6b756752a253920934c664a2d1386627062a82ba0874dd4"
+    }
+   }
+  },
+  {
+   "id": "meruem",
+   "name": "Meruem",
+   "series": "Hunter × Hunter",
+   "pose": "Imperious king stance, arms folding across chest as single tail curls beside him",
+   "form": "Canonical Meruem: smooth helmet-shaped insect head carapace with broad crown, exposed human face, segmented shoulder/chest carapace, slim powerful limbs, a SINGLE long segmented tail ending in one stinger, bare clawed feet; pre-Rose form",
+   "assets": {
+    "portrait": "/assets/home/portraits/meruem.webp",
+    "spriteSheet": "/assets/home/sprites/meruem.webp",
+    "poster": "/assets/home/sprites/meruem-poster.webp",
+    "moveCards": "/assets/ui/moves/meruem.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     150,
+     300,
+     450,
+     600,
+     750,
+     900,
+     1050,
+     4120,
+     4270,
+     4420,
+     4570,
+     4720,
+     4870,
+     5020,
+     5170
+    ],
+    "loopMs": 5420
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Royal Claw: open-clawed hand rakes forward"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Tail Whip: roundhouse kick with one tail sweep"
+    },
+    {
+     "slot": "special",
+     "subject": "Rage Blast: Jade palm Rage Blast, replacing Tail Storm."
+    },
+    {
+     "slot": "ultimate",
+     "subject": "The King's Decree: two-fist overhead hammer slam"
+    },
+    {
+     "slot": "awakening",
+     "subject": "The King Reborn: roar with jade aura"
+    }
+   ],
+   "integrationNote": "Reviewed against current moveFor definitions on 2026-10-08; see art/fighter-accuracy-2026-10-08/audit.json.",
+   "voiceStatus": "Original Japanese home clip prepared: Naze ano yō na gomi ga ō o nanoru no da.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 177360,
+     "sha256": "39480a4f67ae9ab0c57c36fa3f3788b330a99a64b38fa23644bab75536e36ea7"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 795434,
+     "sha256": "3606eaa0c1a8ed64f65ebc173e8ecd7662754f5ee012ba388921d8e804db6a0f"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 50572,
+     "sha256": "b1167b2afca462297d9e72aa7c13299ca69215fc34c7c1f2abbaa16abae59df8"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 428142,
+     "sha256": "d00238c4fcf88a4b94e38ef588f68fbd769191078e1d435bee9dbc62c54187e4"
+    }
+   }
+  },
+  {
+   "id": "goku-black",
+   "name": "Goku Black",
+   "series": "Dragon Ball Super",
+   "pose": "Rosé energy blade forms from right hand, raised at shoulder then lowered diagonally",
+   "form": "Super Saiyan Rosé form: tall swept-up light rose hair rendered pale gray, dark high-collar gi over black undershirt, red sash rendered medium gray, black trousers, white boots, ONE Potara earring on left ear and Time Ring; Goku's face with sinister smirk",
+   "assets": {
+    "portrait": "/assets/home/portraits/goku-black.webp",
+    "spriteSheet": "/assets/home/sprites/goku-black.webp",
+    "poster": "/assets/home/sprites/goku-black-poster.webp",
+    "moveCards": "/assets/ui/moves/goku-black.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     364,
+     729,
+     1093,
+     1457,
+     1821,
+     2186,
+     2550,
+     4060,
+     4210,
+     4360,
+     4510,
+     4660,
+     4810,
+     4960,
+     5110
+    ],
+    "loopMs": 5360
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Black-haired base form fist strike"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Black-haired base form with pink energy blade"
+    },
+    {
+     "slot": "special",
+     "subject": "Black-haired base form Black Kamehameha"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Black-haired base form sweeping pink energy scythe"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Rosé closeup with spiked pink aura"
+    }
+   ],
+   "integrationNote": "Live card mapping updated 3 October 2026 against the game and owner corrections. Home portrait/pose form remains as described above; attack cards show the base form, and panel five shows the awakening.",
+   "voiceStatus": "Original Japanese home clip prepared: Ukeru ga ii, waga yaiba o.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 170602,
+     "sha256": "08be094a176806b5f7a4209e71b7898da64364648f137af8b1a6bf82c0731675"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 756706,
+     "sha256": "4bc862f0bf057dc1b4c3250c1da992ed79320f01c9bd25211351e9cbb23256d6"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 45728,
+     "sha256": "1c46106f5ef3b012f69f89928e733c9a00312b3902223d7d890570ecf9326a26"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 1552224,
+     "sha256": "38c7bffe5c77201e6bd16463db90cbd37095ede7de10778cb1596361e3a0f720"
+    }
+   }
+  },
+  {
+   "id": "jiren",
+   "name": "Jiren",
+   "series": "Dragon Ball Super",
+   "pose": "Motionless crossed-arm stare, gradually clenched fists at sides and controlled power-up",
+   "form": "Bald gray alien with large dark oval eyes, muscular enormous upper body, red/black Pride Trooper bodysuit rendered grayscale, white gloves and boots, natural long strong legs; no hair or human ears",
+   "assets": {
+    "portrait": "/assets/home/portraits/jiren.webp",
+    "spriteSheet": "/assets/home/sprites/jiren.webp",
+    "poster": "/assets/home/sprites/jiren-poster.webp",
+    "moveCards": "/assets/ui/moves/jiren.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     386,
+     771,
+     1157,
+     1543,
+     1929,
+     2314,
+     2700,
+     4550,
+     4700,
+     4850,
+     5000,
+     5150,
+     5300,
+     5450,
+     5600
+    ],
+    "loopMs": 5850
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Compact straight punch"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Heavy upward power punch"
+    },
+    {
+     "slot": "special",
+     "subject": "Power Impact: one red energy orb launched from palm"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Colossal full-power blast punch"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Full-power shirt-torn Jiren, red blazing aura"
+    }
+   ],
+   "integrationNote": "Card subjects are prepared art proposals. Confirm their order against the final fighter move definitions before enabling gameplay.",
+   "voiceStatus": "Original Japanese home clip prepared: Tsuyosa koso seigi, tsuyosa koso zettai da.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 160218,
+     "sha256": "26b4ec569f58bb94a998bfbf8a3a2e33ac92c669a71b7cc9c896bd3848d97256"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 697038,
+     "sha256": "5d7124bbce250bab41a853dfffaac65159798cdad5f27da75a10795fe8781000"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 46320,
+     "sha256": "bbdd84e82c7e62f8f789c9f0776ee2471bdd4833ea2c928fd18128b1d179da75"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 457192,
+     "sha256": "1324b25e6cfefaa892d94f2872dad0f33f5f65f5d3764b2dae4c9b684a7f84ec"
+    }
+   }
+  },
+  {
+   "id": "golden-frieza",
+   "name": "Golden Frieza",
+   "series": "Dragon Ball Super",
+   "pose": "Haughty death-beam finger lifted, one finger extended with compact fingertip glow",
+   "form": "Golden Frieza final golden form, smooth round purple headplate rendered dark gray, metallic gold organic armor rendered bright white/gray, purple chest/shoulder/forearm accents rendered dark, slender cruel alien face and ONE long tail, three clawed toes per foot",
+   "assets": {
+    "portrait": "/assets/home/portraits/golden-frieza.webp",
+    "spriteSheet": "/assets/home/sprites/golden-frieza.webp",
+    "poster": "/assets/home/sprites/golden-frieza-poster.webp",
+    "moveCards": "/assets/ui/moves/golden-frieza.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     243,
+     486,
+     729,
+     971,
+     1214,
+     1457,
+     1700,
+     3050,
+     3200,
+     3350,
+     3500,
+     3650,
+     3800,
+     3950,
+     4100
+    ],
+    "loopMs": 4350
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Fast finger death beam"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Spinning single-tail strike"
+    },
+    {
+     "slot": "special",
+     "subject": "Barrage of pinpoint death beams"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Huge Death Ball above raised hand"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Black Frieza awakening: charcoal body, purple plates and pale face"
+    }
+   ],
+   "integrationNote": "Live card mapping updated 3 October 2026 against the game and owner corrections. Home portrait/pose form remains as described above; attack cards show the base form, and panel five shows the awakening.",
+   "voiceStatus": "Original Japanese home clip prepared: Sorosoro todome to ikimashō ka.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 140956,
+     "sha256": "c29adc2a081672c15cf4c532c0af90fcbaf873a72f89372298336844a11c8e10"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 1003300,
+     "sha256": "e1b9918cf3b015c8a67e07295a99a12e6b3e6bf718b5d2f462031db5f0a1ccf0"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 57888,
+     "sha256": "6922b0767996c5025fc3d31f51a9d9ca283292a664be276ea08d4406dc11fd67"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 1565574,
+     "sha256": "e4204c51ad6e1b851a35ee9f4032ec65db8a4d7011a780f86877acb58f625311"
+    }
+   }
+  },
+  {
+   "id": "madara",
+   "name": "Madara Uchiha",
+   "series": "Naruto Shippuden",
+   "pose": "Arms crossed with disdainful gaze, hair and armor ties moving, then one-handed challenge gesture",
+   "form": "Living/war-arc Madara in layered dark red samurai chest/shoulder armor rendered medium gray, black shinobi clothing, very long spiky black hair covering right side of face, natural human face with Sharingan; no six-path white hair or horns",
+   "assets": {
+    "portrait": "/assets/home/portraits/madara.webp",
+    "spriteSheet": "/assets/home/sprites/madara.webp",
+    "poster": "/assets/home/sprites/madara-poster.webp",
+    "moveCards": "/assets/ui/moves/madara.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     179,
+     357,
+     536,
+     714,
+     893,
+     1071,
+     1250,
+     3500,
+     3650,
+     3800,
+     3950,
+     4100,
+     4250,
+     4400,
+     4550
+    ],
+    "loopMs": 4800
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Gunbai war-fan strike"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Taijutsu rising heavy kick"
+    },
+    {
+     "slot": "special",
+     "subject": "Majestic Destroyer Flame breathed in a huge fan"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Heaven Concealed: immense meteor summoned overhead"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Blue Perfect Susanoo behind Madara in red armor"
+    }
+   ],
+   "integrationNote": "Live card mapping updated 3 October 2026 against the game and owner corrections. Home portrait/pose form remains as described above; attack cards show the base form, and panel five shows the awakening.",
+   "voiceStatus": "Original Japanese home clip prepared: Nikome wa dō suru, Ōnoki.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 195268,
+     "sha256": "0274392118471738d4df7294cff85a2a41ab5314e22456d6cb908cb16d040ebf"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 1000640,
+     "sha256": "c897bdfebb3a3543bd57be1973b97557175bbc12eec4a801e5feb02630b4ea3b"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 58112,
+     "sha256": "25939c9c5048509bd4c8bbd29509b02f39fa2c1f5ad8f0532768f194b3cf23e8"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 1491888,
+     "sha256": "c4527c5d0aaf74fda3b9f6736c17b7e7635a34376c8b7fe88a17e454a46222db"
+    }
+   }
+  },
+  {
+   "id": "itachi",
+   "name": "Itachi Uchiha",
+   "series": "Naruto Shippuden",
+   "pose": "One hand emerges from cloak, two fingers rise into a one-handed seal beside face, solemn Sharingan stare",
+   "form": "Long straight black hair tied low, two face lines beneath eyes, Sharingan eyes, scratched Leaf headband, black Akatsuki cloak with cloud symbols, high collar, mesh undershirt, shinobi sandals, necklace; no armor",
+   "assets": {
+    "portrait": "/assets/home/portraits/itachi.webp",
+    "spriteSheet": "/assets/home/sprites/itachi.webp",
+    "poster": "/assets/home/sprites/itachi-poster.webp",
+    "moveCards": "/assets/ui/moves/itachi.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     157,
+     314,
+     471,
+     629,
+     786,
+     943,
+     1100,
+     2780,
+     2930,
+     3080,
+     3230,
+     3380,
+     3530,
+     3680,
+     3830
+    ],
+    "loopMs": 4080
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Kunai slash"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Crow clone counter burst"
+    },
+    {
+     "slot": "special",
+     "subject": "Amaterasu black flame eye attack"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Tsukuyomi red moon illusion with restrained shadow silhouettes"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Itachi in front of armored Susanoo with Totsuka blade and Yata mirror"
+    }
+   ],
+   "integrationNote": "Card subjects are prepared art proposals. Confirm their order against the final fighter move definitions before enabling gameplay.",
+   "voiceStatus": "Original Japanese home clip prepared: Sono genjitsu wa maboroshi kamo shirenai.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 172026,
+     "sha256": "5140753820276706740e4a1e496b5599341753ea6f23f4c07d418aa657d6286d"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 685918,
+     "sha256": "41927fe780f8e310b46122ab029766c56be950c3e4f8f3e345d5bfdba1091113"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 38598,
+     "sha256": "ae42e1a1d662249e6a2ce90fc55f93284e9eaf15774c2b359f631805cc08914c"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 470876,
+     "sha256": "05aea235f194ef0862fbcb54c83a3bc86e5a42caa632fa30d9f0001d0b267f75"
+    }
+   }
+  },
+  {
+   "id": "tanjiro",
+   "name": "Tanjiro Kamado",
+   "series": "Demon Slayer",
+   "pose": "Hinokami Kagura preparation: two-handed katana guard rising and flowing into a controlled diagonal cut",
+   "form": "Teenage Tanjiro with tousled dark hair, forehead scar, hanafuda earrings, checkered haori over dark Demon Slayer uniform, leg wraps and sandals, black Nichirin katana; age-appropriate slim athletic proportions",
+   "assets": {
+    "portrait": "/assets/home/portraits/tanjiro.webp",
+    "spriteSheet": "/assets/home/sprites/tanjiro.webp",
+    "poster": "/assets/home/sprites/tanjiro-poster.webp",
+    "moveCards": "/assets/ui/moves/tanjiro.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     150,
+     300,
+     450,
+     600,
+     750,
+     900,
+     1050,
+     1850,
+     2000,
+     2150,
+     2300,
+     2450,
+     2600,
+     2750,
+     2900
+    ],
+    "loopMs": 3150
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Water Surface Slash"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Sword Throw: Released Nichirin sword in flight, replacing Water Wheel."
+    },
+    {
+     "slot": "special",
+     "subject": "Flowing Dance with water ribbon"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Hinokami Kagura flaming sword arc"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Sun-breathing closeup with forehead mark and flame aura"
+    }
+   ],
+   "integrationNote": "Reviewed against current moveFor definitions on 2026-10-08; see art/fighter-accuracy-2026-10-08/audit.json.",
+   "voiceStatus": "Original Japanese home clip prepared: Hinokami Kagura.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 173372,
+     "sha256": "4e3237501e72ae074a7a07f814f367f4ddc7537e95293df1027d57e0edb60c07"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 951466,
+     "sha256": "698c5dfed7373e8b2ebd972da21e8122e9a62cab1c3807bc1efc1de75f76ffc4"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 54678,
+     "sha256": "b2546ad7ccf6da644290ff66218ad1194f5285128ec50f4fb2fff7bf3cafead3"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 450364,
+     "sha256": "ace9ae819a23683af4a13f7908ff7d14ffd3c82a5f9ba9dbe69919bbb670dd58"
+    }
+   }
+  },
+  {
+   "id": "rengoku",
+   "name": "Kyojuro Rengoku",
+   "series": "Demon Slayer",
+   "pose": "Flame-breathing stance, katana raised vertically beside shoulder with clear two-handed grip and resolute smile",
+   "form": "Tall athletic young man with layered flame-shaped light hair dark tips, bold black eyebrows and wide intense eyes, white haori with flame-pattern hem, black Demon Slayer uniform, flame-pattern leg guards, Nichirin katana with flame tsuba",
+   "assets": {
+    "portrait": "/assets/home/portraits/rengoku.webp",
+    "spriteSheet": "/assets/home/sprites/rengoku.webp",
+    "poster": "/assets/home/sprites/rengoku-poster.webp",
+    "moveCards": "/assets/ui/moves/rengoku.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     143,
+     286,
+     429,
+     571,
+     714,
+     857,
+     1000,
+     2320,
+     2470,
+     2620,
+     2770,
+     2920,
+     3070,
+     3220,
+     3370
+    ],
+    "loopMs": 3620
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Unknowing Fire horizontal dash slash"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Rising Scorching Sun rising sword arc"
+    },
+    {
+     "slot": "special",
+     "subject": "Blazing Universe descending strike"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Ninth Form Rengoku: lunging flame dragon sword charge"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Flame Hashira determined closeup with fiery cape"
+    }
+   ],
+   "integrationNote": "Card subjects are prepared art proposals. Confirm their order against the final fighter move definitions before enabling gameplay.",
+   "voiceStatus": "Original Japanese home clip prepared: Honō no kokyū.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 163200,
+     "sha256": "dfda694b66a7014d99f5c28fdc8a8f8cd6c2997dc594186ba650adc4745c4b9b"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 947242,
+     "sha256": "ddf4747f096dd5ce4232b969e865d556a261b36f41c0272ea882b154dbcb3a70"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 57624,
+     "sha256": "8773616bf507ac01a98d7eb36604c6da72911ac66f32d3c9d1cf08cc137b07e6"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 381370,
+     "sha256": "96b7b6336fb2f8742c4295f116e2682af36aeb8591d072db796431d0315b1fe7"
+    }
+   }
+  },
+  {
+   "id": "akaza",
+   "name": "Akaza",
+   "series": "Demon Slayer",
+   "pose": "Compass Needle martial stance: one hand extended open at chest, opposite fist chambered at hip, feet widely planted",
+   "form": "Athletic demon with short spiky light pink hair rendered pale gray, exact bold dark blue stripe tattoos rendered black on face torso and arms, bare muscular chest, short sleeveless dark vest, loose white trousers, ankle bead rings, bare feet; exactly two arms",
+   "assets": {
+    "portrait": "/assets/home/portraits/akaza.webp",
+    "spriteSheet": "/assets/home/sprites/akaza.webp",
+    "poster": "/assets/home/sprites/akaza-poster.webp",
+    "moveCards": "/assets/ui/moves/akaza.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     636,
+     1271,
+     1907,
+     2543,
+     3179,
+     3814,
+     4450,
+     5880,
+     6030,
+     6180,
+     6330,
+     6480,
+     6630,
+     6780,
+     6930
+    ],
+    "loopMs": 7180
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Straight Punch: Closed-fist Straight Punch."
+    },
+    {
+     "slot": "heavy",
+     "subject": "Disorder rapid fist blows"
+    },
+    {
+     "slot": "special",
+     "subject": "Destructive Death: Air Type: Air Type forward air shock, replacing Compass Needle ground pose."
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Annihilation Type powerful forward fist blast"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Akaza focused closeup with striped face, glowing eyes, compass pattern"
+    }
+   ],
+   "integrationNote": "Reviewed against current moveFor definitions on 2026-10-08; see art/fighter-accuracy-2026-10-08/audit.json.",
+   "voiceStatus": "Original Japanese home clip prepared: Jutsushiki tenkai, hakai satsu: rashin.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 154406,
+     "sha256": "6a902d7ee331194205fbe018874a6b1b2f64bd39be2977aef12d7d349dfa1997"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 863344,
+     "sha256": "1fd12f938465506d251469a62f8b352c233f27b98a8df2bb7b2cadd68471deb3"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 55076,
+     "sha256": "ff09bd54e413afb78180f80787302d2f5798d74e4f9fd1641e735181756e5b50"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 490504,
+     "sha256": "5124026ad507d77101d674ab648167876a710a5deadf773ce53e85834e5a49c1"
+    }
+   }
+  },
+  {
+   "id": "sung-jinwoo",
+   "name": "Sung Jinwoo",
+   "series": "Solo Leveling",
+   "pose": "Arise gesture: right arm extends with palm up, fingers slowly curl commanding shadows, left hand remains at side",
+   "form": "Adult post-job-change Sung Jinwoo with tousled black hair long bangs, lean tall athletic body, fitted black long coat over black shirt and trousers, black boots; two daggers sheathed, no armor or crown",
+   "assets": {
+    "portrait": "/assets/home/portraits/sung-jinwoo.webp",
+    "spriteSheet": "/assets/home/sprites/sung-jinwoo.webp",
+    "poster": "/assets/home/sprites/sung-jinwoo-poster.webp",
+    "moveCards": "/assets/ui/moves/sung-jinwoo.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     114,
+     229,
+     343,
+     457,
+     571,
+     686,
+     800,
+     1380,
+     1530,
+     1680,
+     1830,
+     1980,
+     2130,
+     2280,
+     2430
+    ],
+    "loopMs": 2680
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Reverse-grip dagger cut"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Two-dagger crossing heavy strike"
+    },
+    {
+     "slot": "special",
+     "subject": "Ruler's Authority: outstretched hand and levitating debris"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Arise: Jinwoo commanding a line of shadow soldiers behind him"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Shadow Monarch full dark armor, horned enclosed helm and purple seams"
+    }
+   ],
+   "integrationNote": "Live card mapping updated 3 October 2026 against the game and owner corrections. Home portrait/pose form remains as described above; attack cards show the base form, and panel five shows the awakening.",
+   "voiceStatus": "Original Japanese home clip prepared: Okiro.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 158406,
+     "sha256": "7a994c22a950908551f897c3fcce8a266e746d5c7b9075d1197a58d13f4bd029"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 857368,
+     "sha256": "081fdd0c92292b6c8fab98979acf1163faf6996c7988fee9f2b681020fac3903"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 50686,
+     "sha256": "bd94e5234f4cf6a06c8eca01edd1eb8d5b2b81636844287c87eb7bb61346c57d"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 1339728,
+     "sha256": "e4d41f81436948fa54151dcdc1c6c28f800ee0cf6a4c8ee85c3fb7a0e2740de1"
+    }
+   }
+  },
+  {
+   "id": "levi",
+   "name": "Levi Ackerman",
+   "series": "Attack on Titan",
+   "pose": "Both blades in reverse grips at sides, cape billows as he twists shoulders into a controlled readiness pose",
+   "form": "Short naturally proportioned adult soldier, straight dark undercut parted bangs, narrow gray eyes, white cravat, cropped Scout jacket and Wings of Freedom cape, white trousers, leather ODM harness, twin swords and complete hip-mounted ODM gear, knee-high boots",
+   "assets": {
+    "portrait": "/assets/home/portraits/levi.webp",
+    "spriteSheet": "/assets/home/sprites/levi.webp",
+    "poster": "/assets/home/sprites/levi-poster.webp",
+    "moveCards": "/assets/ui/moves/levi.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     164,
+     329,
+     493,
+     657,
+     821,
+     986,
+     1150,
+     3350,
+     3500,
+     3650,
+     3800,
+     3950,
+     4100,
+     4250,
+     4400
+    ],
+    "loopMs": 4650
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Reverse-grip blade slash"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Thunder Spear: Forearm Thunder Spear launch, replacing Twin Cut."
+    },
+    {
+     "slot": "special",
+     "subject": "ODM grappling-line high-speed dash"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Spinning twin-blade assault with restrained spiral trails"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Captain Levi intense closeup with torn Scout cape"
+    }
+   ],
+   "integrationNote": "Reviewed against current moveFor definitions on 2026-10-08; see art/fighter-accuracy-2026-10-08/audit.json.",
+   "voiceStatus": "Original Japanese home clip prepared: Kui ga nokoranai hō o jibun de erabe.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 167778,
+     "sha256": "91c9e158c7674fdee689ab3ed4a26c961b2317297017bb3394d59a2ee6dc50a0"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 962912,
+     "sha256": "021ccaf0c4b4dfcc775623535a6e8b05263e5d384de183b2e7e2eb78e3da76f0"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 56642,
+     "sha256": "555df358a7c036d1acfb7705a348b2a7dc484334eea1b19394c547f643a34085"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 434028,
+     "sha256": "3188b803805e3e9cfb8ac87323519c506cd9d99924be9a2456a53263f1258207"
+    }
+   }
+  },
+  {
+   "id": "saitama",
+   "name": "Saitama",
+   "series": "One Punch Man",
+   "pose": "Serious Punch: right fist draws back then drives toward camera with restrained foreshortening, left fist at waist",
+   "form": "Bald clean-shaven adult man, plain face that becomes serious, yellow zip-front suit rendered light gray, round white cape clasps, white cape, dark red gloves and boots rendered dark gray, belt; normal natural adult build",
+   "assets": {
+    "portrait": "/assets/home/portraits/saitama.webp",
+    "spriteSheet": "/assets/home/sprites/saitama.webp",
+    "poster": "/assets/home/sprites/saitama-poster.webp",
+    "moveCards": "/assets/ui/moves/saitama.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     479,
+     957,
+     1436,
+     1914,
+     2393,
+     2871,
+     3350,
+     4130,
+     4280,
+     4430,
+     4580,
+     4730,
+     4880,
+     5030,
+     5180
+    ],
+    "loopMs": 5430
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Normal Punch"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Serious Sneeze: Serious Sneeze from his face, replacing Serious Uppercut."
+    },
+    {
+     "slot": "special",
+     "subject": "Consecutive Normal Punches"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Serious Punch colossal shockwave"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Serious expression closeup with dramatic cape and pressure aura"
+    }
+   ],
+   "integrationNote": "Reviewed against current moveFor definitions on 2026-10-08; see art/fighter-accuracy-2026-10-08/audit.json.",
+   "voiceStatus": "Original Japanese home clip prepared: Hissatsu maji shirīzu: maji naguri.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 93276,
+     "sha256": "1730ddbd21c9ca4b260d8092f037d462e1fb14396fc0f434b26f608f95b1e992"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 794896,
+     "sha256": "a919c7701c21c6b4c7a60622c8acbe76a6d7c7edea182ce0b24276eda0faf039"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 45906,
+     "sha256": "99ac3a1f1e6abba86724c841dc1336957fe1f4c9a716649982ed1abfe2a4e4fc"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 418476,
+     "sha256": "1957be9c4ca97d2dab8b71f4512797afab1721973e7d624ca815a3eef9473f97"
+    }
+   }
+  },
+  {
+   "id": "gohan-beast",
+   "name": "Gohan Beast",
+   "series": "Dragon Ball Super",
+   "pose": "Special Beam Cannon: two right fingers at forehead then right arm extends with those two fingers aimed forward",
+   "form": "Adult Beast Gohan, enormous angular upward silver hair kept proportionate and fully visible, fierce red irises rendered dark, purple torn gi rendered gray, dark belt, wristbands and boots, muscular adult body; no orange gi",
+   "assets": {
+    "portrait": "/assets/home/portraits/gohan-beast.webp",
+    "spriteSheet": "/assets/home/sprites/gohan-beast.webp",
+    "poster": "/assets/home/sprites/gohan-beast-poster.webp",
+    "moveCards": "/assets/ui/moves/gohan-beast.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     457,
+     914,
+     1371,
+     1829,
+     2286,
+     2743,
+     3200,
+     4220,
+     4370,
+     4520,
+     4670,
+     4820,
+     4970,
+     5120,
+     5270
+    ],
+    "loopMs": 5520
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Black-haired base Gohan fist strike"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Black-haired base Gohan rising kick"
+    },
+    {
+     "slot": "special",
+     "subject": "Black-haired base Gohan Masenko"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Black-haired base Gohan Special Beam Cannon"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Beast Gohan glaring closeup with silver spikes and crackling aura"
+    }
+   ],
+   "integrationNote": "Live card mapping updated 3 October 2026 against the game and owner corrections. Home portrait/pose form remains as described above; attack cards show the base form, and panel five shows the awakening.",
+   "voiceStatus": "Original Japanese home clip prepared: Makankōsappō.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 170216,
+     "sha256": "748131bd84205760ed0dc39bac797ea340eb4eba480770045d1b5bc7cd95e03b"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 866128,
+     "sha256": "8872f4ee542b2ece453921af8bfb69ac1fed902ed57e4c377f6d2522aca47c7c"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 50134,
+     "sha256": "fea409b2add67f09b525bb2f833acfa611ce628c950c7da16d44c1fd6228bd14"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 1561932,
+     "sha256": "735ced47c0f7837557e35efa49664d65b0562f086a697e092a1c35f95b2b28ce"
+    }
+   }
+  },
+  {
+   "id": "broly",
+   "name": "Broly",
+   "series": "Dragon Ball Super: Broly",
+   "pose": "Full-power roar, clenched fists down at sides, chest expands and hair/pelt flare; exactly two arms",
+   "form": "DBS Full Power Super Saiyan Broly: extremely muscular tall adult, wild green hair rendered pale gray, no pupils, bare chest with scars, green pelt waistcloth rendered textured gray, purple trousers, black/gold boots rendered grayscale, wristbands; NO Z-Broly jewelry or tiara",
+   "assets": {
+    "portrait": "/assets/home/portraits/broly.webp",
+    "spriteSheet": "/assets/home/sprites/broly.webp",
+    "poster": "/assets/home/sprites/broly-poster.webp",
+    "moveCards": "/assets/ui/moves/broly.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     264,
+     529,
+     793,
+     1057,
+     1321,
+     1586,
+     1850,
+     4800,
+     4950,
+     5100,
+     5250,
+     5400,
+     5550,
+     5700,
+     5850
+    ],
+    "loopMs": 6100
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Massive straight punch"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Two-handed hammer blow"
+    },
+    {
+     "slot": "special",
+     "subject": "Eraser Cannon energy sphere from palm"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Gigantic Roar mouth blast"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Full Power Super Saiyan Broly roaring with green explosive aura"
+    }
+   ],
+   "integrationNote": "Card subjects are prepared art proposals. Confirm their order against the final fighter move definitions before enabling gameplay.",
+   "voiceStatus": "Original Japanese home clip prepared: Power-up roar.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 210746,
+     "sha256": "31656c8fb67e4176e8674ed8259bfe2b6febf735f5cbcc03536993557fe2f8ee"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 1108744,
+     "sha256": "b0b733501ef6359e1785f8879344540bc9eef2a16f72e9ea2b64bc88e78e2033"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 58738,
+     "sha256": "70ae6deb2d13683e76dce314025b2b45ab92f13f9bf9a8205a16d07feaa8adbf"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 589774,
+     "sha256": "e627a62a7da4a4885caf993517ca4f211e2dbcec20c1307c213b2843cb5e7a02"
+    }
+   }
+  },
+  {
+   "id": "gon",
+   "name": "Gon Freecss",
+   "series": "Hunter × Hunter",
+   "pose": "Jajanken Rock: left palm covers right fist near waist, knees slightly bent, then right fist thrusts forward",
+   "form": "Canon young Gon: dark upright spiky hair, big determined eyes, green short jacket with red piping rendered gray, green shorts, belt, long green boots; age-appropriate boy proportions, no adult body except final move-card awakening",
+   "assets": {
+    "portrait": "/assets/home/portraits/gon.webp",
+    "spriteSheet": "/assets/home/sprites/gon.webp",
+    "poster": "/assets/home/sprites/gon-poster.webp",
+    "moveCards": "/assets/ui/moves/gon.webp"
+   },
+   "timing": {
+    "frameTimesMs": [
+     0,
+     436,
+     871,
+     1307,
+     1743,
+     2179,
+     2614,
+     3050,
+     4320,
+     4470,
+     4620,
+     4770,
+     4920,
+     5070,
+     5220,
+     5370
+    ],
+    "loopMs": 5620
+   },
+   "moveCards": [
+    {
+     "slot": "light",
+     "subject": "Jajanken Rock fist strike"
+    },
+    {
+     "slot": "heavy",
+     "subject": "Jajanken Scissors two-finger blade"
+    },
+    {
+     "slot": "special",
+     "subject": "Jajanken Paper palm blast"
+    },
+    {
+     "slot": "ultimate",
+     "subject": "Charged Jajanken Rock devastating strike"
+    },
+    {
+     "slot": "awakening",
+     "subject": "Adult Gon transformation silhouette with extremely tall dark hair and muscular adult body"
+    }
+   ],
+   "integrationNote": "Card subjects are prepared art proposals. Confirm their order against the final fighter move definitions before enabling gameplay.",
+   "voiceStatus": "Original Japanese home clip prepared: Jan ken: gū.",
+   "files": {
+    "portrait": {
+     "width": 640,
+     "height": 640,
+     "bytes": 130700,
+     "sha256": "922a684df54769cc2a71c30d3b9a352579d8c46e687dad9a5b5b1a78df2791f7"
+    },
+    "spriteSheet": {
+     "width": 1536,
+     "height": 2048,
+     "bytes": 766472,
+     "sha256": "583d79e2943bd5301e5ab10dbff8a4a0b5902da7ebb1b396532a9253e53fad16"
+    },
+    "poster": {
+     "width": 384,
+     "height": 512,
+     "bytes": 43250,
+     "sha256": "fb49e23b45d64c138f87da8588896e8ccac0466ae19f5370805d19a44266ac4e"
+    },
+    "moveCards": {
+     "width": 2172,
+     "height": 724,
+     "bytes": 511828,
+     "sha256": "da9be0d6e3b8c36fdc4dd9c62b3edb0428d30e85cdbe46ee1a8a683830759147"
+    }
+   }
+  }
+ ]
+}

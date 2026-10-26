@@ -1,0 +1,222 @@
+@font-face{font-family:'Barlow Condensed';font-style:italic;font-weight:900;font-display:swap;src:url('/assets/ui/hud/fonts/barlow-condensed-900i.woff2') format('woff2')}
+@font-face{font-family:'Barlow Condensed';font-style:italic;font-weight:900;font-display:swap;src:url('/assets/ui/hud/fonts/barlow-condensed-900i-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+1E00-1EFF}
+@font-face{font-family:'Barlow Condensed';font-style:italic;font-weight:800;font-display:swap;src:url('/assets/ui/hud/fonts/barlow-condensed-800i.woff2') format('woff2')}
+#interface{--hud-k:1}
+#interface .combat-hud{--ik-ink:#0b0c0e;--ik-ink2:#232428;--ik-paper:#fbf6ea;--ik-red:#d51d34;--ik-red2:#9e0f26;
+  --stamina:#3ed35f;--stamina-shade:#1f9a42;--stamina-glint:#b8f5c8;
+  --k-plate:1;--k-target:1;--k-plaque:1;--k-cards:1;--k-banner:1;--k-edge:1;
+  --ik-edge:18px}
+@media(max-height:520px) and (orientation:landscape),(max-width:620px){
+  #interface .combat-hud{--k-plate:.62;--k-target:.58;--k-plaque:.64;--k-cards:.62;--k-banner:.5;--k-edge:.6;--ik-edge:8px}
+}
+#interface .combat-hud .ik-defs{position:absolute;left:0;top:0;width:0;height:0;overflow:hidden;pointer-events:none}
+#interface .combat-hud .ik-hull{position:absolute;display:block;overflow:visible;pointer-events:none}
+#interface .combat-hud .ik-hull path{fill:var(--ik-paper);stroke:var(--ik-ink);stroke-width:5px;stroke-linejoin:round;paint-order:stroke}
+#interface .combat-hud .fighter-meter.ik-plate{gap:0;margin:0;padding:0;min-width:0;max-width:none;min-height:0;max-height:none;background:none;border:0;outline:0;
+  border-radius:0;box-shadow:none;clip-path:none;filter:none;transform:none;isolation:auto;zoom:1;color:var(--ik-ink);
+  font-family:'Barlow Condensed','Arial Narrow',sans-serif;-webkit-font-smoothing:antialiased;pointer-events:none}
+#interface .combat-hud .fighter-meter.ik-plate::before,#interface .combat-hud .fighter-meter.ik-plate::after{content:none;display:none}
+#interface .combat-hud .ik-plate .ik-portrait{position:absolute;display:block;z-index:2}
+#interface .combat-hud .ik-plate .ik-frame{inset:0;width:100%;height:100%}
+#interface .combat-hud .ik-plate .ik-window{position:absolute;display:block;inset:5px 6px 6px 5px;overflow:hidden;background:var(--ik-paper)}
+#interface .combat-hud .ik-plate .ik-window>svg{display:block;width:100%;height:100%;mix-blend-mode:multiply;filter:grayscale(1) contrast(1.15)}
+#interface .combat-hud .ik-plate .ik-window>.ik-draw{position:absolute;display:block;background-size:100% 100%;background-repeat:no-repeat;mix-blend-mode:multiply}
+#interface .combat-hud .ik-plate .ik-breakout{position:absolute;display:block;background-size:100% 100%;background-repeat:no-repeat;pointer-events:none}
+#interface .combat-hud .ik-plate .ik-breakout[hidden]{display:none}
+#interface .combat-hud .ik-plate.ik-down .ik-window{filter:grayscale(1) brightness(.75)}
+#interface .combat-hud .ik-plate .ik-body{position:absolute;display:block}
+#interface .combat-hud .ik-plate :is(#own-name,#foe-name){all:unset;position:absolute;display:block;white-space:nowrap;font:italic 900 30px/1 'Barlow Condensed','Arial Narrow',sans-serif;
+  letter-spacing:-.01em;padding-right:.08em;color:var(--ik-ink)}
+#interface .combat-hud .ik-plate :is(#own-hp,#foe-hp){all:unset;position:absolute;display:block;white-space:nowrap;line-height:1}
+#interface .combat-hud .ik-plate .ik-hpnum b{all:unset;font:italic 900 1em/1 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:-.01em;color:#fff;-webkit-text-stroke:.14em var(--ik-ink);
+  paint-order:stroke fill;text-shadow:.05em .06em 0 var(--ik-red);font-variant-numeric:tabular-nums}
+#interface .combat-hud .ik-plate .ik-hpnum small{all:unset;margin-left:.12em;font:italic 800 13px/1 'Barlow Condensed','Arial Narrow',sans-serif;color:var(--ik-ink);letter-spacing:.02em}
+#interface .combat-hud .ik-plate.ik-hplow .ik-hpnum b{animation:ik-hplow .8s ease-in-out infinite alternate}
+#interface .combat-hud .ik-plate .ik-bar{position:absolute;display:block;background:var(--ik-ink);--v:1}
+#interface .combat-hud .ik-plate .ik-bar .ik-in{position:absolute;display:block;inset:3px;overflow:hidden;background:var(--ik-ink2);will-change:transform}
+#interface .combat-hud .ik-plate .ik-bar i{position:absolute;display:block;inset:0;margin:0;padding:0;border:0;background:none;box-shadow:none;transform-origin:0 50%;
+  transform:scaleX(var(--v));transition:transform .22s cubic-bezier(.2,.9,.2,1)}
+#interface .combat-hud .ik-plate .ik-bar .ik-shade{top:auto;height:36%}
+#interface .combat-hud .ik-plate .ik-bar .ik-tip{border-right:3px solid #fff;transform:translateX(calc((var(--v) - 1) * 100%))}
+#interface .combat-hud .ik-plate .ik-bar.ik-up :is(.ik-fill,.ik-shade,.ik-tip,.ik-flash){transition-duration:.85s;transition-timing-function:cubic-bezier(.3,.75,.25,1)}
+#interface .combat-hud .ik-plate .ik-bar :is(.ik-echo,.ik-chip){background:#fff;transition:transform .45s ease-in .6s}
+#interface .combat-hud .ik-plate .ik-bar.ik-snap i{transition:none!important}
+#interface .combat-hud .ik-plate .ik-hp .ik-fill{background:var(--ik-red)}
+#interface .combat-hud .ik-plate .ik-hp .ik-shade{background:var(--ik-red2)}
+#interface .combat-hud .ik-plate .ik-stam .ik-fill{background:var(--stamina)}
+#interface .combat-hud .ik-plate .ik-stam .ik-shade{background:var(--stamina-shade)}
+#interface .combat-hud .ik-plate .ik-stam .ik-flash{background:#fff;opacity:0}
+#interface .combat-hud .ik-plate .ik-stam .ik-glint{inset:0 auto 0 0;width:34%;transform:translateX(-110%);transition:none;opacity:.95;
+  background:linear-gradient(100deg,transparent 10%,var(--stamina-glint) 40%,#fff 50%,var(--stamina-glint) 60%,transparent 90%)}
+#interface .combat-hud .ik-plate .ik-stam::after{content:'';position:absolute;inset:-4px -5px;border:3px solid var(--ik-red);opacity:0;pointer-events:none}
+#interface .combat-hud .ik-plate .ik-stamina{position:absolute;left:-6px;top:61px;display:flex;align-items:stretch;gap:3px;height:19px}
+#interface .combat-hud .ik-plate .ik-label{position:relative;z-index:0;display:grid;place-items:center;padding:1px 7px 0 6px;
+  font:italic 900 15px/1 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:.08em;color:var(--stamina)}
+#interface .combat-hud .ik-plate .ik-label::before{content:'';position:absolute;inset:0;z-index:-1;background:var(--ik-ink);transform:skewX(-14deg)}
+#interface .combat-hud .ik-plate :is(#own-stamina,#foe-stamina){position:relative;width:190px;height:auto;background:var(--ik-ink);transform:skewX(-14deg)}
+#interface .combat-hud .ik-plate.ik-low .ik-label{color:#fff;animation:ik-lowtag .5s steps(1) infinite}
+#interface .combat-hud .ik-plate.ik-low .ik-label::before{background:var(--ik-red)}
+#interface .combat-hud .ik-plate.ik-low .ik-stam .ik-in{background:var(--ik-red2)}
+#interface .combat-hud .ik-plate.ik-low .ik-stam .ik-flash{animation:ik-blink .5s linear infinite}
+#interface .combat-hud .ik-plate.ik-low .ik-stam::after{animation:ik-stamring .9s ease-out infinite}
+#interface .combat-hud .fighter-meter.ik-plate.hit :is(.ik-body,.ik-plate-hull,.ik-rival-hull){animation:ik-jolt .3s steps(3)}
+#interface .combat-hud .fighter-meter.own.ik-plate.offline :is(.ik-body,.ik-portrait){filter:grayscale(1);opacity:.6}
+#interface .combat-hud .fighter-meter.own.ik-plate{left:calc(var(--ik-edge) * var(--hud-k));right:auto;top:calc(10px * var(--hud-k));width:392px;height:132px;
+  scale:calc(var(--hud-k) * var(--k-plate));transform-origin:0 0}
+#interface .combat-hud .fighter-meter.own .ik-plate-hull{left:80px;top:28px;width:300px;height:94px;filter:drop-shadow(3px 4px 0 var(--ik-ink))}
+#interface .combat-hud .fighter-meter.own .ik-portrait{left:0;top:27px;width:94px;height:88px;transform:rotate(-3deg)}
+#interface .combat-hud .fighter-meter.own .ik-portrait::before{content:'';position:absolute;inset:7px -7px -6px 7px;background:var(--ik-red);transform:skewX(-4deg);z-index:-1}
+#interface .combat-hud .fighter-meter.own .ik-body{left:102px;top:32px;width:268px;height:80px}
+#interface .combat-hud .fighter-meter.own #own-name{left:0;top:2px}
+#interface .combat-hud .fighter-meter.own #own-hp{right:0;top:-10px;font-size:44px}
+#interface .combat-hud .fighter-meter.own .ik-hp{left:3px;top:34px;width:262px;height:22px;transform:skewX(-14deg)}
+#interface .combat-hud .fighter-meter.ik-plate[data-name=long] :is(#own-name,#foe-name){margin-top:3px;font-size:24px}
+#interface .combat-hud .fighter-meter.ik-plate[data-name=longer] :is(#own-name,#foe-name){margin-top:6px;font-size:19px}
+#interface .combat-hud .fighter-meter.foe.ik-plate{left:auto;right:calc(var(--ik-edge) * var(--hud-k));top:calc(16px * var(--hud-k));width:344px;height:98px;
+  scale:calc(var(--hud-k) * var(--k-target));transform-origin:100% 0;transition:opacity .25s}
+#interface .combat-hud .fighter-meter.foe .ik-plate-hull{left:auto;right:66px;top:12px;width:262px;height:66px;filter:drop-shadow(-3px 4px 0 var(--ik-ink))}
+#interface .combat-hud .fighter-meter.foe :is(.ik-rival-hull,.ik-stamina){display:none}
+#interface .combat-hud .fighter-meter.foe .ik-portrait{right:0;top:6px;width:78px;height:72px;transform:rotate(3deg)}
+#interface .combat-hud .fighter-meter.foe .ik-portrait::before{content:'';position:absolute;inset:7px 7px -6px -7px;background:var(--ik-ink);transform:skewX(4deg);z-index:-1}
+#interface .combat-hud .fighter-meter.foe .ik-body{right:80px;top:14px;width:236px;height:60px}
+#interface .combat-hud .fighter-meter.foe #foe-name{right:14px;top:4px;font-size:24px}
+#interface .combat-hud .fighter-meter.foe[data-name=long] #foe-name{margin-top:3px;font-size:19px}
+#interface .combat-hud .fighter-meter.foe[data-name=longer] #foe-name{margin-top:5px;font-size:16px}
+#interface .combat-hud .fighter-meter.foe #foe-hp{left:4px;top:-8px;font-size:34px}
+#interface .combat-hud .fighter-meter.foe #foe-hp small{font-size:11px}
+#interface .combat-hud .fighter-meter.foe .ik-hp{right:6px;top:32px;width:224px;height:20px;transform:skewX(14deg)}
+#interface .combat-hud .fighter-meter.foe .ik-bar .ik-in{transform:scaleX(-1)}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe.ik-plate{top:calc(10px * var(--hud-k));width:392px;height:132px;scale:calc(var(--hud-k) * var(--k-plate))}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe .ik-plate-hull{display:none}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe .ik-rival-hull{display:block;left:auto;right:80px;top:28px;width:300px;height:94px;filter:drop-shadow(-3px 4px 0 var(--ik-ink))}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe .ik-portrait{top:27px;width:94px;height:88px}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe .ik-body{right:102px;top:32px;width:268px;height:80px}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe #foe-name{right:6px;top:2px;font-size:30px}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe[data-name=long] #foe-name{font-size:24px}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe[data-name=longer] #foe-name{font-size:19px}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe #foe-hp{left:0;top:-10px;font-size:44px}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe #foe-hp small{font-size:13px}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe .ik-hp{right:3px;top:34px;width:262px;height:22px}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe .ik-stamina{display:flex;left:auto;right:-6px;flex-direction:row-reverse}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe .ik-label::before{transform:skewX(14deg)}
+#interface[data-hud="duel"] .combat-hud .fighter-meter.foe #foe-stamina{transform:skewX(14deg)}
+#interface .combat-hud .combo-counter.ik-combo{left:calc(62px * var(--hud-k));right:auto;top:calc(300px * var(--hud-k));width:300px;height:220px;display:block;gap:0;margin:0;
+  filter:none;transform:none;zoom:1;scale:calc(var(--hud-k) * var(--k-banner));transform-origin:0 50%;pointer-events:none;z-index:3;
+  animation:ik-pop .34s cubic-bezier(.2,1.6,.4,1) both}
+#interface .combat-hud .ik-combo .ik-splat{position:absolute;left:-20px;top:-40px;width:270px;height:270px;overflow:visible;transform:rotate(-8deg)}
+#interface .combat-hud .ik-combo .ik-splat path{fill:var(--ik-red);filter:drop-shadow(5px 6px 0 var(--ik-ink))}
+#interface .combat-hud .ik-combo #combo-count{all:unset;position:absolute;left:46px;top:-6px;font:italic 900 176px/1 'Barlow Condensed','Arial Narrow',sans-serif;color:#fff;
+  -webkit-text-stroke:.09em var(--ik-ink);paint-order:stroke fill}
+#interface .combat-hud .ik-combo .ik-hits{all:unset;position:absolute;left:150px;top:46px;font:italic 900 52px/1 'Barlow Condensed','Arial Narrow',sans-serif;color:#fff;
+  -webkit-text-stroke:.14em var(--ik-ink);paint-order:stroke fill;transform:rotate(-6deg)}
+#interface .combat-hud .ik-combo .ik-dmg{all:unset;position:absolute;left:150px;top:104px;padding:5px 12px 4px;background:var(--ik-ink);color:#fff;white-space:nowrap;
+  font:italic 900 32px/1 'Barlow Condensed','Arial Narrow',sans-serif;transform:skewX(-12deg) rotate(-4deg)}
+#interface .combat-hud .ik-combo .ik-dmg b{all:unset}
+#interface .combat-hud .ik-combo .ik-dmg small{all:unset;margin-left:.3em;font:italic 800 15px/1 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:.1em;color:var(--ik-red)}
+#interface .combat-hud .ik-combo[data-wide] #combo-count{left:20px;top:8px;font-size:150px;letter-spacing:-.04em}
+#interface .combat-hud .ik-combo[data-wide] :is(.ik-hits,.ik-dmg){left:182px}
+#interface[data-hud="training"] .combat-hud .combo-counter.ik-combo{left:auto;right:calc(330px * var(--hud-k));transform-origin:100% 50%}
+#interface .combat-hud .move-bar.ik-cards{left:auto;right:calc(52px + 14px * var(--hud-k));top:auto;bottom:calc(26px * var(--hud-k));gap:24px;align-items:flex-end;width:auto;max-width:none;
+  margin:0;padding:0;transform:none;zoom:1;isolation:auto;scale:calc(var(--hud-k) * var(--k-cards));transform-origin:100% 100%;z-index:3}
+#interface .combat-hud .move-bar.ik-cards::before,#interface .combat-hud .move-bar.ik-cards::after{content:none;display:none}
+#interface .combat-hud .move-bar .move-slot.ik-card{position:relative;flex:0 0 96px;width:96px;height:108px;min-width:0;min-height:0;margin:0;padding:0;border:0;outline:0;border-radius:0;
+  background:var(--ik-paper);box-shadow:0 0 0 4px var(--ik-paper),0 0 0 9px var(--ik-ink),5px 7px 0 9px var(--ik-ink);opacity:1;filter:none;isolation:auto;overflow:visible;
+  animation:none;transition:translate .16s;color:var(--ik-ink);font-family:'Barlow Condensed','Arial Narrow',sans-serif}
+#interface .combat-hud .move-bar .move-slot.ik-card:nth-child(odd){transform:rotate(-1.2deg)}
+#interface .combat-hud .move-bar .move-slot.ik-card:nth-child(even){transform:rotate(1deg)}
+#interface .combat-hud .move-bar .move-slot.ik-card::before{content:none}
+#interface .combat-hud .move-bar .ik-card .ik-art{position:absolute;inset:0;display:block;background-image:var(--move-sheet);background-repeat:no-repeat;background-size:540% auto;background-position:var(--art-x) 48.5%}
+#interface .combat-hud .move-bar .ik-card .ik-art.ik-area-art{background-size:108% auto}
+#interface[data-skin="halo"] .combat-hud .move-bar .ik-card .ik-art.ik-area-art{background-size:128% auto}
+#interface .combat-hud .move-bar .ik-card .ik-lit{display:none}
+#interface .combat-hud .move-bar .ik-card .ik-art.ik-glyph{background:var(--ik-paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='none' stroke='%230b0c0e'%3E%3Ccircle cx='50' cy='50' r='31' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='18' stroke-width='3' stroke-dasharray='6 5'/%3E%3Cpath d='M50 4v20M50 76v20M4 50h20M76 50h20' stroke-width='6'/%3E%3C/g%3E%3Ccircle cx='50' cy='50' r='8' fill='%23d51d34'/%3E%3C/svg%3E") 50% 50%/64% auto no-repeat}
+#interface .combat-hud .move-bar .ik-card .ik-cap{all:unset;position:absolute;left:-4px;right:-4px;bottom:-4px;z-index:2;display:block;padding:4px 2px 3px;background:var(--ik-ink);color:#fff;text-align:center;
+  font:italic 800 12.5px/1 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:.05em;white-space:nowrap;overflow:hidden}
+#interface .combat-hud .move-bar .ik-card>kbd{all:unset;position:absolute;left:-15px;top:-17px;z-index:3;display:grid;place-items:center;box-sizing:border-box;min-width:34px;height:34px;padding:0 2px 0 0;
+  border-radius:17px;background:var(--ik-paper);box-shadow:0 0 0 4px var(--ik-ink);color:var(--ik-ink);font:italic 900 23px/1 'Barlow Condensed','Arial Narrow',sans-serif;white-space:nowrap}
+#interface[data-input="controller"] .combat-hud .move-bar .ik-card>kbd{padding:0 6px;font-size:17px}
+#interface[data-input="controller"] .combat-hud .move-bar .ik-card>kbd.ps-face{padding:0 2px 0 0;font-size:22px}
+#interface .combat-hud .move-bar .ik-card .ik-num{all:unset;position:absolute;left:0;right:0;top:24px;z-index:2;display:none;text-align:center;white-space:nowrap;
+  font:italic 900 46px/1 'Barlow Condensed','Arial Narrow',sans-serif;color:#fff;-webkit-text-stroke:.15em var(--ik-ink);paint-order:stroke fill;font-variant-numeric:tabular-nums}
+#interface .combat-hud .move-bar .ik-card .ik-num[data-unit]::after{content:attr(data-unit);font-size:.5em}
+#interface .combat-hud .move-bar .ik-card:is(.cooling,.charged:not(.ready)) .ik-art:not(.ik-lit){filter:grayscale(1) contrast(.9) brightness(.72)}
+#interface .combat-hud .move-bar .ik-card:is(.cooling,.charged:not(.ready)) .ik-lit{display:block;clip-path:inset(calc((1 - var(--done,0)) * 100%) 0 0 0)}
+#interface .combat-hud .move-bar .ik-card:is(.cooling,.charged:not(.ready))::after{content:'';position:absolute;left:0;right:0;top:calc((1 - var(--done,0)) * 100% - 2px);height:4px;background:var(--ik-ink)}
+#interface .combat-hud .move-bar .ik-card.charged:not(.ready):not(.cooling)::after{background:var(--ik-red)}
+#interface .combat-hud .move-bar .ik-card.cooling .ik-cool{display:block}
+#interface .combat-hud .move-bar .ik-card.charged:not(.ready):not(.cooling) .ik-charge{display:block}
+#interface .combat-hud .move-bar .ik-card.ready{box-shadow:0 0 0 4px var(--ik-red),0 0 0 9px var(--ik-ink),5px 7px 0 9px var(--ik-ink)}
+#interface .combat-hud .move-bar .ik-card.ready>kbd{background:var(--ik-red);color:#fff}
+#interface .combat-hud .move-bar .ik-card .ik-ready{all:unset;position:absolute;left:24px;top:-16px;z-index:3;display:none;padding:4px 7px 3px;background:var(--ik-red);color:#fff;
+  font:italic 900 14px/1 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:.1em;box-shadow:0 0 0 3px var(--ik-ink);transform:rotate(6deg)}
+#interface .combat-hud .move-bar .ik-card.ready .ik-ready{display:block}
+#interface[data-input="controller"] .combat-hud .move-bar #awakening-card .ik-ready{left:50px}
+#interface .combat-hud .move-bar .ik-card.ready::before{content:'';position:absolute;inset:-9px;border:5px solid var(--ik-red);opacity:0;pointer-events:none;animation:ik-ring 1.8s ease-out infinite}
+#interface .combat-hud .move-bar .ik-card.ready.ik-fresh{animation:ik-ready .62s ease-in-out infinite alternate}
+#interface .combat-hud .move-bar .ik-card.ready.ik-fresh::before{animation-duration:.9s}
+#interface .combat-hud .move-bar .ik-card.awake{box-shadow:0 0 0 4px var(--ik-red),0 0 0 9px var(--ik-ink),5px 7px 0 9px var(--ik-red)}
+#interface .combat-hud .move-bar .ik-card.awake .ik-charge{display:block}
+#interface .combat-hud .move-bar .ik-card.active{translate:0 -6px}
+#interface .combat-hud .move-bar .ik-ultcall{position:absolute;right:-8px;bottom:150px;width:470px;height:92px;display:none;pointer-events:none;z-index:4;
+  scale:calc(var(--k-banner) / var(--k-cards));transform-origin:100% 100%}
+#interface .combat-hud .move-bar .ik-ultcall.ik-on{display:block;animation:ik-sweep .42s cubic-bezier(.2,.9,.2,1) both}
+#interface .combat-hud .move-bar .ik-ultcall svg{position:absolute;left:-30px;top:-6px;width:calc(100% + 40px);height:calc(100% + 12px);overflow:visible;filter:drop-shadow(5px 6px 0 var(--ik-ink))}
+#interface .combat-hud .move-bar .ik-ultcall path{fill:var(--ik-red)}
+#interface .combat-hud .move-bar .ik-ultcall strong{all:unset;position:absolute;left:34px;top:10px;white-space:nowrap;font:italic 900 50px/1 'Barlow Condensed','Arial Narrow',sans-serif;
+  color:#fff;-webkit-text-stroke:.12em var(--ik-ink);paint-order:stroke fill;letter-spacing:.005em}
+#interface .combat-hud .move-bar .ik-ultcall span{all:unset;position:absolute;left:40px;top:60px;display:flex;align-items:center;gap:7px;white-space:nowrap;
+  font:italic 900 19px/1 'Barlow Condensed','Arial Narrow',sans-serif;color:#fff;letter-spacing:.08em}
+#interface .combat-hud .move-bar .ik-ultcall kbd{all:unset;display:inline-grid;place-items:center;box-sizing:border-box;min-width:24px;height:22px;padding:0 4px;background:#fff;color:var(--ik-ink);
+  font:italic 900 17px/1 'Barlow Condensed','Arial Narrow',sans-serif;box-shadow:0 0 0 2px var(--ik-ink)}
+#interface .combat-hud .move-bar .ik-ultcall em{all:unset}
+#interface[data-cinema] .combat-hud .move-bar .ik-ultcall{visibility:hidden}
+#interface .combat-hud .mode-hud>[data-zone="1b"]{top:calc(150px * var(--hud-k))}
+#interface .combat-hud .mode-hud>[data-zone="3b"]{top:calc(120px * var(--hud-k))}
+#interface .combat-hud .mode-hud>[data-zone="8b"]{top:calc(212px * var(--hud-k))}
+#interface[data-hud="duel"] .combat-hud .mode-hud>[data-zone="3b"]{top:calc(150px * var(--hud-k))}
+#interface[data-hud="royale"] .mode-hud .royale-plaque.ik-tag{position:relative;display:flex;flex-direction:row;align-items:center;gap:8px;min-width:0;height:44px;margin:-6px 0 0;padding:0 18px 0 15px;
+  background:none;filter:none;clip-path:none;color:#fff;white-space:nowrap;text-align:left;transform:rotate(-1.5deg);scale:calc(var(--hud-k) * var(--k-plaque));transform-origin:50% 0}
+#interface[data-hud="royale"] .mode-hud .royale-plaque.ik-tag .ik-hull{inset:0;width:100%;height:100%;filter:drop-shadow(3px 4px 0 var(--ik-red))}
+#interface[data-hud="royale"] .mode-hud .royale-plaque.ik-tag .ik-hull path{fill:var(--ik-ink);stroke:var(--ik-paper);stroke-width:4px}
+#interface[data-hud="royale"] .mode-hud .royale-plaque.ik-tag>b{all:unset;position:relative;margin-top:-2px;font:italic 900 44px/1 'Barlow Condensed','Arial Narrow',sans-serif;color:#fff;font-variant-numeric:tabular-nums}
+#interface[data-hud="royale"] .mode-hud .royale-plaque.ik-tag>.ik-left{position:relative;font:italic 900 27px/1 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:.01em;color:#fff}
+#interface[data-hud="royale"] .mode-hud .royale-plaque.ik-tag>.ik-kos{position:relative;z-index:0;padding:4px 8px 3px;color:#fff;font:italic 800 17px/1 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:.05em}
+#interface[data-hud="royale"] .mode-hud .royale-plaque.ik-tag>.ik-kos::before{content:'';position:absolute;inset:0;z-index:-1;background:var(--ik-red);transform:skewX(-12deg)}
+#interface[data-hud="royale"] .mode-hud .royale-plaque.ik-tag>.ik-kos em{font-style:normal;font-weight:900}
+#interface[data-hud="royale"] .mode-hud .royale-plaque.ik-tag>small{position:absolute;left:50%;top:100%;margin-top:7px;padding:3px 8px 2px;translate:-50% 0;background:var(--ik-paper);color:var(--ik-ink);
+  box-shadow:0 0 0 2px var(--ik-ink);font:italic 900 14px/1 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:.06em;white-space:nowrap}
+#interface[data-hud="royale"] .mode-hud .royale-plaque.ik-tag>small:empty{display:none}
+#interface .combat-hud .mode-hud .hk-edge{padding:6px 14px 7px 10px;background:var(--ik-paper);color:var(--ik-ink);clip-path:none;
+  box-shadow:0 0 0 3px var(--ik-red),0 0 0 6px var(--ik-ink),3px 4px 0 6px var(--ik-ink);font-family:'Barlow Condensed','Arial Narrow',sans-serif}
+#interface .combat-hud .mode-hud .hk-edge b{font:italic 900 clamp(13px,1.05vw,19px)/1 'Barlow Condensed','Arial Narrow',sans-serif;color:var(--ik-ink)}
+#interface .combat-hud .mode-hud .hk-edge small{font:italic 800 clamp(9px,.66vw,12px)/1 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:.06em;color:var(--ik-red)}
+#interface .combat-hud .mode-hud .hk-edge.pulse{animation:ik-edge-pulse 1s ease-in-out infinite}
+@media(max-height:520px) and (orientation:landscape),(max-width:620px){
+  #interface .combat-hud .fighter-meter.own.ik-plate{top:calc(4px * var(--hud-k))}
+  #interface .combat-hud .fighter-meter.foe.ik-plate{top:calc(6px * var(--hud-k))}
+  #interface[data-hud="duel"] .combat-hud .fighter-meter.foe.ik-plate{top:calc(4px * var(--hud-k))}
+  #interface .combat-hud .move-bar.ik-cards{bottom:calc(12px * var(--hud-k));gap:19px}
+  #interface .combat-hud .combo-counter.ik-combo{left:calc(200px * var(--hud-k));top:calc(112px * var(--hud-k))}
+  #interface[data-hud="training"] .combat-hud .combo-counter.ik-combo{right:calc(150px * var(--hud-k));top:calc(118px * var(--hud-k))}
+  #interface .combat-hud .mode-hud>[data-zone="1b"]{top:calc(94px * var(--hud-k))}
+  #interface .combat-hud .mode-hud>[data-zone="3b"]{top:calc(66px * var(--hud-k))}
+  #interface .combat-hud .mode-hud>[data-zone="8b"]{top:calc(120px * var(--hud-k))}
+  #interface[data-hud="duel"] .combat-hud .mode-hud>[data-zone="3b"]{top:calc(94px * var(--hud-k))}
+}
+@keyframes ik-pop{0%{opacity:0;transform:scale(1.6) rotate(6deg)}100%{opacity:1;transform:none}}
+@keyframes ik-jolt{33%{transform:translate(-6px,2px)}66%{transform:translate(5px,-2px)}}
+@keyframes ik-sweep{0%{opacity:0;transform:translateX(60px) skewX(-12deg)}100%{opacity:1;transform:none}}
+@keyframes ik-ready{0%{scale:1;translate:0 0}100%{scale:1.08;translate:0 -4px}}
+@keyframes ik-ring{0%{opacity:.9;transform:scale(1)}60%,100%{opacity:0;transform:scale(1.35)}}
+@keyframes ik-blink{0%,64%{opacity:0}66%,100%{opacity:1}}
+@keyframes ik-lowtag{50%{transform:scale(1.1)}}
+@keyframes ik-stamring{0%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(1.05,1.45)}}
+@keyframes ik-hplow{0%{opacity:1}100%{opacity:.55}}
+@keyframes ik-edge-pulse{50%{box-shadow:0 0 0 3px #ff7a8a,0 0 0 6px var(--ik-ink),3px 4px 0 6px var(--ik-ink)}}
+@media(prefers-reduced-motion:reduce){
+  #interface .combat-hud :is(.ik-combo,.ik-ultcall.ik-on,.ik-card.ready.ik-fresh,.ik-plate.hit .ik-body,.ik-plate.hit .ik-plate-hull,.hk-edge.pulse,.ik-plate.ik-hplow .ik-hpnum b),
+  #interface .combat-hud .ik-card.ready::before{animation:none}
+  #interface .combat-hud .ik-plate.ik-low :is(.ik-label,.ik-stam .ik-flash),#interface .combat-hud .ik-plate.ik-low .ik-stam::after{animation:none}
+  #interface .combat-hud .ik-plate.ik-low .ik-stam .ik-flash{opacity:.6}
+  #interface .combat-hud .ik-plate .ik-bar i{transition:none}
+}

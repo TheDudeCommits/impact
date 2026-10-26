@@ -1,0 +1,3 @@
+export const LIBRARY_STRONG = 24;
+
+export const TRAINING_BENCH_STRONG = 4, TRAINING_BENCH = 2;

@@ -1,0 +1,4 @@
+{
+  "note": "Lines turned down by ear at /voices.html (dev server): each row is a fighter, a situation and a line; voiceSituations.ts never plays it there again. Written by the page's 'Save the list' (scripts/voice/apply_rejects.mts merges a saved list in).",
+  "rejected": []
+}

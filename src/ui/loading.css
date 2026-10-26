@@ -1,0 +1,58 @@
+.match-loading{--ml-ink:#111;--ml-red:#cc202b;--ml-progress:0;position:fixed;inset:0;z-index:38;overflow:hidden;background:#fff;color:var(--ml-ink);
+  font-family:Electroharmonix,'Barlow Condensed',Impact,sans-serif;opacity:0;transition:opacity .38s ease;pointer-events:auto;user-select:none}
+.match-loading.on{opacity:1}
+.match-loading[hidden]{display:none}
+.match-loading::before{content:'';position:absolute;inset:0;background:radial-gradient(var(--ml-ink) .8px,transparent 1.3px) 0 0/6px 6px;opacity:.07;pointer-events:none}
+.ml-lines{position:absolute;right:-30vw;top:-45vh;width:110vw;height:190vh;opacity:.09;pointer-events:none;
+  background:repeating-conic-gradient(from 0deg at 50% 50%,var(--ml-ink) 0deg .7deg,transparent .7deg 5.2deg);animation:ml-spin 120s linear infinite;will-change:transform}
+.ml-panel{position:absolute;left:3.2vw;top:6.5vh;width:min(50vw,84vh);height:min(68vh,64vw);margin:0;border:5px solid var(--ml-ink);background:#fff;
+  box-shadow:12px 12px 0 var(--ml-ink);overflow:hidden;transform:rotate(-1.4deg);animation:ml-panel-in .6s cubic-bezier(.2,.9,.25,1) both}
+.ml-panel-art{display:block;width:100%;height:100%;object-fit:cover;transform-origin:50% 42%;animation:ml-pan 26s ease-in-out infinite alternate;will-change:transform}
+.ml-hero{position:absolute;right:3vw;bottom:15vh;height:84vh;aspect-ratio:2/3;display:flex;align-items:flex-end;justify-content:center;pointer-events:none;
+  mix-blend-mode:multiply;animation:ml-hero-in .75s .08s cubic-bezier(.2,.9,.25,1) both}
+.ml-hero-art{height:100%;width:auto;max-width:100%;object-fit:contain;animation:ml-float 7s ease-in-out infinite;will-change:transform}
+.ml-hero.portrait{height:min(56vh,40vw);bottom:24vh;right:6vw;aspect-ratio:1;border:6px solid var(--ml-ink);border-radius:50%;overflow:hidden;background:#fff;box-shadow:12px 12px 0 var(--ml-ink);mix-blend-mode:normal}
+.ml-hero.portrait .ml-hero-art{width:100%;height:100%;object-fit:cover;animation:none}
+.ml-title{position:absolute;left:5.2vw;top:9.5vh;z-index:2;transform:rotate(-1.4deg);animation:ml-title-in .5s .2s cubic-bezier(.2,.9,.25,1) both}
+.ml-kicker{display:inline-block;margin:0;padding:.35em .75em;background:var(--ml-red);color:#fff;font-size:clamp(12px,1.05vw,18px);letter-spacing:.14em}
+.ml-mode{margin:.12em 0 0;font-weight:400;font-size:clamp(38px,6vw,108px);line-height:.92;color:#fff;-webkit-text-stroke:3px var(--ml-ink);paint-order:stroke fill;text-shadow:7px 7px 0 var(--ml-ink)}
+.ml-stage{display:inline-block;margin:.45em 0 0;padding:.28em .65em;background:var(--ml-ink);color:#fff;font-size:clamp(13px,1.35vw,24px);letter-spacing:.1em}
+.ml-stage:empty{display:none}
+.ml-band{position:absolute;left:0;right:0;bottom:0;z-index:3;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1.1vh 2.4vw;align-items:center;
+  padding:1.6vh 3.2vw 2.1vh;background:#fff;border-top:5px solid var(--ml-ink)}
+.ml-tip{display:flex;align-items:baseline;gap:.9em;min-height:2.6em;min-width:0}
+.ml-tip-tag{flex:none;padding:.2em .55em;background:var(--ml-ink);color:#fff;font:400 clamp(12px,1vw,17px)/1.2 Electroharmonix,sans-serif;letter-spacing:.12em;transform:skewX(-8deg)}
+.ml-tip-text{margin:0;font:600 clamp(14px,1.18vw,20px)/1.32 'Barlow','Barlow Condensed',sans-serif;opacity:0;transform:translateY(5px);transition:opacity .22s ease,transform .22s ease}
+.ml-tip-text.in{opacity:1;transform:none}
+.ml-tip-text b{font-family:'Barlow Condensed',sans-serif;font-weight:800;letter-spacing:.02em}
+.ml-tip-text kbd{display:inline-block;min-width:1.7em;margin-right:.35em;padding:0 .4em;border:2px solid var(--ml-ink);border-bottom-width:4px;border-radius:4px;background:#fff;
+  font:800 .82em/1.45 'Barlow Condensed',sans-serif;text-align:center;vertical-align:.08em}
+.ml-roster{display:flex;flex-wrap:nowrap;gap:5px;margin:0;padding:0;list-style:none}
+.ml-fighter{flex:none;width:clamp(30px,2.9vw,48px);height:clamp(36px,3.5vw,58px);border:2px solid var(--ml-ink);background:#ddd;overflow:hidden;opacity:.3;filter:grayscale(1);
+  transform:translateY(5px);transition:opacity .3s ease,transform .3s ease}
+.ml-fighter svg{display:block;width:100%;height:100%}
+.ml-fighter.ready{opacity:1;filter:none;transform:none}
+.ml-fighter.self{border-color:var(--ml-red);box-shadow:0 0 0 2px var(--ml-red)}
+.ml-progress{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,auto) 1fr auto;gap:1.1em;align-items:center;font-size:clamp(12px,1.02vw,17px);letter-spacing:.12em}
+.ml-step{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ml-bar{position:relative;height:13px;border:3px solid var(--ml-ink);background:#fff;overflow:hidden;transform:skewX(-14deg)}
+.ml-bar i{position:absolute;inset:0;background:var(--ml-red);transform-origin:left;transform:scaleX(var(--ml-progress));transition:transform .45s cubic-bezier(.2,.8,.2,1)}
+.ml-bar::after{content:'';position:absolute;top:0;bottom:0;left:-28px;right:0;background:repeating-linear-gradient(-45deg,transparent 0 8px,rgba(255,255,255,.4) 8px 14px);animation:ml-stripes .7s linear infinite;will-change:transform}
+.ml-pct{min-width:3.2em;text-align:right}
+@keyframes ml-spin{to{transform:rotate(360deg)}}
+@keyframes ml-pan{from{transform:scale(1.05) translate(0,0)}to{transform:scale(1.17) translate(-2.2%,1.6%)}}
+@keyframes ml-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.1vh)}}
+@keyframes ml-stripes{to{transform:translateX(28px)}}
+@keyframes ml-panel-in{from{opacity:0;transform:translateX(-6vw) rotate(-4deg)}to{opacity:1;transform:rotate(-1.4deg)}}
+@keyframes ml-hero-in{from{opacity:0;transform:translateY(6vh)}to{opacity:1;transform:none}}
+@keyframes ml-title-in{from{opacity:0;transform:scale(1.25) rotate(-1.4deg)}to{opacity:1;transform:rotate(-1.4deg)}}
+@media (max-aspect-ratio:1/1){
+  .ml-panel{left:4vw;right:4vw;width:auto;height:40vh}
+  .ml-hero{height:32vh;bottom:19vh;right:2vw}
+  .ml-hero.portrait{height:28vh;width:28vh;bottom:21vh}
+  .ml-band{grid-template-columns:1fr}
+  .ml-roster{flex-wrap:wrap}
+}
+@media (prefers-reduced-motion:reduce){.match-loading *,.match-loading::before{animation:none!important;transition:none!important}}
+.ml-panel-art,.ml-hero-art{opacity:0;transition:opacity .25s ease}
+.ml-panel-art.ml-ready,.ml-hero-art.ml-ready{opacity:1}

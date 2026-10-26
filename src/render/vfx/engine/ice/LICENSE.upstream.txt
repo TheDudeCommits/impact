@@ -1,0 +1,98 @@
+Third-party notices for src/render/vfx/engine/ice/ (Jump Engine VOL.2, the ICE element kit)
+
+Code in this folder is adapted from three MIT-licensed repositories in the owner's VFX Armory
+(https://threejs-vfx-sandbox.vercel.app). Each file names what it adapts in its header. Nothing is copied
+wholesale: the shapes, layouts, timings and shading ideas were ported to TypeScript, to unlit ShaderMaterials,
+to the game's shared noise texture, pooled instance batches and the engine's effect contract. No textures,
+models, HDRs, animations or audio from these repositories are used.
+
+1. HandCastAbilityThreeJS - https://github.com/achrefelouafi/HandCastAbilityThreeJS
+   Pinned commit 3431252f7ad88059681d4b9b6484cb7483f7d0d6
+   Adapted: src/assets/GlacialGeometry.js (createGlacialCoreGeometry -> geometry.ts glacialCore),
+   src/materials/ShardCrystalMaterial.js (crystal shading ideas -> materials.ts),
+   src/materials/GlacialSpine.js (the stateless wake -> IceLance.ts, IcePheasant.ts),
+   src/effects/IceStatue.js (freeze, hold, break along the seams -> FreezeOnHit.ts).
+
+MIT License
+
+Copyright (c) 2026 mohamedachrefelouafi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+2. Ability-ThreeJS-Project - https://github.com/itzmitto/Ability-ThreeJS-Project
+   Pinned commit f7d917169a03a286cc4f555ea812b81244682482
+   Adapted: src/abilities/frostLance/FrostLanceGeometry.ts (createCrystalGeometry, createShardGeometry ->
+   geometry.ts crystal), FrostLanceMaterial.ts (ice shading -> materials.ts), FrostLanceField.ts and
+   FrostLanceConfig.ts (field layout, eruption, the LOW/MED/MAX crystal budgets -> CrystalField.ts),
+   src/abilities/ice/IceSpikeField.ts (radial field -> CrystalField.ts), FrostGroundEffect.ts (spreading frost ->
+   materials.ts floor, FloorFreeze.ts), ColdMist.ts (mist cards -> materials.ts, FloorFreeze.ts).
+   Its frost lance files are themselves adapted from LinearAbilityExtThreeJS's ice snapshots
+   (https://github.com/achrefelouafi/LinearAbilityExtThreeJS, MIT, Copyright (c) 2026 mohamedachrefelouafi; the
+   notice is the first one above), as that repository's public/licenses/LinearAbilityExtThreeJS.txt records.
+
+MIT License
+
+Copyright (c) 2026 itzmitto
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+3. threejs-vfx (the Armory's "elemental-sandbox") - https://github.com/majidmanzarpour/threejs-vfx
+   Pinned commit 3d184edec529e5ad8055d8803967ea1f040aede0
+   Adapted: src/abilities/frost/BlackIceAbility.js (freeze, hold, a thaw that runs the freeze backwards ->
+   FloorFreeze.ts; its planar reflection is not used), src/vfx/GroundField.js PLATE mode (sheet-ice plates and
+   seams -> materials.ts floor). Its LICENSE and README credit the original sandbox and its techniques to
+   mohamedachrefelouafi; that notice, as the repository carries it:
+
+MIT License
+
+Copyright (c) 2026 mohamedachrefelouafi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

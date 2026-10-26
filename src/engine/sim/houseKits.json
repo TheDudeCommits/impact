@@ -1,0 +1,1874 @@
+{
+  "goku": {
+    "why": "Fighter review batch 1: his area move, Dragon Fist Explosion, bursts as a golden shock dome rayed with light (the punch's golden ki going off where it lands).",
+    "slots": {
+      "area": {
+        "from": "goku",
+        "fx": {
+          "effect": "efk_goldencrash",
+          "scale": 1.15
+        }
+      }
+    }
+  },
+  "naruto": {
+    "why": "Fighter review batch 1: the Big Ball Rasengan Barrage - his clones bring giant Rasengans down on the circle as falling spheres that open spinning rings where they land.",
+    "slots": {
+      "area": {
+        "from": "naruto",
+        "fx": {
+          "effect": "starfall"
+        }
+      }
+    }
+  },
+  "luffy": {
+    "why": "Fighter review batch 1: Gum-Gum Elephant Gatling's giant fists land on the circle as a chain of cartoon blasts, impact cards and speed lines (One Piece's own comic punch).",
+    "slots": {
+      "area": {
+        "from": "luffy",
+        "fx": {
+          "effect": "qk_explosion"
+        }
+      }
+    }
+  },
+  "zoro": {
+    "why": "Fighter review batch 1: Black Rope: Great Dragon Twister is the tornado his cut raises (Dressrosa, against Pica): a vortex that grinds the floor and ropes out. Launch day (12 Oct): the twister at three fifths the size and roped out after a second and a half (its dust filled the frame for 1.5 s).",
+    "slots": {
+      "area": {
+        "from": "zoro",
+        "fx": {
+          "effect": "cyclone",
+          "scale": 0.62,
+          "settings": {
+            "lifetime": 1.5,
+            "fadeTime": 0.6
+          }
+        }
+      }
+    }
+  },
+  "sanji": {
+    "why": "Fighter review batch 1: Spectre's burning kicks from every side go off as a column of flame flinging embers in arcs.",
+    "slots": {
+      "area": {
+        "from": "sanji",
+        "fx": {
+          "effect": "fx_icsfire"
+        }
+      }
+    }
+  },
+  "vegeta": {
+    "why": "Fighter review batch 2: Continuous Energy Bullet - a chain of ki explosions walks onto the circle, one every tenth of a second; its five blasts are pinned to that cadence (the look's own).",
+    "slots": {
+      "area": {
+        "from": "vegeta",
+        "fx": {
+          "effect": "extra_detonation"
+        }
+      }
+    }
+  },
+  "kakashi": {
+    "why": "Fighter review batch 2: the Great Waterfall Technique (his water jutsu against Zabuza) crashes onto the circle as a cel waterspout falling back in a crown splash.",
+    "slots": {
+      "area": {
+        "from": "kakashi",
+        "fx": {
+          "effect": "efk_toonwater"
+        }
+      }
+    }
+  },
+  "sasuke": {
+    "why": "Fighter review batch 2: the Uchiha's Great Fireball - three hand signs, then a torrent of toon fire that rolls into a fireball over the circle (the owner: Sasuke's fire bombs). Launch day (12 Oct): the fireball at three fifths the size and burnt out in half the time (it filled the frame for 1.1 s).",
+    "slots": {
+      "area": {
+        "from": "sasuke",
+        "fx": {
+          "effect": "jutsu_fireball",
+          "scale": 0.58,
+          "settings": {
+            "ballTime": 0.7,
+            "fadeTime": 0.5
+          }
+        }
+      }
+    }
+  },
+  "jotaro": {
+    "why": "Fighter review batch 2: Star Platinum drives its fists into the floor: the circle dishes into a crater and fissures race out.",
+    "slots": {
+      "area": {
+        "from": "jotaro",
+        "fx": {
+          "effect": "blade_quake"
+        }
+      }
+    }
+  },
+  "ichigo": {
+    "why": "Fighter review batch 2: the cross-shaped Getsuga of his two Zangetsu (Thousand-Year Blood War): two cuts hang over the circle and detonate as a cross.",
+    "slots": {
+      "area": {
+        "from": "ichigo",
+        "fx": {
+          "effect": "extra_cross"
+        }
+      }
+    }
+  },
+  "dio": {
+    "why": "Fighter review batch 3: in the stopped time a crown of knives hangs over the circle and throws itself in, one blade at a time (the knife wall of his last fight with Jotaro).",
+    "slots": {
+      "area": {
+        "from": "dio",
+        "fx": {
+          "effect": "extd_balefulcascade"
+        }
+      }
+    }
+  },
+  "killua": {
+    "why": "Fighter review batch 3: Godspeed: Speed of Lightning - he flickers in round anything inside his reach, strike after strike.",
+    "slots": {
+      "area": {
+        "from": "killua",
+        "fx": {
+          "effect": "saga_blitz"
+        }
+      }
+    }
+  },
+  "ace": {
+    "why": "Fighter review batch 3: Hibashira - a pillar of fire stands up on the circle and spins into a tornado of flame.",
+    "slots": {
+      "area": {
+        "from": "ace",
+        "fx": {
+          "effect": "nature_firetornado"
+        }
+      }
+    }
+  },
+  "law": {
+    "why": "Fighter review: ROOM: Takt - inside his ROOM everything goes weightless and falls up.",
+    "slots": {
+      "area": {
+        "from": "law",
+        "fx": {
+          "effect": "hourglass"
+        }
+      }
+    }
+  },
+  "gojo": {
+    "why": "Fighter review batch 3: Maximum: Blue (Shibuya) - a gravity well opens over the circle, drags everything in it inward and inverts. Launch day (12 Oct): its colours turned from the effect's violet to blue (it read as Hollow Purple).",
+    "slots": {
+      "area": {
+        "from": "gojo",
+        "fx": {
+          "effect": "singularity",
+          "hue": -50
+        }
+      }
+    }
+  },
+  "guts": {
+    "why": "Fighter review batch 4: the repeating crossbow on his prosthetic arm rakes the circle - a burst of muzzle flashes and bolts.",
+    "slots": {
+      "area": {
+        "from": "guts",
+        "fx": {
+          "effect": "qk_muzzle"
+        }
+      }
+    }
+  },
+  "itachi": {
+    "why": "Fighter review batch 4: the Uchiha's Great Fireball (the owner: their fire bombs) - a torrent of fire rolling into a fireball over the circle. Launch day (12 Oct): the fireball at three fifths the size and burnt out in half the time (5 m in radius, it filled the frame for 1.8 s).",
+    "slots": {
+      "area": {
+        "from": "itachi",
+        "fx": {
+          "effect": "jutsu_fireball",
+          "scale": 0.6,
+          "settings": {
+            "ballTime": 0.7,
+            "fadeTime": 0.5
+          }
+        }
+      }
+    }
+  },
+  "endeavor": {
+    "why": "Fighter review batch 4: Hell's Curtain - a billowing wall of real fire stands up over the circle.",
+    "slots": {
+      "area": {
+        "from": "endeavor",
+        "fx": {
+          "effect": "found_volumefire"
+        }
+      }
+    }
+  },
+  "akainu": {
+    "why": "Fighter review batch 4: Volcanic Explosion (Kazan Bakuhatsu) - the floor splits into a molten pool that throws magma back into itself. Launch day (12 Oct): the pool kept to the circle and cooled in two seconds (at 1.2 and sized by his 2.3 m it reached 7.7 m out on a 4 m circle, white-hot under his own feet). Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 35.3 % of the frame for 89.3 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "akainu",
+        "fx": {
+          "effect": "magma",
+          "scale": 0.82,
+          "settings": {
+            "lifetime": 1.4,
+            "fadeTime": 0.8,
+            "coolTime": 0.8,
+            "hazeHold": 0.3,
+            "hazeFade": 0.5,
+            "_glow": 0.9
+          }
+        }
+      }
+    }
+  },
+  "byakuya": {
+    "why": "Fighter review batch 4: Senkei: Senbonzakura Kageyoshi - the thousand blades, scattered into petal-blades that wrap the circle and collapse into a shredding vortex.",
+    "slots": {
+      "area": {
+        "from": "byakuya",
+        "fx": {
+          "effect": "edge_petalswarm"
+        }
+      }
+    }
+  },
+  "sakura": {
+    "why": "Fighter review batch 5: Shannarō!! - her chakra fist drives into the circle: the floor dishes into a crater and fissures race out.",
+    "slots": {
+      "area": {
+        "from": "sakura",
+        "fx": {
+          "effect": "blade_quake"
+        }
+      }
+    }
+  },
+  "meliodas": {
+    "why": "Fighter review batch 5: Kamichigiri - one flash of his sword, and a web of hanging cuts fills the circle and goes off at once. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 44.6 % of the frame for 52.1 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "meliodas",
+        "fx": {
+          "effect": "blade_iaido",
+          "scale": 1.27,
+          "settings": {
+            "lifetime": 1.1,
+            "fadeTime": 0.9
+          }
+        }
+      }
+    }
+  },
+  "escanor": {
+    "why": "Fighter review batch 5: Pride Flare - a golden sun blooms over the circle and rains pillars of light. Launch day (12 Oct): the sun at three quarters the size (its bloom filled the frame).",
+    "slots": {
+      "area": {
+        "from": "escanor",
+        "fx": {
+          "effect": "efk_benediction",
+          "scale": 0.72,
+          "settings": {
+            "flash": 0.1
+          }
+        }
+      }
+    }
+  },
+  "tatsumaki": {
+    "why": "Fighter review batch 5: her psychic power stands a towering funnel of dark wisps on the circle (the Tornado of Terror). Launch day (12 Oct): the funnel in her own green, three quarters the size and gone a second and a half after it rises (it was the effect's black and orange and stood on its victim for almost three seconds).",
+    "slots": {
+      "area": {
+        "from": "tatsumaki",
+        "fx": {
+          "effect": "found_tornado",
+          "scale": 0.75,
+          "settings": {
+            "color": "#5dffac",
+            "darkColor": "#1d6b48",
+            "sparkColor": "#eaffef",
+            "lightColor": "#5dffac",
+            "emissiveIntensity": 1.3,
+            "parabolStrength": 0.8,
+            "floorScale": 0.4,
+            "holdTime": 0.15,
+            "fadeTime": 0.4,
+            "liftSparks": 120,
+            "sparkSize": 0.09
+          }
+        }
+      }
+    }
+  },
+  "makima": {
+    "why": "Fighter review batch 5: a crushing order - a bell of pressure closes over the circle and breaks everything inside it.",
+    "slots": {
+      "area": {
+        "from": "makima",
+        "fx": {
+          "effect": "spellbreak"
+        }
+      }
+    }
+  },
+  "kenpachi": {
+    "why": "Fighter review batch 6: Nozarashi - 'Drink, Nozarashi': his reiatsu rises behind him as a horned demon, ink-drawn in his raw yellow, and his one cleave carves its face into the circle.",
+    "slots": {
+      "area": {
+        "from": "kenpachi",
+        "fx": {
+          "effect": "edge_onislash",
+          "settings": {
+            "colorOniGlow": "#f2c41a",
+            "oniInk": "#0a0802",
+            "oniBody": "#d9a514",
+            "oniMid": "#6b4f06",
+            "oniLight": "#fffbe0",
+            "oniHalo": "#f2c41a",
+            "oniFlame": "#f2c41a",
+            "oniFlameTip": "#fff6c8",
+            "swingInk": "#0a0802",
+            "swingBody": "#d9a514",
+            "swingMid": "#ffd84a",
+            "swingLight": "#ffffff",
+            "cutInk": "#0a0802",
+            "cutBody": "#d9a514",
+            "cutMid": "#ffe070",
+            "cutLight": "#fffbe0",
+            "colorBurstCore": "#fffbe0",
+            "colorBurstMid": "#f2c41a",
+            "colorBurstRim": "#3a2a04",
+            "colorEmberA": "#fffbe0",
+            "colorEmberB": "#ffd84a",
+            "colorEmberC": "#f2c41a",
+            "colorEmberD": "#3a2a04",
+            "colorSparkA": "#ffffff",
+            "colorSparkB": "#fff0a0",
+            "colorSparkC": "#f2c41a",
+            "colorSparkD": "#3a2a04",
+            "colorHitCore": "#fffbe0",
+            "colorHitRim": "#f2c41a",
+            "colorHitInk": "#0a0802",
+            "colorFlash": "#fff3c8",
+            "lightColor": "#f2c41a",
+            "ifLineColor": "#fff3c8"
+          }
+        }
+      }
+    }
+  },
+  "minato": {
+    "why": "Fighter review batch 6: Rasen Flash (Rasen Senkō Chō Rinbukō Sanshiki) - he flashes in round the circle strike after strike, each clash a Rasengan's blue ring, his teleports streaking Yellow Flash gold, then drops on it.",
+    "slots": {
+      "area": {
+        "from": "minato",
+        "fx": {
+          "effect": "saga_blitz",
+          "settings": {
+            "zipColorEdge": "#ffcf50",
+            "colorGhost": "#fff1c0",
+            "colorGhostDeep": "#7a5a10",
+            "colorGlint": "#ffcf50",
+            "colorDashB": "#fff6d8",
+            "colorDashC": "#ffd970",
+            "colorDashD": "#b07a10"
+          }
+        }
+      }
+    }
+  },
+  "nico-robin": {
+    "why": "Fighter review batch 6: Campo de Flores (Mil Fleur: Campo de Flores) - flowers open on the floor and a dozen of her arms sprout from them, reach in, clutch and crush. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 47.7 % of the frame for 56.2 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "nico-robin",
+        "fx": {
+          "effect": "seal_sproutarms",
+          "scale": 1.2,
+          "settings": {
+            "arms": 12,
+            "armThickness": 0.062,
+            "handScale": 2.3,
+            "armLit": "#fff3ea",
+            "armMid": "#f4d4c2",
+            "armShade": "#bf8f7f",
+            "armRim": "#ffe6ee",
+            "ringRadius": 1.35,
+            "armLength": 1.2
+          }
+        }
+      }
+    }
+  },
+  "eren": {
+    "why": "The rework, 13 October 2026: Tatakae ('Fight!') - the Scout's steel hangs over the circle in white crescents, one after another, and every cut lands at once (Levi's Humanity's Strongest at nine tenths). The Attack Titan he wakes into casts the Rumbling instead (src/game/fighters/eren.ts). Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 48.2 % of the frame for 40.1 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "eren",
+        "fx": {
+          "effect": "breath_moon",
+          "scale": 1.35,
+          "settings": {
+            "moonSize": 0,
+            "katanaShow": 0,
+            "luneInk": "#0c1620",
+            "luneBody": "#8babbc",
+            "luneMid": "#dcebff",
+            "luneLight": "#ffffff",
+            "colorBurstCore": "#ffffff",
+            "colorBurstMid": "#cfe6ff",
+            "colorBurstRim": "#1a2a3a",
+            "colorMoteA": "#ffffff",
+            "colorMoteB": "#eaf4ff",
+            "colorMoteC": "#cfe6ff",
+            "colorMoteD": "#1a2a3a",
+            "colorSparkA": "#ffffff",
+            "colorSparkB": "#eaf4ff",
+            "colorSparkC": "#cfe6ff",
+            "colorSparkD": "#1a2a3a",
+            "ifCutColor": "#f0f6ff",
+            "ifLineColor": "#f0f6ff",
+            "colorHitCore": "#ffffff",
+            "colorHitRim": "#cfe6ff",
+            "colorHitInk": "#0c1620",
+            "colorFlash": "#f0f6ff",
+            "lightColor": "#cfe6ff",
+            "lifetime": 1.2,
+            "fadeTime": 1.2
+          }
+        }
+      }
+    }
+  },
+  "asuka": {
+    "why": "Fighter review batch 7: Code 777 - 'Mode change! Code 777!': Unit-02 let off its leash, a crimson beast of current that runs the line to the circle and bites shut on it.",
+    "slots": {
+      "area": {
+        "from": "asuka",
+        "fx": {
+          "effect": "titan_lightninghound",
+          "settings": {
+            "houndColorB": "#ffb08a",
+            "houndColorC": "#ff3a1a",
+            "houndColorInk": "#2a0204",
+            "boltGlow": "#ff3a1a",
+            "boltRim": "#ffe0d0",
+            "trackColorGlow": "#ff4a1a",
+            "trackColorHot": "#ffe0c0",
+            "ringColorA": "#ff3a1a",
+            "colorSparkB": "#ffe0d0",
+            "colorSparkC": "#ff7a4a",
+            "colorSparkD": "#7a0a04",
+            "colorHitRim": "#ff3a1a",
+            "colorFlash": "#ffe0d0",
+            "lightColor": "#ff6a3a"
+          }
+        }
+      }
+    }
+  },
+  "netero": {
+    "why": "Fighter review batch 7: Zero Hand - the Hundred-Type Guanyin Bodhisattva's last hand: a sigil, then a towering column of his golden aura over the circle. Launch day (12 Oct): the column a third of the circle wide and gone in a second and a half (it was wider than the circle and hid both fighters for two seconds).",
+    "slots": {
+      "area": {
+        "from": "netero",
+        "fx": {
+          "effect": "extd_celestialrend",
+          "scale": 0.8,
+          "settings": {
+            "colorTendrilCold": "#ffe9b8",
+            "colorShardBody": "#3a2a10",
+            "colorShardFacet": "#7a6030",
+            "colorShardCold": "#ffe2a0",
+            "colorPillarCool": "#fff2c8",
+            "colorStarCool": "#ffe9b8",
+            "colorHaloCool": "#ffe2a0",
+            "lifetime": 1.4,
+            "fadeTime": 0.45,
+            "lightIntensity": 14
+          }
+        }
+      }
+    }
+  },
+  "shinji": {
+    "why": "Fighter review batch 7: Positron Rifle - Operation Yashima: one charged positron shot from Unit-01 burns down the line and holds on the circle.",
+    "slots": {
+      "area": {
+        "from": "shinji",
+        "fx": {
+          "effect": "beam",
+          "settings": {
+            "colorInner": "#fff1d6",
+            "colorOuter": "#ffb04a",
+            "colorHalo": "#e0500c",
+            "colorRing": "#ffe0a8",
+            "colorEmber": "#ffb04a",
+            "colorDustB": "#ffe0a8",
+            "colorShockA": "#ffb04a",
+            "colorSparkB": "#fff1d6",
+            "colorSparkC": "#ffb04a",
+            "colorSparkD": "#7a2a06",
+            "colorMoteB": "#ffe0a8",
+            "colorMoteC": "#ffb04a",
+            "colorMoteD": "#5e2006",
+            "lightColor": "#ffc87f",
+            "colorCastFlash": "#fff1d6",
+            "colorBurstA": "#ffb04a",
+            "colorBurstB": "#fff1d6",
+            "colorFlash": "#fff1d6"
+          }
+        }
+      }
+    }
+  },
+  "jolyne": {
+    "why": "Fighter review batch 7: String Barrier - Stone Free's string: a drag-line bites and an orb web spins across the circle, catching what is in it. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 44.2 % of the frame for 52.8 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "jolyne",
+        "fx": {
+          "effect": "webline",
+          "scale": 1.25,
+          "settings": {
+            "_glow": 1.7
+          }
+        }
+      }
+    }
+  },
+  "might-guy": {
+    "why": "Fighter review batch 7: Evening Elephant - five blows of air pressure, each a sphere of cracked air that shatters like glass on the circle.",
+    "slots": {
+      "area": {
+        "from": "might-guy",
+        "fx": {
+          "effect": "haki_quakebubble"
+        }
+      }
+    }
+  },
+  "akame": {
+    "why": "Fighter review batch 8: One-Cut Killer - Murasame's one cut: light gathers on the sheathed blade, one instant draw, and the crimson slash mark lands on the circle a beat later, as the curse does. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 43.9 % of the frame for 56.6 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "akame",
+        "fx": {
+          "effect": "extra_iaido",
+          "scale": 1.3,
+          "settings": {
+            "element": 0,
+            "useColor": 1,
+            "color": "#d4102c"
+          }
+        }
+      }
+    }
+  },
+  "pikachu": {
+    "why": "Fighter review batch 8: Thunder - storm clouds gather over the circle and Pikachu's yellow bolts hammer down out of them.",
+    "slots": {
+      "area": {
+        "from": "pikachu",
+        "fx": {
+          "effect": "nature_lightningstorm",
+          "settings": {
+            "boltGlowColor": "#ffd21a",
+            "flashColor": "#fff6c8",
+            "colorSparkB": "#fff6c8",
+            "colorSparkC": "#ffd21a",
+            "colorSparkD": "#a06a00",
+            "lightColor": "#ffe066"
+          }
+        }
+      }
+    }
+  },
+  "esdeath": {
+    "why": "Fighter review batch 8: Hagelsprung - a giant block of her ice forms over the circle and drops, shattering inside a ring of frost spikes. Launch day (12 Oct): the block and its spikes at three fifths the size, inside the circle, with their frost on the floor, and melted half a second after they stand (the spikes ran 5.4 m out on a 4 m circle, the frost 6.5 m, and they stood 1.6 s).",
+    "slots": {
+      "area": {
+        "from": "esdeath",
+        "fx": {
+          "effect": "titan_iceblock",
+          "scale": 0.6,
+          "settings": {
+            "hold": 0.5,
+            "meltTime": 0.6,
+            "impactFlash": 0.2,
+            "mistCount": 10,
+            "rimeRadius": 5.6,
+            "ringSize": 9,
+            "frostDecal": 5
+          }
+        }
+      }
+    }
+  },
+  "mikasa": {
+    "why": "Fighter review batch 8: Spinning Slash - the Ackerman spin: a tornado of steel blades drills to the circle and bursts outward. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 47.8 % of the frame for 47 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "mikasa",
+        "fx": {
+          "effect": "blade_cyclone",
+          "scale": 1.4,
+          "settings": {
+            "colorMid": "#cfe6ff",
+            "colorEdge": "#1a2a3a",
+            "colorSparkB": "#eaf4ff",
+            "colorSparkC": "#cfe6ff",
+            "colorSparkD": "#1a2a3a",
+            "colorHitRim": "#cfe6ff",
+            "colorFlash": "#f0f6ff",
+            "lightColor": "#cfe6ff",
+            "lifetime": 1.5,
+            "fadeTime": 1,
+            "swirlLifetime": 2.2,
+            "chipLifetime": 1.8
+          }
+        }
+      }
+    }
+  },
+  "alphonse-elric": {
+    "why": "Fighter review batch 8: Equivalent Exchange - a transmutation circle draws itself on the floor and the reaction's light rises out of it. Launch day (12 Oct): the circle and its light drawn inside the seal and over in two seconds (the curtain of light covered the frame for 1.8 s).",
+    "slots": {
+      "area": {
+        "from": "alphonse-elric",
+        "fx": {
+          "effect": "fx_magiccircle",
+          "scale": 0.72,
+          "settings": {
+            "pillarWidth": 0.75,
+            "pillarHeight": 0.8,
+            "pillarGain": 0.6,
+            "lifetime": 1.8,
+            "fadeTime": 0.5
+          }
+        }
+      }
+    }
+  },
+  "ken-kaneki": {
+    "why": "Fighter review batch 9: Rinkaku Rampage - his crimson kagune burst out of the floor and hammer the circle in a rolling beat. Launch day (12 Oct): the kagune rise inside the circle, at three quarters the thickness (their ring stood 4.7 m out on a 4 m circle, where the caster stands: an effect fitted by name is sized by its circle and again by the caster's height).",
+    "slots": {
+      "area": {
+        "from": "ken-kaneki",
+        "fx": {
+          "effect": "ext_kraken",
+          "scale": 0.72,
+          "settings": {
+            "suckers": 0,
+            "colorSkin": "#8a0a1c",
+            "colorSkinDeep": "#2a0408",
+            "colorBelly": "#ff5a6a",
+            "colorFlush": "#ff2a3a",
+            "colorBiolume": "#ff3a4a",
+            "colorRim": "#ff6a7a",
+            "colorField": "#3a0408",
+            "colorFieldEdge": "#ff3a4a",
+            "colorVeil": "#2a0a10",
+            "colorShockA": "#ff3a4a",
+            "colorShockB": "#ffe0e4",
+            "colorRippleA": "#c01a28",
+            "colorRippleB": "#ffd0d6",
+            "colorCastFlash": "#ff3a4a",
+            "colorFlash": "#ffd0d6",
+            "zoneRadius": 3.1
+          }
+        }
+      }
+    }
+  },
+  "grimmjow": {
+    "why": "Fighter review batch 9: Garra de la Pantera - Pantera's needles fired in a hail down the line, each a hair-thin cyan lance, riddling the circle. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 35 % of the frame for 64.5 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "grimmjow",
+        "fx": {
+          "effect": "hemolance",
+          "scale": 1.6,
+          "settings": {
+            "colorNeedleCore": "#d8f8ff",
+            "colorNeedleEdge": "#20a8e8",
+            "colorNeedleDeep": "#05203a",
+            "colorMistA": "#80dcff",
+            "colorMistB": "#20a8e8",
+            "colorMistC": "#0a4a80",
+            "colorMistD": "#04182a",
+            "colorPoolBase": "#0a2a4a",
+            "colorPoolEdge": "#80dcff",
+            "colorPoolGlow": "#20a8e8",
+            "colorPoolDeep": "#020a14",
+            "colorDropletA": "#60d0ff",
+            "colorDropletB": "#1a90d8",
+            "colorDropletC": "#0a4a80",
+            "colorDropletD": "#04182a",
+            "colorSprayA": "#a0e8ff",
+            "colorSprayB": "#20a8e8",
+            "colorSprayC": "#0a4a80",
+            "colorSprayD": "#04182a",
+            "colorHazeA": "#0a4a80",
+            "colorHazeB": "#083a68",
+            "colorHazeC": "#052a4a",
+            "colorHazeD": "#020e1a",
+            "colorMuzzleA": "#0a2a4a",
+            "colorMuzzleB": "#20a8e8",
+            "colorMuzzleC": "#d8f8ff",
+            "colorCastFlash": "#20a8e8"
+          }
+        }
+      }
+    }
+  },
+  "yamamoto": {
+    "why": "Fighter review batch 9: Ryūjin Jakka - 'Reduce all creation to ash': a fire dragon circles the circle drawing a ring of flame, then the fire takes everything inside it.",
+    "slots": {
+      "area": {
+        "from": "yamamoto",
+        "fx": {
+          "effect": "cin_dragon"
+        }
+      }
+    }
+  },
+  "pain": {
+    "why": "Fighter review batch 9: Feel Pain - the Shinra Tensei that levelled Konoha, on the circle: a white flash and a dome, a beat of nothing, then the pressure front.",
+    "slots": {
+      "area": {
+        "from": "pain",
+        "fx": {
+          "effect": "thunderclap"
+        }
+      }
+    }
+  },
+  "edward-elric": {
+    "why": "Fighter review batch 9: Clap Alchemy - hands together, then the floor buckles in a wave of heaving stone plates and boulders that rolls into the circle. Launch day (12 Oct): the stone rises in half the time and sinks as soon as it stands (it stood on its victim for two and a half seconds). Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 38.9 % of the frame for 82.1 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "edward-elric",
+        "fx": {
+          "effect": "ext_bend_earth",
+          "settings": {
+            "lifetime": 1,
+            "towerRiseTime": 0.6,
+            "towerHold": 0.15
+          }
+        }
+      }
+    }
+  },
+  "hiei": {
+    "why": "Fighter review batch 10: Purgatory Burn (Jaō Ensatsu Rengokushō) - a string of blows wrapped in the Darkness Flame walks into the circle, each one bursting black and magenta.",
+    "slots": {
+      "area": {
+        "from": "hiei",
+        "fx": {
+          "effect": "edge_palmblast",
+          "settings": {
+            "colorCrackleCore": "#ffd8ef",
+            "colorCrackleGlow": "#b5229a",
+            "colorCrackleRim": "#ffffff",
+            "colorStarCore": "#ffd8ef",
+            "colorBlastMid": "#2a0a3a",
+            "colorBlastRim": "#b5229a",
+            "colorHitCore": "#ffd8ef",
+            "colorHitRim": "#b5229a",
+            "colorHitInk": "#0a0410",
+            "colorFlash": "#f4d0ff",
+            "lightColor": "#b040e0",
+            "starInk": "#000000",
+            "starBody": "#2a0a3a",
+            "starMid": "#13081a",
+            "starLight": "#ffd8ef",
+            "starHalo": "#b5229a",
+            "puffColorSmoke": "#2a1a30",
+            "puffColorShade": "#0a0410",
+            "puffColorCore": "#13081a",
+            "puffColorMid": "#24092e",
+            "puffColorBody": "#5a1660",
+            "puffColorRim": "#b5229a",
+            "puffColorInk": "#000000",
+            "colorSparkA": "#ffffff",
+            "colorSparkB": "#ffb0e8",
+            "colorSparkC": "#b5229a",
+            "colorSparkD": "#13081a",
+            "colorEmberA": "#ffd8ef",
+            "colorEmberB": "#e050c0",
+            "colorEmberC": "#b5229a",
+            "colorEmberD": "#13081a"
+          }
+        }
+      }
+    }
+  },
+  "aokiji": {
+    "why": "Fighter review batch 10: Ice Block: Partisan - a ring of ice spears closes on the circle from every side, stands and breaks apart. Launch day (12 Oct): the crown at half the size, inside the circle, with three fifths of the spears (its ring stood 5.7 m out, between the camera and both fighters).",
+    "slots": {
+      "area": {
+        "from": "aokiji",
+        "fx": {
+          "effect": "glacier",
+          "scale": 0.5,
+          "settings": {
+            "spikeCount": 130,
+            "mistRate": 110,
+            "_glow": 0.75
+          }
+        }
+      }
+    }
+  },
+  "doflamingo": {
+    "why": "Fighter review batch 10: Birdcage - glowing strings fall into a dome over the circle, then the cage pulls in, cutting grooves as it closes.",
+    "slots": {
+      "area": {
+        "from": "doflamingo",
+        "fx": {
+          "effect": "seal_stringcage",
+          "settings": {
+            "threadColor": "#ffb0d8",
+            "threadColorCore": "#ffffff",
+            "grooveColor": "#ff80c0",
+            "lineColor": "#ffe8f4",
+            "colorHitRim": "#ff80c0",
+            "colorFlash": "#fff0f8",
+            "lightColor": "#ffa0d0"
+          }
+        }
+      }
+    }
+  },
+  "hisoka": {
+    "why": "Fighter review batch 10: Card Storm - a flight of folded cards runs to the circle and comes apart into a storm of white playing cards. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 38.4 % of the frame for 59.3 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "hisoka",
+        "fx": {
+          "effect": "origami",
+          "scale": 1.6,
+          "settings": {
+            "colorPaper": "#ffffff",
+            "colorShade": "#e6dcef",
+            "colorTransmit": "#ffd8f0",
+            "lightColor": "#ff8ad8",
+            "colorCrease": "#ffffff",
+            "colorInk": "#c0102c",
+            "colorScrapA": "#ffffff",
+            "colorScrapB": "#f6eef6",
+            "colorScrapC": "#e8d8ec",
+            "colorScrapD": "#c8b8d0",
+            "colorChaffA": "#ffffff",
+            "colorChaffB": "#f0e4f0",
+            "colorChaffC": "#ff8ad8",
+            "colorChaffD": "#c01060",
+            "colorDustA": "#fff4fb",
+            "colorDustB": "#f0d8ec",
+            "colorDustC": "#d8b0d0",
+            "colorDustD": "#a07898",
+            "colorRingA": "#ffffff",
+            "colorRingB": "#ff8ad8"
+          }
+        }
+      }
+    }
+  },
+  "blackbeard": {
+    "why": "Fighter review batch 10: Kurouzu - the Dark-Dark Fruit's pull: a well of darkness opens in his palm, its strands latch onto the target and haul it in.",
+    "slots": {
+      "area": {
+        "from": "blackbeard",
+        "fx": {
+          "effect": "seal_pull",
+          "settings": {
+            "orbColorBody": "#100917",
+            "orbColorMid": "#0a0410",
+            "orbColorRim": "#b074e5",
+            "tetherColor": "#8a4ad8",
+            "grooveColor": "#100917",
+            "colorHitRim": "#b074e5",
+            "colorHitInk": "#0a0410",
+            "lightColor": "#b074e5"
+          }
+        }
+      }
+    }
+  },
+  "nanami": {
+    "why": "Fighter review batch 11: Seven to Three - the Ratio Technique's line snaps to the target and the cut crosses on its weak point, the 7:3 mark, in his amber. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 35.5 % of the frame for 32.6 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "nanami",
+        "fx": {
+          "effect": "blade_blink",
+          "scale": 1.7,
+          "settings": {
+            "colorMid": "#e3ad3c",
+            "colorEdge": "#3a2608",
+            "colorGhost": "#f0c870",
+            "colorGhostDeep": "#2a1a06",
+            "colorHitRim": "#e3ad3c",
+            "colorInk": "#0a0804",
+            "colorSparkB": "#fff0c8",
+            "colorSparkC": "#e3ad3c",
+            "colorSparkD": "#3a2608",
+            "colorStreakB": "#fff0c8",
+            "colorStreakC": "#e3ad3c",
+            "colorStreakD": "#3a2608",
+            "colorFlash": "#fff6e0",
+            "lightColor": "#e3ad3c",
+            "lifetime": 1.6,
+            "fadeTime": 1,
+            "sparkLifetime": 1,
+            "streakLifetime": 0.5
+          }
+        }
+      }
+    }
+  },
+  "josuke": {
+    "why": "Fighter review batch 11: Bearing Shot - Crazy Diamond flicks a handful of ball bearings into the circle; the steel ricochets off the floor in pink sparks. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 35.3 % of the frame for 46.8 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "josuke",
+        "fx": {
+          "effect": "shrapnel",
+          "scale": 1.7,
+          "settings": {
+            "colorBurstA": "#f086b5",
+            "colorBurstB": "#ffc0dc",
+            "colorBurstC": "#faf6ff",
+            "colorFlash": "#ffe0f0",
+            "colorPockGlow": "#f086b5",
+            "colorSparkA": "#faf6ff",
+            "colorSparkB": "#ffc0dc",
+            "colorSparkC": "#f086b5",
+            "colorSparkD": "#3a1a40",
+            "lightColor": "#f086b5"
+          }
+        }
+      }
+    }
+  },
+  "tsunade": {
+    "why": "Fighter review batch 11: Tongue Bone Sticky Acid - Katsuyu's acid: the circle turns to a corrosive pool that boils and pops, spitting acid.",
+    "slots": {
+      "area": {
+        "from": "tsunade",
+        "fx": {
+          "effect": "qk_acid"
+        }
+      }
+    }
+  },
+  "jiraiya": {
+    "why": "Fighter review batch 11: Toad Mouth Trap - the floor turns to a giant toad's gullet and swallows what stands on it. Launch day (12 Oct): a shallow gullet in the middle of the seal, its rim 2.1 m out, which closes by itself (its rim was 6.4 m out on a 4.4 m circle, under the caster's own feet, and its dust filled the frame for 1.7 s). It is drawn over whoever stands inside its rim, the caster too: kept small enough that a caster at arm's length stands clear.",
+    "slots": {
+      "area": {
+        "from": "jiraiya",
+        "fx": {
+          "effect": "sinkhole",
+          "scale": 0.5,
+          "settings": {
+            "colorFieldBase": "#7a2a3a",
+            "colorFieldDeep": "#2a0810",
+            "colorFieldEdge": "#d07080",
+            "colorFieldGlow": "#b04a60",
+            "colorGround": "#8a3a48",
+            "colorLip": "#e08a98",
+            "colorWall": "#5a1a28",
+            "colorVoid": "#140408",
+            "colorDeep": "#2a0810",
+            "colorDebris": "#6a2030",
+            "colorBurstA": "#d07080",
+            "colorBurstB": "#8a3040",
+            "colorBurstC": "#2a0810",
+            "colorDustA": "#c08890",
+            "colorDustB": "#8a5560",
+            "colorDustC": "#4a2a30",
+            "colorDustD": "#1e1012",
+            "colorPebbleA": "#a04a5a",
+            "colorPebbleB": "#7a3040",
+            "colorPebbleC": "#4a1a24",
+            "colorPebbleD": "#1e0a10",
+            "colorShockA": "#e08a98",
+            "colorShockB": "#ffd0d8",
+            "colorFlash": "#b04a60",
+            "lightColor": "#ff8a9a",
+            "dustRate": 24,
+            "dustOpacity": 0.1,
+            "blastDust": 30,
+            "lifetime": 0.7,
+            "sinkTime": 0.6,
+            "zoneRadius": 2.1,
+            "apron": 1.3,
+            "depth": 2,
+            "debrisSinkDepth": 3
+          }
+        }
+      }
+    }
+  },
+  "hinata": {
+    "why": "Fighter review batch 11: Protective Eight Trigrams Sixty-Four Palms - the Hyuga trigram lights up and her palms land in doubling volleys, two, four, eight, up to thirty-two, before one double palm. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 57.5 % of the frame for 58.3 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "hinata",
+        "fx": {
+          "effect": "seal_trigrams",
+          "scale": 1.25,
+          "settings": {
+            "lineColor": "#d4d0ff",
+            "fieldColorLight": "#e8e4ff"
+          }
+        }
+      }
+    }
+  },
+  "gintoki": {
+    "why": "Fighter review batch 12: Just Way - one of Katsura's Just Way bombs goes off in the circle in a ring of blasts.",
+    "slots": {
+      "area": {
+        "from": "gintoki",
+        "fx": {
+          "effect": "extra_nova"
+        }
+      }
+    }
+  },
+  "kizaru": {
+    "why": "Fighter review batch 12: Amaterasu - the Glint-Glint Fruit's light gathers into a sun over the circle and flares out in gold.",
+    "slots": {
+      "area": {
+        "from": "kizaru",
+        "fx": {
+          "effect": "solarlens",
+          "settings": {
+            "colorFlareCore": "#fffce6",
+            "colorFlareHalo": "#f9d870",
+            "colorFlareRing": "#f9bf32",
+            "colorIgniteA": "#f9bf32",
+            "colorIgniteB": "#ffe08a",
+            "colorCharGlow": "#f9bf32",
+            "colorEmberC": "#f9a020",
+            "lightColor": "#f9bf32"
+          }
+        }
+      }
+    }
+  },
+  "yamato": {
+    "why": "Fighter review batch 12: Namuji Hyoga - her freezing breath races out as a fracture front and a field of ice crystals tears up where it lands. Launch day (12 Oct): the crystals at just over half the size and standing one second (sized by her 2.35 m, they were 4 m tall and filled the frame for 2.3 s).",
+    "slots": {
+      "area": {
+        "from": "yamato",
+        "fx": {
+          "effect": "ice",
+          "scale": 0.55,
+          "settings": {
+            "lifetime": 0.9,
+            "shatterDelay": 0.3,
+            "sinkTime": 0.5
+          }
+        }
+      }
+    }
+  },
+  "jinbe": {
+    "why": "Fighter review batch 12: Ocean Current Shoulder Throw - Fish-Man Jujutsu takes hold of the current and throws it: a serpent of seawater swims to the circle and crashes down in foam.",
+    "slots": {
+      "area": {
+        "from": "jinbe",
+        "fx": {
+          "effect": "ext_bend_water"
+        }
+      }
+    }
+  },
+  "enel": {
+    "why": "Fighter review batch 12: Mamaragan - a thundercloud boils over the circle and hammers it with forked bolts, cyan-white edged in his gold. Launch day (12 Oct): at just under half the size, so the cloud hangs in the frame over the circle and the bolts fall inside it (sized by his 2.58 m it hung 9.6 m up, out of sight, and its bolts fell 8.8 m out on a 4.4 m circle).",
+    "slots": {
+      "area": {
+        "from": "enel",
+        "fx": {
+          "effect": "titan_thundercloud",
+          "scale": 0.45,
+          "settings": {
+            "boltGlow": "#70d9ff",
+            "boltRim": "#eaffff",
+            "colorHitRim": "#f9d25b",
+            "hitRingColorA": "#70d9ff",
+            "colorSparkC": "#70d9ff",
+            "colorSparkD": "#1a6a90",
+            "colorFlash": "#eaffff",
+            "cloudColorLit": "#5ab8e8"
+          }
+        }
+      }
+    }
+  },
+  "rukia": {
+    "why": "Fighter review batch 13: Hado #33: Sokatsui - Kido's blue fire: cel-banded tongues of blue flame erupt one after another down the line into the circle.",
+    "slots": {
+      "area": {
+        "from": "rukia",
+        "fx": {
+          "effect": "extra_celflame",
+          "settings": {
+            "colorCore": "#eef8ff",
+            "colorMid": "#6ab8ff",
+            "colorOuter": "#2a5aff",
+            "colorOutline": "#020818",
+            "lightColor": "#4a8aff",
+            "sparkColor": "#8ac8ff"
+          }
+        }
+      }
+    }
+  },
+  "yuta": {
+    "why": "Fighter review batch 13: Rika - the Queen of Curses rises behind him and hammers the circle with dozens of fists, then one giant fist, bone-white over his indigo.",
+    "slots": {
+      "area": {
+        "from": "yuta",
+        "fx": {
+          "effect": "seal_ghostrush",
+          "settings": {
+            "ghostColor": "#e8e3ef",
+            "ghostColorDeep": "#2a2260",
+            "ghostColorRim": "#ffffff",
+            "fistLit": "#f4f0f8",
+            "fistMid": "#d8d0e8",
+            "fistShade": "#5446c8",
+            "fistEmit": "#2a2260",
+            "fistInk": "#0e0b22",
+            "fistAfterTint": "#8a7ad8",
+            "streakColor": "#c8c0f0",
+            "lightColor": "#5446c8",
+            "colorHitRim": "#8a7ad8",
+            "colorHitInk": "#0e0b22",
+            "ifSilColor": "#8a7ad8",
+            "colorFlash": "#f0eaff"
+          }
+        }
+      }
+    }
+  },
+  "yuji": {
+    "why": "Fighter review batch 13: Black Flash - the world drains, then black lightning with red rims tears out of the blow, as when cursed energy lands within a millionth of a second of the hit.",
+    "slots": {
+      "area": {
+        "from": "yuji",
+        "fx": {
+          "effect": "blade_blackflash"
+        }
+      }
+    }
+  },
+  "todoroki": {
+    "why": "Fighter review batch 13: Flashfreeze Heatwave - frozen air meets his fire and bursts: the vapour blanket collapses into a blast of steam (thinned so the fight stays readable).",
+    "slots": {
+      "area": {
+        "from": "todoroki",
+        "fx": {
+          "effect": "quench",
+          "settings": {
+            "steamDensity": 0.6,
+            "steamWidth": 0.75,
+            "steamRate": 80,
+            "steamOpacity": 0.18,
+            "steamLifetime": 1.4
+          }
+        }
+      }
+    }
+  },
+  "yoruichi": {
+    "why": "Fighter review batch 13: Flash Goddess - a blur of her afterimages streaks into the circle and ends in one blinding strike, in Shunko violet. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 51.2 % of the frame for 46.7 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "yoruichi",
+        "fx": {
+          "effect": "blade_dash",
+          "scale": 1.6,
+          "settings": {
+            "colorBurstMid": "#c9a6ff",
+            "colorEdge": "#2a0a66",
+            "colorFlash": "#f0e6ff",
+            "colorGhost": "#c9a6ff",
+            "colorGhostDeep": "#1a0640",
+            "colorHitRim": "#a67aff",
+            "colorLead": "#f4ecff",
+            "colorMid": "#a67aff",
+            "colorSparkB": "#ecdcff",
+            "colorSparkC": "#a67aff",
+            "colorSparkD": "#2a0a66",
+            "colorStreakB": "#e0d0ff",
+            "colorStreakC": "#a67aff",
+            "colorStreakD": "#2a0a66",
+            "lightColor": "#c9a6ff",
+            "dustLifetime": 2.2,
+            "sparkLifetime": 0.9
+          }
+        }
+      }
+    }
+  },
+  "all-might": {
+    "why": "Fighter review batch 14: Oklahoma Smash - his spinning Smash whips the air into a howling tornado over the circle.",
+    "slots": {
+      "area": {
+        "from": "all-might",
+        "fx": {
+          "effect": "efk_tornado"
+        }
+      }
+    }
+  },
+  "bakugo": {
+    "why": "Fighter review batch 14: Cluster - a scatter of his blasts rains over the circle, each one bursting where it lands.",
+    "slots": {
+      "area": {
+        "from": "bakugo",
+        "fx": {
+          "effect": "nb_meteorshower"
+        }
+      }
+    }
+  },
+  "deku": {
+    "why": "Fighter review batch 14: Manchester Smash - the axe kick comes down and cracks the ground into a blast of One For All green. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 35.9 % of the frame for 33.7 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "deku",
+        "fx": {
+          "effect": "extra_heel",
+          "scale": 1.65,
+          "settings": {
+            "element": 0,
+            "useColor": 1,
+            "color": "#3cf07a"
+          }
+        }
+      }
+    }
+  },
+  "broly": {
+    "why": "Fighter review batch 14: Gigantic Meteor - a colossal ball of his lime-green ki comes down on the circle and goes off.",
+    "slots": {
+      "area": {
+        "from": "broly",
+        "fx": {
+          "effect": "cosmos_starfall",
+          "settings": {
+            "colorCoreHalo": "#b8ff6a",
+            "colorCraterCool": "#2a8a10",
+            "colorCraterHot": "#f4ffd0",
+            "colorCraterWarm": "#8ef03a",
+            "colorFlash": "#f4ffd0",
+            "colorHitRim": "#8ef03a",
+            "colorPillar": "#e4ff8b",
+            "colorShellBody": "#8ef03a",
+            "colorShellNose": "#f4ffd0",
+            "colorShellTail": "#1f6b1a",
+            "colorTrailCore": "#e4ff8b",
+            "colorTrailEdge": "#67d92d",
+            "lightColor": "#b8ff6a"
+          }
+        }
+      }
+    }
+  },
+  "denji": {
+    "why": "Fighter review batch 14: Chainsaw Lasso - a chainsaw bar shoots out on its chain into the circle and grinds in a spray of sparks and blood.",
+    "slots": {
+      "area": {
+        "from": "denji",
+        "fx": {
+          "effect": "edge_chainsaw"
+        }
+      }
+    }
+  },
+  "boa-hancock": {
+    "why": "Fighter review batch 15: Mero Mero Mellow - a heart beats, then a pink ray of spiralling hearts pours over the circle and turns what it charms to grey stone. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 36.7 % of the frame for 70.5 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "boa-hancock",
+        "fx": {
+          "effect": "edge_heartbeam",
+          "scale": 1.7
+        }
+      }
+    }
+  },
+  "nami": {
+    "why": "Fighter review batch 15: Zeus Breeze Tempo - Zeus hurls his lightning down on the circle and it overloads into a storm of branches, in her pale storm yellow.",
+    "slots": {
+      "area": {
+        "from": "nami",
+        "fx": {
+          "effect": "p27_thunderlance",
+          "settings": {
+            "lightColor": "#ffe57a"
+          }
+        }
+      }
+    }
+  },
+  "mihawk": {
+    "why": "Fighter review batch 15: Black Blade: Samidare - a rain of Yoru's slashes rips round the circle from every angle, then one huge cut finishes it, in Yoru's green-tinted light. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 41 % of the frame for 43.8 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "mihawk",
+        "fx": {
+          "effect": "extra_slashstorm",
+          "scale": 1.7,
+          "settings": {
+            "slashTint": "#eaf5cf",
+            "hitTint": "#eaf5cf",
+            "lightColor": "#73a56d",
+            "sparkColor": "#b8e0a0"
+          }
+        }
+      }
+    }
+  },
+  "kaido": {
+    "why": "Fighter review batch 15: Bolo Breath - the dragon's breath: a sustained cone of flame burns a track into the circle.",
+    "slots": {
+      "area": {
+        "from": "kaido",
+        "fx": {
+          "effect": "dragonbreath"
+        }
+      }
+    }
+  },
+  "whitebeard": {
+    "why": "Fighter review batch 15: Kaishin - the seaquake: open sea heaves up round the target in rolling swells with white crests. Launch day (12 Oct): the sea kept to the circle and settled in two seconds (it reached 7 m out on a 4.4 m circle, over his own feet).",
+    "slots": {
+      "area": {
+        "from": "whitebeard",
+        "fx": {
+          "effect": "found_ragingsea",
+          "settings": {
+            "color": "#0a3a5a",
+            "emissiveColor": "#a8d8ff",
+            "sparkColor": "#e8f4ff",
+            "lightColor": "#cfe8ff",
+            "radius": 4,
+            "holdTime": 0.8,
+            "settleTime": 0.6
+          }
+        }
+      }
+    }
+  },
+  "shanks": {
+    "why": "Fighter review batch 16: Strike of the New World - Conqueror's Haki crackles off him in black lightning and one swing becomes a huge black crescent rimmed in crimson.",
+    "slots": {
+      "area": {
+        "from": "shanks",
+        "fx": {
+          "effect": "edge_blackcrescent",
+          "settings": {
+            "colorBoltGlow": "#ff2a3a",
+            "colorCleaveEdge": "#ff2a3a",
+            "colorScarEmber": "#5a0010",
+            "colorHitRim": "#ff2a3a",
+            "lightColor": "#ff2a3a"
+          }
+        }
+      }
+    }
+  },
+  "roger": {
+    "why": "Fighter review batch 16: Conqueror's Clash - his Haki comes up gold round black lightning and a shockwave of will rolls across the circle, cracking the ground in rings.",
+    "slots": {
+      "area": {
+        "from": "roger",
+        "fx": {
+          "effect": "haki_conqueror",
+          "settings": {
+            "arcBand": "#ffb020",
+            "arcHalo": "#5a3000",
+            "colorFlash": "#ffd060",
+            "colorHitRim": "#ffb020",
+            "colorSparkB": "#ffe08a",
+            "colorSparkC": "#ffb020",
+            "colorSparkD": "#301800",
+            "domeMid": "#ffb020",
+            "domeRim": "#ffd060",
+            "floorBand": "#ffb020",
+            "floorHot": "#fff3c4",
+            "ifSilColor": "#ffb020",
+            "lightColor": "#ffb020"
+          }
+        }
+      }
+    }
+  },
+  "aizen": {
+    "why": "Fighter review batch 16: Hado #63: Raikoho - kido's thunder-roar cannon charges at his hand and tears down the line in the Hogyoku's violet.",
+    "slots": {
+      "area": {
+        "from": "aizen",
+        "fx": {
+          "effect": "efk_bluelaser",
+          "settings": {
+            "colorFlash": "#e8d8ff",
+            "colorRing": "#b070ff",
+            "lightColor": "#b070ff"
+          }
+        }
+      }
+    }
+  },
+  "sukuna": {
+    "why": "Fighter review batch 16: Fuga - a bow forms as flame kindles on the arrowhead, then the fire arrow flies and detonates in a blast of flame.",
+    "slots": {
+      "area": {
+        "from": "sukuna",
+        "fx": {
+          "effect": "edge_firearrow"
+        }
+      }
+    }
+  },
+  "griffith": {
+    "why": "Fighter review batch 16: Band of the Hawk - a flock of white hawks streams into the circle and breaks over it, in the White Hawk's silver.",
+    "slots": {
+      "area": {
+        "from": "griffith",
+        "fx": {
+          "effect": "emberflock",
+          "settings": {
+            "colorBirdA": "#ffffff",
+            "colorBirdB": "#e6ecf5",
+            "colorBirdC": "#b8c4d8",
+            "colorBirdD": "#23142d",
+            "colorTrailA": "#ffffff",
+            "colorTrailB": "#d6dde9",
+            "colorTrailC": "#8a96b0",
+            "colorTrailD": "#23142d",
+            "colorBurstA": "#d6dde9",
+            "colorBurstB": "#ffffff",
+            "colorBurstC": "#ffffff",
+            "colorEmberA": "#ffffff",
+            "colorEmberB": "#e6ecf5",
+            "colorEmberC": "#b8c4d8",
+            "colorEmberD": "#23142d",
+            "colorSparkB": "#f0f4ff",
+            "colorSparkC": "#b8c4d8",
+            "colorSparkD": "#23142d",
+            "colorFlash": "#ffffff",
+            "colorCastFlash": "#ffffff",
+            "colorShockA": "#d6dde9",
+            "colorShockB": "#ffffff",
+            "colorCharEmber": "#b8c4d8",
+            "lightColor": "#e6ecf5"
+          }
+        }
+      }
+    }
+  },
+  "meruem": {
+    "why": "Fighter review batch 17: Checkmate - the King lays a board of light over the circle, every line bright where it crosses, then the mate lands. Launch day (12 Oct): the lattice kept to the circle and gone in two seconds (it reached 6 m out on a 4.2 m circle and crossed the whole frame for 2.5 s).",
+    "slots": {
+      "area": {
+        "from": "meruem",
+        "fx": {
+          "effect": "photonlattice",
+          "scale": 0.62,
+          "settings": {
+            "colorHalo": "#2f8f72",
+            "colorShockB": "#2f8f72",
+            "colorMoteB": "#bfe8d8",
+            "colorMoteC": "#2f8f72",
+            "colorMoteD": "#2a1242",
+            "colorEnd": "#9a6ad8",
+            "colorCastFlash": "#e8fff4",
+            "lightColor": "#7fd8b8",
+            "lifetime": 1.3,
+            "fadeTime": 0.5
+          }
+        }
+      }
+    }
+  },
+  "goku-black": {
+    "why": "Fighter review batch 17: Holy Wrath - a celestial array locks onto the circle and drives column after column of divine light into it, in Rose pink.",
+    "slots": {
+      "area": {
+        "from": "goku-black",
+        "fx": {
+          "effect": "p27_megiddo",
+          "settings": {
+            "lightColor": "#ff5fcf"
+          }
+        }
+      }
+    }
+  },
+  "jiren": {
+    "why": "Fighter review batch 17: Infinity Rush - ki blasts fly from both hands and land in a stacked chain of red explosions under rolling smoke. Launch day (12 Oct): the volley at three quarters the size, thrown in a second, its smoke gone in another.",
+    "slots": {
+      "area": {
+        "from": "jiren",
+        "fx": {
+          "effect": "ki_volley",
+          "scale": 0.75,
+          "settings": {
+            "blastColorBody": "#ff4a2a",
+            "blastColorMid": "#ffb0a0",
+            "blastColorRim": "#8a0a14",
+            "boltColorBody": "#ff4a2a",
+            "boltColorMid": "#ffc0b0",
+            "boltColorRim": "#8a0a14",
+            "colorEmberB": "#ffb0a0",
+            "colorEmberC": "#ff4a2a",
+            "colorEmberD": "#400408",
+            "colorEmberGlow": "#ff4a2a",
+            "colorFlash": "#fff0e6",
+            "barrageTime": 1,
+            "linger": 0.8
+          }
+        }
+      }
+    }
+  },
+  "golden-frieza": {
+    "why": "Fighter review batch 17: Death Saucer - a spinning cutting disc skims into the circle, carving a glowing scar, and detonates.",
+    "slots": {
+      "area": {
+        "from": "golden-frieza",
+        "fx": {
+          "effect": "ki_disc"
+        }
+      }
+    }
+  },
+  "gohan-beast": {
+    "why": "Fighter review batch 17: Beast Barrage - a barrage of alternating punches with afterimage fists, then a straight that blasts a shock cone, in the Beast aura's white-violet.",
+    "slots": {
+      "area": {
+        "from": "gohan-beast",
+        "fx": {
+          "effect": "extra_rush",
+          "settings": {
+            "element": 0,
+            "useColor": 1,
+            "color": "#c8a0ff"
+          }
+        }
+      }
+    }
+  },
+  "saitama": {
+    "why": "Fighter review batch 18: Serious Table Flip - he flips the ground like a table: slabs of floor tear loose and heave over on their hinges. Launch day (12 Oct): the slabs at three fifths the size and down a second after they flip (they stood between the camera and both fighters for two seconds).",
+    "slots": {
+      "area": {
+        "from": "saitama",
+        "fx": {
+          "effect": "stonespine",
+          "scale": 0.6,
+          "settings": {
+            "lifetime": 0.9,
+            "sinkTime": 0.5
+          }
+        }
+      }
+    }
+  },
+  "akaza": {
+    "why": "Fighter review batch 18: Destructive Death: Crushing Type - his compass-needle snowflake draws on the floor, shocks race out along every point, then everything shatters, in his cyan and pink.",
+    "slots": {
+      "area": {
+        "from": "akaza",
+        "fx": {
+          "effect": "seal_snowcompass",
+          "settings": {
+            "sigilColor": "#39d0f4",
+            "sigilColorHot": "#f1fdff",
+            "lineColor": "#f1fdff",
+            "colorHitRim": "#d0408a",
+            "ifSilColor": "#d0408a",
+            "colorFlash": "#f1fdff",
+            "lightColor": "#39d0f4",
+            "iceLit": "#f1fdff",
+            "iceMid": "#39d0f4",
+            "iceShade": "#1a5a8a",
+            "iceEmit": "#d0408a",
+            "iceInk": "#0a0a1a",
+            "iceHot": "#ffffff",
+            "frozenLit": "#f1fdff",
+            "frozenMid": "#9ae6f8",
+            "frozenShade": "#d0408a",
+            "colorChipC": "#39d0f4",
+            "colorChipD": "#d0408a",
+            "colorMistC": "#9ae6f8",
+            "colorMistD": "#d0408a"
+          }
+        }
+      }
+    }
+  },
+  "madara": {
+    "why": "Fighter review batch 18: Dragon Flame Release Song - a dragon of fire bursts from his hands, coils over the circle and dives into a pillar of flame. Launch day (12 Oct): the dragon and its blast at three fifths the size, the smoulder a quarter as long (the blast filled the frame for 1.1 s).",
+    "slots": {
+      "area": {
+        "from": "madara",
+        "fx": {
+          "effect": "jutsu_dragonflame",
+          "scale": 0.62,
+          "settings": {
+            "fadeTime": 0.5
+          }
+        }
+      }
+    }
+  },
+  "tanjiro": {
+    "why": "Fighter review batch 18: Constant Flux - flowing cuts trail water ribbons into a curling crest, then a water dragon uncoils from the blade and dives onto the circle.",
+    "slots": {
+      "area": {
+        "from": "tanjiro",
+        "fx": {
+          "effect": "breath_water"
+        }
+      }
+    }
+  },
+  "levi": {
+    "why": "Fighter review batch 18: Humanity's Strongest - a storm of short steel cuts from every angle, then an overhead finisher.",
+    "slots": {
+      "area": {
+        "from": "levi",
+        "fx": {
+          "effect": "extra_flurry",
+          "settings": {
+            "element": 0,
+            "useColor": 1,
+            "color": "#dfe6ee"
+          }
+        }
+      }
+    }
+  },
+  "sung-jinwoo": {
+    "why": "Fighter review batch 19: Shadow Army - near-black spears of his shadows rise out of the circle, lit only along a violet rim.",
+    "slots": {
+      "area": {
+        "from": "sung-jinwoo",
+        "fx": {
+          "effect": "umbralspears"
+        }
+      }
+    }
+  },
+  "gon": {
+    "why": "Fighter review batch 19: Ren - he gathers his breath and his Nen flares: a power-up aura bursts and its ring runs across the floor.",
+    "slots": {
+      "area": {
+        "from": "gon",
+        "fx": {
+          "effect": "extra_auraflare"
+        }
+      }
+    }
+  },
+  "garou": {
+    "why": "Fighter review (11 Oct; the owner: Garou borrowed Zoro’s cyclone): Cross Fang Dragon Slayer Fist (交牙竜殺拳), the style he forged from Water Stream Rock Smashing Fist and Whirlwind Iron Cutting Fist: a column of blue wind blades closes over the circle and cuts outward, as in his crossed-arm G art.",
+    "slots": {
+      "area": {
+        "from": "garou",
+        "fx": {
+          "effect": "breath_wind",
+          "settings": {
+            "colorBurstCore": "#f4f9ff",
+            "colorBurstMid": "#5fa8ff",
+            "colorBurstRim": "#10306a",
+            "galeInk": "#050c1f",
+            "galeBody": "#2563c8",
+            "galeMid": "#8cc2ff",
+            "galeLight": "#f4f9ff",
+            "colorLeafA": "#ffffff",
+            "colorLeafB": "#bcd8ff",
+            "colorLeafC": "#5f8fd8",
+            "colorLeafD": "#1a2f5a",
+            "leafSize": 0.1,
+            "colorDustA": "#a8b4c8",
+            "colorDustB": "#7a869c",
+            "colorDustC": "#4e586a",
+            "colorDustD": "#2a303c",
+            "colorStreakA": "#ffffff",
+            "colorStreakB": "#d8e8ff",
+            "colorStreakC": "#5fa8ff",
+            "colorStreakD": "#10306a",
+            "ifLineColor": "#d8e8ff",
+            "colorHitRim": "#5fa8ff",
+            "colorHitInk": "#050c1f",
+            "colorFlash": "#e8f2ff",
+            "lightColor": "#7fb8ff"
+          }
+        }
+      }
+    }
+  },
+  "kaiju-no-8": {
+    "why": "Fighter review (11 Oct; the owner: Kaiju No. 8 borrowed Eren’s tectonic): Kaiju Hammer (怪獣の鉄槌), his Reactor Hammer: Kafka’s kaiju fist comes down on the circle and shatters the floor - the charcoal body, cyan seams and tan rubble of his G art. Launch day (12 Oct): the fist at half the size, with half the rubble, so it lands in the circle (sized by his 2.35 m as well as by the circle, it was a 4.5 m fist on a 3.8 m circle and came down on the camera), and it crumbles 0.6 s after it lands.",
+    "slots": {
+      "area": {
+        "from": "kaiju-no-8",
+        "fx": {
+          "effect": "titan_magmafist",
+          "scale": 0.5,
+          "settings": {
+            "magmaColorA": "#e8fbff",
+            "magmaColorB": "#2a3036",
+            "magmaColorC": "#101418",
+            "magmaColorD": "#20e0d0",
+            "magmaColorInk": "#020405",
+            "lavaColorCore": "#e8fbff",
+            "lavaColorMid": "#7ff5ea",
+            "lavaColorBody": "#19c8c0",
+            "lavaColorRim": "#0a5a5c",
+            "lavaColorSmoke": "#22282c",
+            "lavaColorShade": "#0a0e10",
+            "lavaColorInk": "#02080a",
+            "smokeColorCore": "#c8f0ec",
+            "smokeColorMid": "#5fd8d0",
+            "smokeColorBody": "#1f8a86",
+            "smokeColorRim": "#0e3a3c",
+            "smokeColorSmoke": "#3a3e40",
+            "smokeColorShade": "#121618",
+            "smokeColorInk": "#02080a",
+            "poolColorPit": "#0a1214",
+            "poolColorLip": "#2a3236",
+            "poolColorGlow": "#19c8c0",
+            "poolColorHot": "#c8fff8",
+            "craterDish": "#121618",
+            "craterLipColor": "#2e3438",
+            "craterHot": "#22d8cc",
+            "craterEmber": "#0a4a48",
+            "ringColorA": "#19c8c0",
+            "ringColorB": "#c8fff8",
+            "warnColor": "#19c8c0",
+            "rockColor": "#8a7a68",
+            "rockGlowColor": "#22d8cc",
+            "colorEmberA": "#ffffff",
+            "colorEmberB": "#a8fff4",
+            "colorEmberC": "#19c8c0",
+            "colorEmberD": "#0a4a48",
+            "colorChipA": "#8a7a68",
+            "colorChipB": "#6a5c4e",
+            "colorChipC": "#4a4038",
+            "colorChipD": "#2a2420",
+            "colorHitRim": "#19c8c0",
+            "colorFlash": "#b8fff6",
+            "lightColor": "#2ae0d4",
+            "embedTime": 0.6,
+            "crumbleTime": 0.6,
+            "impactFlash": 0.1,
+            "rockCount": 16,
+            "lavaCount": 24
+          }
+        }
+      }
+    }
+  },
+  "crocodile": {
+    "why": "Fighter review (11 Oct; the owner: give the new fighters the same treatment - his G borrowed Eren’s tectonic): Desert Girasole (砂漠の向日葵) - he dries the ground under the circle and it caves into a whirlpool of quicksand that swallows whatever stands on it (Alabasta, Rainbase). Launch day (12 Oct): the quicksand kept to the circle and closed in two seconds (its pool reached 8 m out on a 3.8 m circle: the whole floor). Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 35.5 % of the frame for 104.1 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "crocodile",
+        "fx": {
+          "effect": "undertow",
+          "scale": 0.8,
+          "settings": {
+            "colorDeep": "#2a1a0c",
+            "colorShallow": "#b98a4e",
+            "colorFoam": "#f3e2bf",
+            "colorSpec": "#fff6e0",
+            "colorSky": "#6b5434",
+            "colorNet": "#e8c98a",
+            "colorFringe": "#fff3d6",
+            "colorWash": "#7a5a32",
+            "colorDebrisA": "#c9a46a",
+            "colorDebrisB": "#9c7a48",
+            "colorDebrisC": "#6b5230",
+            "colorDebrisD": "#2a1c0e",
+            "colorSpumeA": "#f6e8c8",
+            "colorSpumeB": "#e0c08a",
+            "colorSpumeC": "#a8844e",
+            "colorSpumeD": "#4a3420",
+            "colorMistA": "#ead7b0",
+            "colorMistB": "#c8ac7c",
+            "colorMistC": "#8a7048",
+            "colorMistD": "#3a2c1c",
+            "colorGritA": "#d6b886",
+            "colorGritB": "#a88a5a",
+            "colorGritC": "#6e5636",
+            "colorGritD": "#2a1e12",
+            "colorRimA": "#2e2010",
+            "colorRimB": "#f0d9a8",
+            "colorBurstA": "#fff1d0",
+            "colorBurstB": "#d0a060",
+            "colorBurstC": "#4a3218",
+            "colorShockA": "#f8e6c0",
+            "colorShockB": "#c09050",
+            "colorFlash": "#f0d49a",
+            "lightColor": "#f2c27a",
+            "zoneRadius": 3.6,
+            "pullTime": 1.3,
+            "closeTime": 0.6
+          }
+        }
+      }
+    }
+  },
+  "toji": {
+    "why": "Launch night (12 Oct): Heavenly Ambush is an aimed area move like everyone's (the owner, 11 Oct: an AoE that players would actually have to choose the area for). It was a 2 m sweep on his own feet (range 0, no telegraph), which a dummy a step away never felt. One draw of the Inverted Spear at the release, a web of hairline cuts across the circle, and every line flares at once: steel and ink, no cursed energy. Feel pass (15 Oct): the area look sized (and where it flashed and was gone, its tail held) up to the originals' area floor (it peaked at 58.9 % of the frame for 43.5 %s against their 43.7 % / 64.9 %s; scripts/night/fx_presence.mjs SLOTS=area), every ceiling kept.",
+    "slots": {
+      "area": {
+        "from": "toji",
+        "fx": {
+          "effect": "blade_iaido",
+          "scale": 1.5,
+          "settings": {
+            "colorBurstMid": "#cfd8d4",
+            "colorBurstRim": "#2a3038",
+            "colorMid": "#dfe6e2",
+            "colorEdge": "#3a4048",
+            "colorSparkB": "#f2f6f4",
+            "colorSparkC": "#cfd8d4",
+            "colorSparkD": "#20262c",
+            "colorMoteB": "#e8f0ec",
+            "colorMoteC": "#aeb8b4",
+            "colorMoteD": "#171d24",
+            "colorHitRim": "#cfd8d4",
+            "colorFlash": "#f2f6f4",
+            "lightColor": "#dfe6e2",
+            "lifetime": 1.6,
+            "fadeTime": 1
+          }
+        }
+      }
+    }
+  }
+}

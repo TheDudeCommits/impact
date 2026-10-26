@@ -1,0 +1,9 @@
+export const CONTACT = 'Hello@Dude.work';
+export const GAME_NAME = 'Impact';
+export const FAN_MADE = 'Impact is a free, fan-made, non-commercial project. It is not affiliated with, endorsed by, or sponsored by Shueisha, Kodansha, Hakusensha, Toei Animation, Bandai Namco or any other rights holder of the series it celebrates. All characters, names and marks belong to their respective owners.';
+export const UNOFFICIAL = 'an unofficial fan game';
+export const SITE_TITLE = `${GAME_NAME} · ${UNOFFICIAL}`;
+export const PRIVACY_PAGE = '/privacy.html';
+export const TERMS_PAGE = '/terms.html';
+export const CREDITS_PAGE = '/credits.html';
+export const REPO_PAGE = 'https://github.com/TheDudeCommits/impact';

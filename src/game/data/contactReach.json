@@ -1,0 +1,178 @@
+{
+ "zoro": {
+  "light": 2.567,
+  "heavy": 2.387,
+  "ultimate": 2.676
+ },
+ "jotaro": {
+  "light": 0.816,
+  "special": 0.767,
+  "ultimate": 0.767
+ },
+ "ichigo": {
+  "light": 1.336,
+  "heavy": 1.369
+ },
+ "kakashi": {
+  "light": 0.721,
+  "heavy": 1.115,
+  "ultimate": 1.107
+ },
+ "sasuke": {
+  "light": 0.385,
+  "heavy": 0.519
+ },
+ "sanji": {
+  "light": 1.123,
+  "heavy": 1.248,
+  "ultimate": 1.981
+ },
+ "vegeta": {
+  "light": 0.958
+ },
+ "goku": {
+  "light": 0.713,
+  "heavy": 1.162
+ },
+ "luffy": {
+  "light": 1.9,
+  "heavy": 2.634,
+  "ultimate": 2.263
+ },
+ "naruto": {
+  "light": 0.477,
+  "heavy": 0.282
+ },
+ "dio": {
+  "light": 0.711,
+  "special": 0.76,
+  "ultimate": 0.76
+ },
+ "killua": {
+  "light": 0.59,
+  "heavy": 0.852,
+  "ultimate": 0.826
+ },
+ "ace": {
+  "light": 0.938,
+  "heavy": 1.853
+ },
+ "law": {
+  "light": 3.891,
+  "heavy": 1.094,
+  "special": 0.868,
+  "ultimate": 0.68
+ },
+ "gojo": {
+  "light": 0.313,
+  "ultimate": 0.496
+ },
+ "guts": {
+  "light": 4.319,
+  "heavy": 3.121,
+  "ultimate": 4.334
+ },
+ "kaido": {
+  "light": 3.548,
+  "heavy": 5.034,
+  "ultimate": 7.371
+ },
+ "whitebeard": {
+  "light": 4.449,
+  "heavy": 4.585,
+  "ultimate": 2.276
+ },
+ "shanks": {
+  "light": 3.741,
+  "heavy": 3.518,
+  "special": 2.129
+ },
+ "roger": {
+  "light": 1.343,
+  "heavy": 2.403,
+  "ultimate": 1.943
+ },
+ "aizen": {
+  "light": 0.286,
+  "heavy": 0.43
+ },
+ "sukuna": {
+  "light": 0.312,
+  "heavy": 0.626,
+  "ultimate": 0.297
+ },
+ "griffith": {
+  "light": 1.269,
+  "heavy": 0.613,
+  "special": 0.936,
+  "ultimate": 1.168
+ },
+ "meruem": {
+  "light": 1.168,
+  "heavy": 0.209,
+  "special": 0.836,
+  "ultimate": 1.044
+ },
+ "goku-black": {
+  "light": 1.734,
+  "heavy": 1.56,
+  "ultimate": 1.559
+ },
+ "jiren": {
+  "light": 1.971,
+  "heavy": 0.8,
+  "ultimate": 2.859
+ },
+ "golden-frieza": {
+  "light": 1.975,
+  "heavy": 0.967
+ },
+ "gohan-beast": {
+  "light": 1.157,
+  "heavy": 1.203
+ },
+ "saitama": {
+  "light": 2.212,
+  "heavy": 0.746,
+  "special": 1.331,
+  "ultimate": 1.243
+ },
+ "akaza": {
+  "light": 2.201,
+  "heavy": 1.642,
+  "special": 0.963,
+  "ultimate": 1.968
+ },
+ "itachi": {
+  "light": 0.65,
+  "heavy": 1.294,
+  "ultimate": 0.669
+ },
+ "madara": {
+  "light": 0.428,
+  "heavy": 0.29,
+  "ultimate": 0.614
+ },
+ "tanjiro": {
+  "light": 1.43,
+  "heavy": 0.916,
+  "special": 1.073,
+  "ultimate": 1.196
+ },
+ "levi": {
+  "light": 0.978,
+  "heavy": 0.769,
+  "special": 1.263,
+  "ultimate": 1.085
+ },
+ "sung-jinwoo": {
+  "light": 1.053,
+  "heavy": 0.554,
+  "ultimate": 1.057
+ },
+ "gon": {
+  "light": 0.44,
+  "heavy": 0.202,
+  "ultimate": 0.601
+ }
+}

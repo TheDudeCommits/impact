@@ -1,0 +1,655 @@
+{
+  "before": {
+    "me": {
+      "fighter": "alphonse-elric",
+      "yaw": 3.000486261395389,
+      "x": 0.07903701018298115,
+      "y": 0.009984094863758175,
+      "z": 2.447285040912906,
+      "action": "idle",
+      "awakened": false,
+      "ultimate": 0
+    },
+    "foe": {
+      "fighter": "grimmjow",
+      "x": 0,
+      "y": -0.05339018188416865,
+      "z": 0,
+      "action": "idle",
+      "hp": 1500
+    },
+    "motion": {
+      "action": "run",
+      "elapsed": 0,
+      "clipTime": 0.1935959179064306
+    }
+  },
+  "frames": [
+    {
+      "file": "0000.jpg",
+      "ms": 25,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.1093080823078028,
+        "x": 0.07661105108203436,
+        "y": 0.009964941170067299,
+        "z": 2.3723165389874374,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.0037509024739275088,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "idle",
+        "elapsed": 0,
+        "clipTime": 0.01669999999999709
+      }
+    },
+    {
+      "file": "0001.jpg",
+      "ms": 61,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.1093085290066327,
+        "x": 0.07419534630829538,
+        "y": 0.009965439430438705,
+        "z": 2.2973549586513435,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.00375094543397525,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "idle",
+        "elapsed": 0,
+        "clipTime": 0.04989999999999782
+      }
+    },
+    {
+      "file": "0002.jpg",
+      "ms": 94,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.1093083870568656,
+        "x": 0.07177444941120292,
+        "y": 0.009974208766595272,
+        "z": 2.2223940414169228,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.009981721766294069,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.03336666666668009,
+        "clipTime": 0.05045646138459346
+      }
+    },
+    {
+      "file": "0003.jpg",
+      "ms": 125,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.109308553683839,
+        "x": 0.06935091163253482,
+        "y": 0.009966682518833148,
+        "z": 2.1474317681768333,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.003750933580101576,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.06656666666668087,
+        "clipTime": 0.0663557517506826
+      }
+    },
+    {
+      "file": "0004.jpg",
+      "ms": 157,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.1093086126301186,
+        "x": 0.06813792917167838,
+        "y": 0.009967065584846613,
+        "z": 2.109951309559623,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": -0.05339018411189213,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.0999666666666812,
+        "clipTime": 0.08962836069847831
+      }
+    },
+    {
+      "file": "0005.jpg",
+      "ms": 195,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.1093089798865194,
+        "x": 0.0657118314200833,
+        "y": 0.009967722752132313,
+        "z": 2.0349982452371513,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.003750900246204031,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.1332666666666782,
+        "clipTime": 0.11852265093186633
+      }
+    },
+    {
+      "file": "0006.jpg",
+      "ms": 228,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.1093105362464257,
+        "x": 0.06207804740628298,
+        "y": 0.00996874400973402,
+        "z": 1.9225517806389725,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": -0.05339017448574193,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.16666666666667496,
+        "clipTime": 0.1404957356505327
+      }
+    },
+    {
+      "file": "0007.jpg",
+      "ms": 260,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.109311366652762,
+        "x": 0.05965801151691075,
+        "y": 0.009991163857282048,
+        "z": 1.8475879614034092,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.0037509098723542272,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.19996666666667906,
+        "clipTime": 0.16691845444409967
+      }
+    },
+    {
+      "file": "0008.jpg",
+      "ms": 294,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.1093119942145906,
+        "x": 0.057057604289036945,
+        "y": 0.00997004484012809,
+        "z": 1.7671567943671143,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": -0.053390186339615606,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.23326666666667606,
+        "clipTime": 0.20599991611566387
+      }
+    },
+    {
+      "file": "0009.jpg",
+      "ms": 327,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.10931290126559,
+        "x": 0.05364183369314368,
+        "y": 0.009985039951280639,
+        "z": 1.6613764797130024,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.003750898018480553,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.2666666666666728,
+        "clipTime": 0.27206370854326684
+      }
+    },
+    {
+      "file": "0010.jpg",
+      "ms": 360,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.1093140364725933,
+        "x": 0.04943957608414884,
+        "y": 0.00997230609692723,
+        "z": 1.5316126790621674,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.0037509409785282943,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.29996666666667693,
+        "clipTime": 0.37813766493758066
+      }
+    },
+    {
+      "file": "0011.jpg",
+      "ms": 397,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.1093165769001017,
+        "x": 0.044636721818131164,
+        "y": 0.00997381204832437,
+        "z": 1.3827434775212204,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.009981717310847113,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.34996666666667764,
+        "clipTime": 0.431702898709357
+      }
+    },
+    {
+      "file": "0012.jpg",
+      "ms": 427,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.109318521501481,
+        "x": 0.040652644449133746,
+        "y": 0.009993831937202269,
+        "z": 1.2593439605432053,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": -0.053390188567339084,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.38326666666667464,
+        "clipTime": 0.4574876662981382
+      }
+    },
+    {
+      "file": "0013.jpg",
+      "ms": 460,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.109318521501481,
+        "x": 0.040652644449133746,
+        "y": 0.009993831937202269,
+        "z": 1.2593439605432053,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": -0.053390188567339084,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.38326666666667464,
+        "clipTime": 0.4574876662981382
+      }
+    },
+    {
+      "file": "0014.jpg",
+      "ms": 493,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.109319519655481,
+        "x": 0.040652699813955806,
+        "y": 0.009975058805198445,
+        "z": 1.259344009299003,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.003750895790757075,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.41656666666667164,
+        "clipTime": 0.4802974148691575
+      }
+    },
+    {
+      "file": "0015.jpg",
+      "ms": 527,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.1093199263494693,
+        "x": 0.040652659882434605,
+        "y": 0.009993843990379059,
+        "z": 1.259343951146576,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.0037509172707809457,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.44986666666666864,
+        "clipTime": 0.5002683821217264
+      }
+    },
+    {
+      "file": "0016.jpg",
+      "ms": 561,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.1093208907553254,
+        "x": 0.040652675315735465,
+        "y": 0.009993784680963569,
+        "z": 1.2593439417499468,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.009981715083123635,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.48316666666666563,
+        "clipTime": 0.5175385183922668
+      }
+    },
+    {
+      "file": "0017.jpg",
+      "ms": 597,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.109321139553041,
+        "x": 0.040652635384214264,
+        "y": 0.00999385400768471,
+        "z": 1.25934388359752,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.0037509054169072714,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.516566666666666,
+        "clipTime": 0.5326764952635867
+      }
+    },
+    {
+      "file": "0018.jpg",
+      "ms": 629,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.1093215515884816,
+        "x": 0.040652690749036324,
+        "y": 0.009993851332926296,
+        "z": 1.2593439323533175,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 0
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": -0.05339019079506256,
+        "z": 0,
+        "action": "idle",
+        "hp": 1500
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.549866666666663,
+        "clipTime": 0.545342925383953
+      }
+    },
+    {
+      "file": "0019.jpg",
+      "ms": 662,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.109321875736728,
+        "x": 0.040652706182337184,
+        "y": 0.009993792023510806,
+        "z": 1.2593439229566883,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 9
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.003750915043057468,
+        "z": 0,
+        "action": "launched",
+        "hp": 1425
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.5832666666666633,
+        "clipTime": 0.5578308800686528
+      }
+    },
+    {
+      "file": "0020.jpg",
+      "ms": 695,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.109321875736728,
+        "x": 0.040652706182337184,
+        "y": 0.009993792023510806,
+        "z": 1.2593439229566883,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 9
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.003750915043057468,
+        "z": 0,
+        "action": "launched",
+        "hp": 1425
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.6332666666666604,
+        "clipTime": 0.6163742646836399
+      }
+    },
+    {
+      "file": "0021.jpg",
+      "ms": 729,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.109321875736728,
+        "x": 0.04065266625081598,
+        "y": 0.009993861350231947,
+        "z": 1.2593438648042614,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 9
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.003750915043057468,
+        "z": 0,
+        "action": "launched",
+        "hp": 1425
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.6498999999999907,
+        "clipTime": 0.6163742646836399
+      }
+    },
+    {
+      "file": "0022.jpg",
+      "ms": 763,
+      "me": {
+        "fighter": "alphonse-elric",
+        "yaw": -3.109321875736728,
+        "x": 0.04065287115415295,
+        "y": 0.009998831588776014,
+        "z": 1.2593440182348665,
+        "action": "heavy",
+        "awakened": false,
+        "ultimate": 9
+      },
+      "foe": {
+        "fighter": "grimmjow",
+        "x": 0,
+        "y": 0.003750915043057468,
+        "z": 0,
+        "action": "launched",
+        "hp": 1425
+      },
+      "motion": {
+        "action": "heavy",
+        "elapsed": 0.6499666666666577,
+        "clipTime": 0.6163742646836399
+      }
+    }
+  ],
+  "source": {
+    "commit": "9cfef60a3253b2f0f469fb162161cda33199f3d8",
+    "case": "alphonse-elric/gameplay-r1/heavy",
+    "purpose": "Recorded approach and rendered native clocks around first-damage/held pauldron contact."
+  }
+}

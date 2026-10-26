@@ -1,0 +1,49 @@
+#interface[data-hud="bad-blood"] .mode-hud{--bb-hero:#1f7a62;--bb-villain:#c21d38}
+#interface[data-hud="bad-blood"] .bb-bar{display:flex;align-items:center;gap:calc(8px * var(--hk-k));padding:calc(3px * var(--hk-k)) calc(14px * var(--hk-k)) calc(4px * var(--hk-k));
+  background:var(--hk-paper);color:var(--hk-ink);clip-path:polygon(0 0,100% 0,98.5% 50%,100% 100%,0 100%,1.5% 50%);box-shadow:inset 0 -3px var(--hk-ink)}
+#interface[data-hud="bad-blood"] .bb-team{display:flex;flex-direction:column;gap:calc(2px * var(--hk-k));padding:calc(2px * var(--hk-k)) calc(4px * var(--hk-k));border:2px solid transparent}
+#interface[data-hud="bad-blood"] .bb-team.villains{align-items:flex-end}
+#interface[data-hud="bad-blood"] .bb-bar[data-side="heroes"] .bb-team.heroes{border-color:var(--bb-hero)}
+#interface[data-hud="bad-blood"] .bb-bar[data-side="villains"] .bb-team.villains{border-color:var(--bb-villain)}
+#interface[data-hud="bad-blood"] .bb-team small{font:800 calc(clamp(8px,.62vw,12px) * var(--hk-k))/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;white-space:nowrap}
+#interface[data-hud="bad-blood"] .bb-team.heroes small{color:var(--bb-hero)}
+#interface[data-hud="bad-blood"] .bb-team.villains small{color:var(--bb-villain)}
+#interface[data-hud="bad-blood"] .bb-faces{display:flex;gap:calc(4px * var(--hk-k))}
+#interface[data-hud="bad-blood"] .bb-face{--s:calc(clamp(22px,1.75vw,34px) * var(--hk-k));position:relative;display:block;width:var(--s);height:calc(var(--s) + 5px)}
+#interface[data-hud="bad-blood"] .bb-portrait{display:block;width:var(--s);height:var(--s);overflow:hidden;background:#f7f5ee;border:1px solid var(--hk-ink)}
+#interface[data-hud="bad-blood"] .bb-portrait svg{display:block;width:100%;height:100%;transform:scale(1.18);filter:grayscale(1) contrast(1.3)}
+#interface[data-hud="bad-blood"] .bb-hp{position:absolute;left:0;right:0;bottom:0;display:block;height:4px;background:#d6d2ca;overflow:hidden}
+#interface[data-hud="bad-blood"] .bb-hp>i{position:absolute;inset:0;transform-origin:0 50%;background:var(--bb-hero)}
+#interface[data-hud="bad-blood"] .villains .bb-hp>i{background:var(--bb-villain)}
+#interface[data-hud="bad-blood"] .bb-mark{position:absolute;right:-2px;top:-3px;min-width:12px;padding:0 2px;background:var(--hk-ink);color:#fff;text-align:center;
+  font:italic 900 calc(clamp(8px,.62vw,12px) * var(--hk-k))/1.15 Impact,'Barlow Condensed',sans-serif}
+#interface[data-hud="bad-blood"] .bb-mark:empty{display:none}
+#interface[data-hud="bad-blood"] .bb-face[data-state="ready"] .bb-mark{background:var(--bb-hero)}
+#interface[data-hud="bad-blood"] .bb-face[data-state="returning"] .bb-mark{background:#ffcf5a;color:var(--hk-ink)}
+#interface[data-hud="bad-blood"] .bb-face[data-state="returning"] .bb-portrait svg{filter:grayscale(1) contrast(1.2) brightness(.75)}
+#interface[data-hud="bad-blood"] .bb-face[data-state="out"] .bb-portrait{opacity:.35}
+#interface[data-hud="bad-blood"] .bb-face[data-state="out"] .bb-mark{background:var(--bb-villain)}
+#interface[data-hud="bad-blood"] .villains .bb-face[data-state="out"] .bb-mark{background:var(--bb-hero)}
+#interface[data-hud="bad-blood"] .bb-face.is-you .bb-portrait{box-shadow:0 0 0 2px var(--hk-paper),0 0 0 3px var(--hk-ink)}
+#interface[data-hud="bad-blood"] .bb-count{display:flex;align-items:baseline;gap:calc(5px * var(--hk-k));white-space:nowrap}
+#interface[data-hud="bad-blood"] .bb-count b{font:italic 900 calc(clamp(26px,2.3vw,44px) * var(--hk-k))/1 Impact,'Barlow Condensed',sans-serif;font-variant-numeric:tabular-nums}
+#interface[data-hud="bad-blood"] .bb-count b.heroes{color:var(--bb-hero)}
+#interface[data-hud="bad-blood"] .bb-count b.villains{color:var(--bb-villain)}
+#interface[data-hud="bad-blood"] .bb-count span{font:italic 900 calc(clamp(12px,1vw,18px) * var(--hk-k))/1 Impact,'Barlow Condensed',sans-serif}
+#interface[data-hud="bad-blood"] :is(.bb-badge,.bb-tag){padding:calc(4px * var(--hk-k)) calc(14px * var(--hk-k)) calc(5px * var(--hk-k)) calc(10px * var(--hk-k));color:#fff;
+  font:800 calc(clamp(9px,.72vw,13px) * var(--hk-k))/1 'Barlow Condensed',sans-serif;letter-spacing:.09em;white-space:nowrap;clip-path:polygon(0 0,100% 0,95% 100%,0 100%)}
+#interface[data-hud="bad-blood"] .bb-badge{margin-left:calc(8px * var(--hk-k))}
+#interface[data-hud="bad-blood"] .bb-tag{clip-path:polygon(5% 0,100% 0,100% 100%,0 100%);padding:calc(4px * var(--hk-k)) calc(10px * var(--hk-k)) calc(5px * var(--hk-k)) calc(14px * var(--hk-k));margin-right:calc(8px * var(--hk-k))}
+#interface[data-hud="bad-blood"] .bb-badge[data-kind="ready"],#interface[data-hud="bad-blood"] .bb-tag[data-kind="heroes"]{background:var(--bb-hero)}
+#interface[data-hud="bad-blood"] .bb-badge[data-kind="returning"]{background:#ffcf5a;color:var(--hk-ink)}
+#interface[data-hud="bad-blood"] .bb-badge[data-kind="used"]{background:var(--hk-ink)}
+#interface[data-hud="bad-blood"] .bb-badge[data-kind="power"],#interface[data-hud="bad-blood"] .bb-tag[data-kind="villains"]{background:var(--bb-villain)}
+#interface[data-hud="bad-blood"] .bb-notice{box-shadow:inset 0 -4px var(--bb-hero)}
+#interface[data-hud="bad-blood"] .bb-banner{filter:drop-shadow(4px 3px 0 var(--bb-hero))}
+@media(max-height:520px) and (orientation:landscape){
+  #interface[data-hud="bad-blood"] .bb-bar{gap:6px;padding:3px 10px 4px}
+  #interface[data-hud="bad-blood"] .bb-team{padding:2px 3px}
+  #interface[data-hud="bad-blood"] .bb-team small{display:none}
+  #interface[data-hud="bad-blood"] .bb-face{--s:19px}
+  #interface[data-hud="bad-blood"] .bb-count b{font-size:19px}
+}

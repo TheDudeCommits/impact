@@ -1,0 +1,35 @@
+.acct-col{display:grid;gap:14px;align-content:start;min-width:0}
+.acct-card{display:grid;gap:8px;padding:12px 16px 14px;border:2px solid var(--s-ink);background:#fff}
+.acct-card h3{margin:0}
+.acct-card .shop-note{margin:0}
+.acct-form{display:grid;gap:8px;margin:0}
+.acct-form label{font:400 10px/1.2 var(--s-num);letter-spacing:.12em;color:var(--s-grey);overflow-wrap:anywhere}
+.acct-row{display:flex;gap:8px;min-width:0}
+.acct-row input{flex:1;min-width:0;height:46px;box-sizing:border-box;padding:10px 12px 9px;border:2px solid var(--s-ink);border-radius:0;background:#fff;color:var(--s-ink);font:600 17px/1.1 var(--s-text);letter-spacing:.02em}
+.acct-row input::placeholder{color:#8f8983;font-weight:500}
+.acct-row input:focus-visible{outline:3px solid var(--s-red);outline-offset:1px}
+.acct-row input:disabled{border-color:var(--s-grey);background:#f3f1ee}
+.acct-row .shop-act{flex:none;width:auto;min-width:112px;margin-top:0}
+.acct-done{margin:0;padding:9px 11px;background:var(--s-ink);color:#fff;font:600 15px/1.35 var(--s-text)}
+.acct-all{justify-self:start;margin:0;padding:6px 10px 5px;background:var(--s-red);color:#fff;font:400 12px/1 var(--s-num);letter-spacing:.1em}
+.shop-who .acct-all{margin-top:-2px}
+.shop-chip-name{max-width:14vw;overflow:hidden;text-overflow:ellipsis;font:400 clamp(13px,1.1vw,19px)/1 var(--s-num);font-style:normal;letter-spacing:.03em}
+.manga-home .shop-chip i.shop-chip-name{font-style:normal}
+.manga-home .shop :is(.acct-row input,.acct-done){font-family:var(--s-text)!important}
+.manga-home .shop :is(.acct-form label,.acct-all){font-family:var(--s-num)!important}
+.manga-home .shop-chip .shop-chip-name{font-family:var(--s-num)!important}
+@media(max-width:700px){.shop-chip-name{max-width:24vw}}
+.acct-fine{margin:0;font:400 13px/1.35 var(--s-text);color:var(--s-grey)}
+.acct-link{display:inline;min-height:0;margin:0;padding:0;border:0;border-bottom:1px solid currentColor;background:none;color:var(--s-ink);font:400 12px/1.2 var(--s-num);letter-spacing:.08em;cursor:pointer}
+.acct-link:hover,.acct-link:focus-visible{color:var(--s-red);outline:none}
+.acct-link:focus-visible{box-shadow:0 0 0 3px var(--s-red)}
+.acct-delete{justify-self:start;min-height:34px;margin:0;padding:7px 10px 6px;border:1px solid var(--s-grey);background:none;color:var(--s-grey);font:400 12px/1 var(--s-num);letter-spacing:.1em;cursor:pointer}
+.acct-delete:hover,.acct-delete:focus-visible{border-color:var(--s-red);color:var(--s-red);outline:none}
+.acct-delete:focus-visible{box-shadow:0 0 0 3px var(--s-red)}
+.acct-data.is-asking{border-color:var(--s-red);box-shadow:4px 4px 0 var(--s-red)}
+.acct-data.is-asking h3 span{color:var(--s-red)}
+.acct-data.is-asking .shop-note b{color:var(--s-red);font-weight:700}
+.acct-data .acct-row .shop-act{flex:1;min-width:0}
+.acct-delete-yes{background:var(--s-red)!important;border-color:var(--s-red)!important}
+.manga-home .shop :is(.acct-fine){font-family:var(--s-text)!important}
+.manga-home .shop :is(.acct-link,.acct-delete){font-family:var(--s-num)!important}

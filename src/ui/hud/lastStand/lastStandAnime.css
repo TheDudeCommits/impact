@@ -1,0 +1,126 @@
+#interface[data-hud="last-stand"] .mode-hud{--u:clamp(.6px,calc(100vh / 1080),1.15px)}
+#interface[data-hud="last-stand"] .mode-hud>[data-zone="3"]{gap:calc(2 * var(--u));top:calc(6 * var(--u))}
+#interface[data-hud="last-stand"] .ls-funds{margin-top:calc(30 * var(--u))}
+#interface[data-hud="last-stand"] .ls-torii{width:calc(212 * var(--u));margin-right:calc(4 * var(--u))}
+#interface[data-hud="last-stand"] .ls-torii svg{display:block;width:100%;height:auto;overflow:visible}
+#interface[data-hud="last-stand"] .ls-torii rect[data-c]{transition:height .45s ease-out,width .45s ease-out,x .45s ease-out}
+#interface[data-hud="last-stand"] .ls-squad{display:flex;align-items:flex-start;justify-content:flex-end;margin-top:calc(-4 * var(--u))}
+#interface[data-hud="last-stand"] .ls-ally{width:calc(86 * var(--u));margin-left:calc(-6 * var(--u))}
+#interface[data-hud="last-stand"] .ls-squad[data-count="3"] .ls-ally:nth-child(2){margin-top:calc(16 * var(--u))}
+#interface[data-hud="last-stand"] .ls-ally svg{display:block;width:100%;height:auto;overflow:visible}
+#interface[data-hud="last-stand"] .ls-blade-track{stroke:#0a0c15;stroke-width:7;stroke-linecap:round}
+#interface[data-hud="last-stand"] .ls-blades line{stroke:#5dffb0;stroke-width:5;stroke-linecap:round}
+#interface[data-hud="last-stand"] .ls-ally.low .ls-blades line{stroke:#ffb347}
+#interface[data-hud="last-stand"] .ls-ally:is(.is-down,.is-reviving) .ls-blades line{stroke:#ff2d55}
+#interface[data-hud="last-stand"] .ls-tint{fill:#dc143c;opacity:0}
+#interface[data-hud="last-stand"] .ls-ally:is(.is-down,.is-reviving) .ls-tint{opacity:.24}
+#interface[data-hud="last-stand"] .ls-crack{stroke:#fff;stroke-width:1.8;opacity:0}
+#interface[data-hud="last-stand"] .ls-ally:is(.is-down,.is-reviving) .ls-crack{opacity:.85}
+#interface[data-hud="last-stand"] .ls-plus{display:none}
+#interface[data-hud="last-stand"] .ls-ally:is(.is-down,.is-reviving) .ls-plus{display:inline}
+#interface[data-hud="last-stand"] .ls-plus circle{fill:#dc143c;stroke:#fff;stroke-width:1.8}
+#interface[data-hud="last-stand"] .ls-plus path{fill:#fff}
+#interface[data-hud="last-stand"] .ls-ally.is-down .ls-plus{animation:ls-beat 1s ease-in-out infinite}
+#interface[data-hud="last-stand"] .ls-count{font:400 22px/1 var(--hl-display,Electroharmonix,sans-serif);fill:#fff;stroke:#0a0c15;stroke-width:3;paint-order:stroke}
+#interface[data-hud="last-stand"] .ls-road rect{fill:#0a0c15;stroke:#fff;stroke-width:1.8}
+#interface[data-hud="last-stand"] .ls-road rect.hot{fill:#dc143c}
+#interface[data-hud="last-stand"] .ls-road text{font:800 11px/1 "Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",sans-serif;fill:#fff}
+#interface[data-hud="last-stand"] .ls-ally.is-gone{opacity:.5}
+#interface[data-hud="last-stand"] .ls-quest{position:relative;width:calc(252 * var(--u));pointer-events:none}
+#interface[data-hud="last-stand"] .ls-quest[hidden]{display:none}
+#interface[data-hud="last-stand"] .ls-quest svg{display:block;width:100%;height:auto;overflow:visible}
+#interface[data-hud="last-stand"] .ls-enso-bg{fill:#0a0c15;fill-opacity:.72}
+#interface[data-hud="last-stand"] .ls-enso-track{fill:none;stroke:#fff;stroke-opacity:.14;stroke-width:5}
+#interface[data-hud="last-stand"] .ls-enso{fill:none;stroke:#fff;stroke-width:8;stroke-linecap:round}
+#interface[data-hud="last-stand"] .ls-quest.urgent .ls-enso{stroke:#ff2d55}
+#interface[data-hud="last-stand"] .ls-quest[data-state="preview"] .ls-enso-track{stroke-dasharray:4 6;stroke-opacity:.35}
+#interface[data-hud="last-stand"] .ls-clock{font:400 16px/1 var(--hl-display,Electroharmonix),"Hiragino Mincho ProN","Yu Mincho",serif;fill:#ffb347}
+#interface[data-hud="last-stand"] .ls-quest.urgent .ls-clock{fill:#ff5c7a}
+#interface[data-hud="last-stand"] .ls-quest[data-state="secured"] .ls-clock{fill:#7dffc4}
+#interface[data-hud="last-stand"] :is(.ls-q-title,.ls-q-shadow){font:400 14px/1 var(--hl-display,Electroharmonix,sans-serif);letter-spacing:.8px}
+#interface[data-hud="last-stand"] .ls-q-title{fill:#fff}
+#interface[data-hud="last-stand"] .ls-q-shadow{fill:#dc143c}
+#interface[data-hud="last-stand"] .ls-q-line{position:absolute;left:calc(84 * var(--u));top:calc(26 * var(--u));font:700 calc(9.5 * var(--u))/1 "Barlow Condensed","Avenir Next Condensed","Arial Narrow",sans-serif;letter-spacing:.14em;color:#d8f6ff;text-shadow:0 1px 2px #000,0 0 3px #000;white-space:nowrap}
+#interface[data-hud="last-stand"] .ls-quest.urgent .ls-q-line{color:#ffb3c2}
+#interface[data-hud="last-stand"] .ls-tally line{stroke:#fff;stroke-opacity:.26;stroke-width:8;stroke-linecap:round}
+#interface[data-hud="last-stand"] .ls-tally line.on{stroke:#ff2d55;stroke-opacity:1;stroke-width:11}
+#interface[data-hud="last-stand"] .ls-reward{font:400 12px/1 var(--hl-display,Electroharmonix,sans-serif);fill:#ffd76a;stroke:#0a0c15;stroke-width:3;paint-order:stroke}
+#interface[data-hud="last-stand"] .ls-stamp rect{fill:#dc143c;stroke:#fff;stroke-width:1.5}
+#interface[data-hud="last-stand"] .ls-stamp text{font:600 15px/1 "Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;fill:#fff}
+#interface[data-hud="last-stand"] .ls-quest[data-state="missed"]{opacity:.7}
+#interface[data-hud="last-stand"] .ls-quest[data-state="missed"] .ls-stamp rect{fill:#4a4a52}
+#interface[data-hud="last-stand"] .ls-quest[data-state="preview"]{opacity:.8}
+#interface[data-hud="last-stand"] .ls-optional{margin-top:calc(2 * var(--u))}
+#interface .ls-lvstar .ls-lv-cap{font:400 6.5px/1 var(--hl-display,Electroharmonix,sans-serif);fill:#fff;letter-spacing:1.2px;stroke:#07080f;stroke-width:2;paint-order:stroke}
+#interface .ls-lvstar .ls-lv-num{font:400 24px/1 var(--hl-display,Electroharmonix,sans-serif);fill:#fff;stroke:#07080f;stroke-width:2.6;paint-order:stroke}
+#interface .ls-lvstar .ls-lv-shade{fill:#dc143c;stroke:none}
+#interface .ls-lvstar .ls-lv-fill{transition:y .5s ease-out}
+#interface .ls-lvstar .ls-pip{fill:#07080f;stroke:#ffd76a;stroke-width:1}
+#interface .ls-lvstar .ls-pip.on{fill:#ffd76a;stroke:#fff}
+#interface .ls-lvstar .ls-heal{fill:#dc143c;stroke:#fff;stroke-width:1.3}
+#interface .ls-lvstar.up{animation:ls-star-up .9s ease-out}
+#interface .ls-lvstar.heal{animation:ls-star-heal 1.2s ease-out}
+#interface .ls-lvstar-loose{width:70px;height:84px;margin-left:30px}
+#interface .ls-lvstar-loose svg{width:100%;height:100%}
+#interface[data-hud="last-stand"] .ls-ink{position:absolute;top:20%;height:42%;width:min(40vw,calc(640 * var(--u)));pointer-events:none;animation:ls-ink-in .45s ease-out both}
+#interface[data-hud="last-stand"] .ls-ink-left{left:0}
+#interface[data-hud="last-stand"] .ls-ink-right{right:0}
+#interface[data-hud="last-stand"] .ls-ink-bleed{position:absolute;top:0;width:calc(300 * var(--u));height:100%;overflow:visible}
+#interface[data-hud="last-stand"] .ls-ink-left .ls-ink-bleed{left:0}
+#interface[data-hud="last-stand"] .ls-ink-right .ls-ink-bleed{right:0;transform:scaleX(-1)}
+#interface[data-hud="last-stand"] .ls-ink.hot .ls-ink-bleed{animation:ls-ink-pulse .8s ease-in-out infinite}
+#interface[data-hud="last-stand"] .ls-ink-wind{position:absolute;inset:0}
+#interface[data-hud="last-stand"] .ls-ink-right .ls-ink-wind{transform:scaleX(-1)}
+#interface[data-hud="last-stand"] .ls-ink-wind svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+#interface[data-hud="last-stand"] .ls-ink-wind path{fill:none;stroke:#fff;stroke-opacity:.14;stroke-width:1.3;stroke-linecap:round;stroke-dasharray:70 40 20 60;animation:ls-wisp 2.2s linear infinite}
+#interface[data-hud="last-stand"] .ls-ink-wind i{position:absolute;left:0;top:calc(22% + var(--i) * 14%);width:calc(13 * var(--u));height:calc(7 * var(--u));border-radius:0 100% 0 100%;background:#dc143c;opacity:0;
+  animation:ls-leaf 3s linear infinite;animation-delay:calc(var(--i) * -.75s)}
+#interface[data-hud="last-stand"] .ls-ink-wind i:nth-child(odd){background:#ff2d55}
+#interface[data-hud="last-stand"] .ls-ink-k{position:absolute;top:28%;font:600 calc(118 * var(--u))/1 "Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;color:#fff;text-shadow:calc(5 * var(--u)) calc(5 * var(--u)) 0 rgba(10,12,21,.7)}
+#interface[data-hud="last-stand"] .ls-ink-n{position:absolute;top:calc(28% + 132 * var(--u));display:flex;align-items:baseline;gap:calc(4 * var(--u));color:#fff;text-shadow:calc(3 * var(--u)) calc(3 * var(--u)) 0 #0a0c15}
+#interface[data-hud="last-stand"] .ls-ink-n em{font:400 calc(46 * var(--u))/1 var(--hl-display,Electroharmonix,sans-serif);font-style:normal}
+#interface[data-hud="last-stand"] .ls-ink-n small{font:400 calc(16 * var(--u))/1 var(--hl-display,Electroharmonix,sans-serif);letter-spacing:.08em}
+#interface[data-hud="last-stand"] .ls-ink-left :is(.ls-ink-k,.ls-ink-n){left:calc(20 * var(--u))}
+#interface[data-hud="last-stand"] .ls-ink-right :is(.ls-ink-k,.ls-ink-n){right:calc(20 * var(--u))}
+#interface[data-hud="last-stand"] .ls-ink.no-count .ls-ink-n{display:none}
+#interface[data-hud="last-stand"] .ls-cutin{position:absolute;left:-20px;bottom:19%;width:600px;height:236px;transform-origin:0 100%;pointer-events:none;z-index:6}
+#interface[data-hud="last-stand"] .ls-cutin[hidden]{display:none}
+#interface[data-hud="last-stand"] .ls-cutin.on{animation:ls-ci 2.9s cubic-bezier(.2,.8,.2,1) both}
+#interface[data-hud="last-stand"] .ls-ci-slab{position:absolute;inset:0;clip-path:polygon(0 6%,100% 0,90% 100%,0 100%)}
+#interface[data-hud="last-stand"] .ls-ci-slab.red{background:#dc143c;transform:translate(12px,10px)}
+#interface[data-hud="last-stand"] .ls-ci-slab.rim{background:#fff;transform:scale(1.012)}
+#interface[data-hud="last-stand"] .ls-ci-slab.ink{background:repeating-linear-gradient(-4deg,transparent 0 9px,rgba(255,255,255,.09) 9px 10px,transparent 10px 23px),linear-gradient(100deg,#05060b 0%,#141a30 55%,#0a0c15 100%)}
+#interface[data-hud="last-stand"] .ls-cutin.boss .ls-ci-slab.ink{background:repeating-linear-gradient(-4deg,transparent 0 9px,rgba(255,160,90,.12) 9px 10px,transparent 10px 23px),linear-gradient(260deg,#2a0508 0%,#5a0c10 45%,#12040a 100%)}
+#interface[data-hud="last-stand"] .ls-ci-kanji{position:absolute;right:60px;top:-8px;font:600 230px/1 "Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;color:#fff;opacity:.08}
+#interface[data-hud="last-stand"] .ls-ci-burst{position:absolute;left:0;top:0;width:340px;height:236px;clip-path:polygon(0 4%,100% 0,100% 100%,0 100%)}
+#interface[data-hud="last-stand"] .ls-ci-burst line{stroke:#fff}
+#interface[data-hud="last-stand"] .ls-cutin.boss .ls-ci-burst line{stroke:#ffb38a}
+#interface[data-hud="last-stand"] .ls-ci-seal{position:absolute;left:70px;top:44px;width:118px;height:118px;display:grid;place-items:center;background:#dc143c;border:4px solid #fff;box-shadow:6px 6px 0 #fff,inset 0 0 0 6px #dc143c,inset 0 0 0 8px rgba(255,255,255,.7);transform:rotate(-8deg)}
+#interface[data-hud="last-stand"] .ls-ci-seal b{font:600 70px/1 "Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;color:#fff}
+#interface[data-hud="last-stand"] .ls-cutin.has-face .ls-ci-seal{display:none}
+#interface[data-hud="last-stand"] .ls-ci-facebox{position:absolute;left:14px;top:-74px;width:310px;height:310px;overflow:hidden;-webkit-mask:linear-gradient(transparent 0,#000 16%,#000 82%,transparent 100%);mask:linear-gradient(transparent 0,#000 16%,#000 82%,transparent 100%)}
+#interface[data-hud="last-stand"] .ls-ci-face{position:absolute;left:-150px;top:-188px;width:690px;height:690px;max-width:none}
+#interface[data-hud="last-stand"] .ls-ci-bubble{position:absolute;left:276px;top:30px;z-index:2;transform-origin:0 0}
+#interface[data-hud="last-stand"] .ls-ci-balloon{position:absolute;overflow:visible}
+#interface[data-hud="last-stand"] .ls-ci-balloon polygon{fill:#fff;stroke:#0a0c15;stroke-width:3}
+#interface[data-hud="last-stand"] .ls-ci-words{position:relative;padding:14px 26px 12px;text-align:center;white-space:nowrap;color:#0a0c15}
+#interface[data-hud="last-stand"] .ls-ci-words b{display:block;font:400 28px/1 var(--hl-display,Electroharmonix,sans-serif)}
+#interface[data-hud="last-stand"] .ls-ci-words small{display:block;margin-top:7px;font:400 12.5px/1 var(--hl-display,Electroharmonix,sans-serif);color:#dc143c}
+#interface[data-hud="last-stand"] .ls-ci-tag{position:absolute;left:306px;top:162px;display:flex;align-items:center;gap:8px}
+#interface[data-hud="last-stand"] .ls-ci-tag b{font:400 20px/1 var(--hl-display,Electroharmonix,sans-serif);background:#dc143c;color:#fff;padding:6px 10px 5px;transform:skewX(-12deg);box-shadow:3px 3px 0 #000;white-space:nowrap}
+#interface[data-hud="last-stand"] .ls-ci-tag small{font:700 11px/1 "Barlow Condensed","Avenir Next Condensed",sans-serif;letter-spacing:.16em;color:#fff;white-space:nowrap}
+#interface[data-hud="last-stand"] .ls-ci-life{position:absolute;left:30px;bottom:12px;width:420px;height:4px;background:rgba(255,255,255,.18)}
+#interface[data-hud="last-stand"] .ls-ci-life i{position:absolute;inset:0;background:#fff;transform-origin:0 50%;animation:ls-ci-life 2.9s linear both}
+
+@keyframes ls-beat{0%,100%{opacity:1}50%{opacity:.55}}
+@keyframes ls-star-up{0%,100%{filter:none}25%{filter:brightness(1.9) drop-shadow(0 0 6px #ffd76a)}}
+@keyframes ls-star-heal{0%,100%{filter:none}25%{filter:brightness(1.6) drop-shadow(0 0 8px #5dffb0)}}
+@keyframes ls-ink-in{from{opacity:0}to{opacity:1}}
+@keyframes ls-ink-pulse{0%,100%{opacity:1}50%{opacity:.72}}
+@keyframes ls-wisp{to{stroke-dashoffset:-186}}
+@keyframes ls-leaf{0%{transform:translate(calc(520 * var(--u)),calc(20 * var(--u))) rotate(-20deg);opacity:0}20%{opacity:.55}80%{opacity:.55}100%{transform:translate(calc(60 * var(--u)),calc(-50 * var(--u))) rotate(-200deg);opacity:0}}
+@keyframes ls-ci{0%{transform:translateX(-110%)}11%{transform:translateX(0)}88%{transform:translateX(0);opacity:1}100%{transform:translateX(-35%);opacity:0}}
+@keyframes ls-ci-life{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+@media(prefers-reduced-motion:reduce){
+  #interface[data-hud="last-stand"] :is(.ls-ink,.ls-ink *,.ls-cutin.on,.ls-ally .ls-plus,.ls-lvstar){animation:none!important}
+}

@@ -1,0 +1,9 @@
+.ux-defence{margin:8px 0 2px;padding:0!important;list-style:none}
+.ux-defence li{display:grid;grid-template-columns:2.1em minmax(0,1fr);column-gap:8px;align-items:baseline;padding:6px 0;border-bottom:1px solid rgba(17,17,17,.14)}
+.ux-defence li:last-child{border-bottom:0}
+.ux-defence .ux-defence-key{grid-row:span 2;justify-self:start}
+.ux-defence .ux-defence-name{display:flex;align-items:baseline;gap:8px}
+.ux-defence .ux-defence-name b{font:italic 900 1.02em/1.1 Impact,'Barlow Condensed',sans-serif;letter-spacing:.02em;color:#111}
+.ux-defence .ux-defence-name small{font:800 .76em/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;color:#a1232f}
+.ux-defence .ux-defence-line{grid-column:2;font:500 .95em/1.4 Barlow,sans-serif;color:#3b3833}
+.ux-defence:has(kbd.touch-key) li{grid-template-columns:4.6em minmax(0,1fr)}

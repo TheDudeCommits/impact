@@ -1,0 +1,489 @@
+{
+ "assets": [
+  {
+   "fighter": "goku",
+   "file": "/assets/audio/home/goku.m4a",
+   "runtimeSha256": "69a3a1210ace6404fc07ed7a8db37c4ed3489120d6d689b94d623fe2cb01b66b"
+  },
+  {
+   "fighter": "naruto",
+   "file": "/assets/audio/home/naruto.m4a",
+   "runtimeSha256": "b776fa720b54950cc4b9ba4d0804ddf017ab43b7f1affa4c79411363866df8f0"
+  },
+  {
+   "fighter": "luffy",
+   "file": "/assets/audio/home/luffy.m4a",
+   "runtimeSha256": "f2fe3b05a6a2d3c707804112668eede68b26231aaffd0e1ebaa85d8e32f2e243"
+  },
+  {
+   "fighter": "zoro",
+   "file": "/assets/audio/home/zoro.m4a",
+   "runtimeSha256": "d95e3d4a5a700ca4d3d378312061ff5e794e777aae44a17d59d3140ebc69e060"
+  },
+  {
+   "fighter": "sanji",
+   "file": "/assets/audio/home/sanji.m4a",
+   "runtimeSha256": "719f6baa93242db4a8b5070dd5a2251f4b66c728675ff6e3910fd51d51d7c26b"
+  },
+  {
+   "fighter": "vegeta",
+   "file": "/assets/audio/home/vegeta.m4a",
+   "runtimeSha256": "d4121827153698b4ae8f9bad18bf76b4cd9e5606889a1c6191833a279f3d9f0e"
+  },
+  {
+   "fighter": "jotaro",
+   "file": "/assets/audio/home/jotaro.m4a",
+   "runtimeSha256": "b727d2b9ff1aa98a8ed9b2a2a62c826d7ff68182b2fab55cd448567f526a13ca"
+  },
+  {
+   "fighter": "guts",
+   "file": "/assets/audio/home/guts.m4a",
+   "runtimeSha256": "d42fcd19f85650fffcf3dd4222d06144fc73120116e1875a0e72c60ca11af3b6"
+  },
+  {
+   "fighter": "ichigo",
+   "file": "/assets/audio/home/ichigo.m4a",
+   "runtimeSha256": "f384cff40e683519edf7e31586b918091367564b4c24e9938499843f7723e522"
+  },
+  {
+   "fighter": "ace",
+   "file": "/assets/audio/home/ace.m4a",
+   "runtimeSha256": "eb8b11dc4f68b834f59693d593909d2c0aec35cfe18ed045808374226f75907e"
+  },
+  {
+   "fighter": "law",
+   "file": "/assets/audio/home/law.m4a",
+   "runtimeSha256": "72f02787e3e560ac96b844d13885f78c602d650dcdc9c51afd418fd8db3e9756"
+  },
+  {
+   "fighter": "gojo",
+   "file": "/assets/audio/home/gojo.m4a",
+   "runtimeSha256": "d3c339d28a9fb4eba94d1c9fa4a48efec8a247cd92602ba1b7891b6de6189a97"
+  },
+  {
+   "fighter": "dio",
+   "file": "/assets/audio/home/dio.m4a",
+   "runtimeSha256": "8312f009b5d2bfefebf2cc3b1964c10674496ff8ef7d6fb0c7c5098c6435d8a9"
+  },
+  {
+   "fighter": "killua",
+   "file": "/assets/audio/home/killua.m4a",
+   "runtimeSha256": "35a5b571f988d390d6a5146257b666197f51202924de7adf44884fca664d25f6"
+  },
+  {
+   "fighter": "sasuke",
+   "file": "/assets/audio/home/sasuke.m4a",
+   "runtimeSha256": "4983633a66c0e66b227135fc58e84e89a6405528a4457e7d760a7275e675f567"
+  },
+  {
+   "fighter": "kakashi",
+   "file": "/assets/audio/home/kakashi.m4a",
+   "runtimeSha256": "d992515c649e94e02187bf984d340caf082e4e17beb3063b3bb09e6ee1b11ad8"
+  },
+  {
+   "fighter": "kaido",
+   "file": "/assets/audio/home/kaido.m4a",
+   "runtimeSha256": "c7d2c46d81a967d29ec13809e626cda2e46acb1d0a7044b23c04c53d254f5d34"
+  },
+  {
+   "fighter": "whitebeard",
+   "file": "/assets/audio/home/whitebeard.m4a",
+   "runtimeSha256": "842f48644c8e36e96b32704bf4f8fdd648656284c1140bc0d36f1c15c4529dc2"
+  },
+  {
+   "fighter": "shanks",
+   "file": "/assets/audio/home/shanks.m4a",
+   "runtimeSha256": "6be6184a7e722a3cc23449fabbc6ecb268b3f9f6412fb9d5ca1f18a03e9d891a"
+  },
+  {
+   "fighter": "roger",
+   "file": "/assets/audio/home/roger.m4a",
+   "runtimeSha256": "765ac428279e8585c5cd36f7641c41410a0967154e483b55cd2001bd22d3c12a"
+  },
+  {
+   "fighter": "aizen",
+   "file": "/assets/audio/home/aizen.m4a",
+   "runtimeSha256": "7e898f08b841e86f195b73f34edfeb18cdb3cfe57a8bff102afc041aa26cd456"
+  },
+  {
+   "fighter": "sukuna",
+   "file": "/assets/audio/home/sukuna.m4a",
+   "runtimeSha256": "410d15797c62e699c36fee35874b9a2d3ae2c613e3850285a8b804ece04559dc"
+  },
+  {
+   "fighter": "griffith",
+   "file": "/assets/audio/home/griffith.m4a",
+   "runtimeSha256": "90d8b4b4a3e18a57da4aec382f69a6241b9a84e32e62a1581a35586aebace0b2"
+  },
+  {
+   "fighter": "meruem",
+   "file": "/assets/audio/home/meruem.m4a",
+   "runtimeSha256": "3f560af1905157501870f9262f919d1e7be97725d5cbe87797a0263b51fec65b"
+  },
+  {
+   "fighter": "goku-black",
+   "file": "/assets/audio/home/goku-black.m4a",
+   "runtimeSha256": "189cf90dd9ee6b9ec1a0fcfa9c625a6f79f9ecade288c96142c5a78f8bda2323"
+  },
+  {
+   "fighter": "jiren",
+   "file": "/assets/audio/home/jiren.m4a",
+   "runtimeSha256": "fd025890efab0d497c8b0261bd40789d9c6134de0ee6d63cb1b7653b47c109a4"
+  },
+  {
+   "fighter": "golden-frieza",
+   "file": "/assets/audio/home/golden-frieza.m4a",
+   "runtimeSha256": "0d2f5159faaa4cac74af8c42c0703c45ecb76e2c3a44114d7c504810644b451f"
+  },
+  {
+   "fighter": "madara",
+   "file": "/assets/audio/home/madara.m4a",
+   "runtimeSha256": "1c0aa14ccfd99e1b9030ac5a853d212188ac2bce2e2d9a64832b21a857dde56a"
+  },
+  {
+   "fighter": "itachi",
+   "file": "/assets/audio/home/itachi.m4a",
+   "runtimeSha256": "8202b0d0a2c15827ffb923cb0e26cc49490e36c706c9d7a9dd9de4c0ffcae4de"
+  },
+  {
+   "fighter": "tanjiro",
+   "file": "/assets/audio/home/tanjiro.m4a",
+   "runtimeSha256": "10448fb7925474baabbb6eed0b2f2c4f37d78fa8661ef6824a3b861d5f9510a5"
+  },
+  {
+   "fighter": "rengoku",
+   "file": "/assets/audio/home/rengoku.m4a",
+   "runtimeSha256": "7ea02b9c6d2df3fa1f8e7e0fbb8b4a6a080df70923f5fbf8e5da4ace4941380a"
+  },
+  {
+   "fighter": "akaza",
+   "file": "/assets/audio/home/akaza.m4a",
+   "runtimeSha256": "9e0cde26104bedd887a10e7f430e8d060f2dff1b755951386da38d73b40732c8"
+  },
+  {
+   "fighter": "sung-jinwoo",
+   "file": "/assets/audio/home/sung-jinwoo.m4a",
+   "runtimeSha256": "3c8b42dcb33267ca9203660f0294be2a88cddd9974656a6310aa4d1f57e21346"
+  },
+  {
+   "fighter": "levi",
+   "file": "/assets/audio/home/levi.m4a",
+   "runtimeSha256": "30137e172c365548f68e12dfa5c168e3d62b9d22579f30ffa24ab0cd88fa552c"
+  },
+  {
+   "fighter": "saitama",
+   "file": "/assets/audio/home/saitama.m4a",
+   "runtimeSha256": "c533737a99b242379791b6fa3deb0d3c9e184da3ea89220f0109857104bff5e1"
+  },
+  {
+   "fighter": "gohan-beast",
+   "file": "/assets/audio/home/gohan-beast.m4a",
+   "runtimeSha256": "d120451f16912848edd816b29e0cde1db22e5d7801dcd0c06b091b7f33cd111d"
+  },
+  {
+   "fighter": "gon",
+   "file": "/assets/audio/home/gon.m4a",
+   "runtimeSha256": "27aa30a8bf907ef52b4e1b285c33cde53b98d78922320c67875f0761a771b7ae"
+  },
+  {
+   "fighter": "mihawk",
+   "file": "/assets/audio/home/mihawk.m4a",
+   "runtimeSha256": "b7e7d2e493cbded9d4fdbf48fed6602e62123973177bd8b7267652fdd67b31b2"
+  },
+  {
+   "fighter": "nami",
+   "file": "/assets/audio/home/nami.m4a",
+   "runtimeSha256": "e7a0a34c192aeccc5aeef184c8ea7d058d02b590ae266621f3ecda9c179d3cf7"
+  },
+  {
+   "fighter": "boa-hancock",
+   "file": "/assets/audio/home/boa-hancock.m4a",
+   "runtimeSha256": "8f8c59d80c72dfc5dabd94d962f6bacd401130fb5164f9febdfd352bae59fa86"
+  },
+  {
+   "fighter": "denji",
+   "file": "/assets/audio/home/denji.m4a",
+   "runtimeSha256": "6247dadcf6dd800ccd1ae40094f16e856d108616dd073c22e3190c0d17b34f0d"
+  },
+  {
+   "fighter": "akainu",
+   "file": "/assets/audio/home/akainu.m4a",
+   "runtimeSha256": "ed8daf04c6c7a91b63dc7efa449f7eba18ac6d5c767061671a714cd7d6804019"
+  },
+  {
+   "fighter": "broly",
+   "file": "/assets/audio/home/broly.m4a",
+   "runtimeSha256": "43a1e01db92f0fa6ef9fb0dfc2ef6cbadc4d4c020972e8ab6d98be61f855af32"
+  },
+  {
+   "fighter": "deku",
+   "file": "/assets/audio/home/deku.m4a",
+   "runtimeSha256": "5ec8da841e4182a89c492cd3b59420619915558851c7c0f45f92ab504b90bff2"
+  },
+  {
+   "fighter": "bakugo",
+   "file": "/assets/audio/home/bakugo.m4a",
+   "runtimeSha256": "2b8506ce8711795d6a8c75ab9ab8b81a85a1b0d80ed8bb0ab14d0b8e9ebf3d39"
+  },
+  {
+   "fighter": "all-might",
+   "file": "/assets/audio/home/all-might.m4a",
+   "runtimeSha256": "c2d7d078aa9a66564a566ff28700f48520831f73b17bdf5f2d14064cb55eb711"
+  },
+  {
+   "fighter": "todoroki",
+   "file": "/assets/audio/home/todoroki.m4a",
+   "runtimeSha256": "79daa97ac31b7f4b629529a639ea9e51f33f275a3001554b9483ee85db35b9fe"
+  },
+  {
+   "fighter": "endeavor",
+   "file": "/assets/audio/home/endeavor.m4a",
+   "runtimeSha256": "e2ff110d4b536da5164859745e4dc3c9accac74e13ec11d3d68419362342912c"
+  },
+  {
+   "fighter": "yoruichi",
+   "file": "/assets/audio/home/yoruichi.m4a",
+   "runtimeSha256": "cd6edd71fe1704abf1a518d6d8ad7ea86db34490464e81d175da1a52156b5c26"
+  },
+  {
+   "fighter": "yuji",
+   "file": "/assets/audio/home/yuji.m4a",
+   "runtimeSha256": "f5653abb1983dfa9f647e507e8b021ddec4151fec2408030f6c0757d0ec02b95"
+  },
+  {
+   "fighter": "yuta",
+   "file": "/assets/audio/home/yuta.m4a",
+   "runtimeSha256": "e18b7db0692b116e01c1697b0e69510e17296680fcda277e66b22902aec70453"
+  },
+  {
+   "fighter": "rukia",
+   "file": "/assets/audio/home/rukia.m4a",
+   "runtimeSha256": "26986d607c5ec6dfc1b42306f542780c7012bea949d1fa9b4f4bc50121688fed"
+  },
+  {
+   "fighter": "jinbe",
+   "file": "/assets/audio/home/jinbe.m4a",
+   "runtimeSha256": "32cc701b78dc8531d9cd808cb51d77d6f27cca9a34e2160453b86351fd0c53e7"
+  },
+  {
+   "fighter": "enel",
+   "file": "/assets/audio/home/enel.m4a",
+   "runtimeSha256": "5b7d2e9dd2e7b87360f3b54490d6d14e93c371a102b8c609ed8f978874837d31"
+  },
+  {
+   "fighter": "kizaru",
+   "file": "/assets/audio/home/kizaru.m4a",
+   "runtimeSha256": "4ced5237d0f768dfc94e8a65ca251e80bd249b5502a010e93f8a654b7f7399a7"
+  },
+  {
+   "fighter": "yamato",
+   "file": "/assets/audio/home/yamato.m4a",
+   "runtimeSha256": "06ace6b66aac79508f02d261ee2f3df57efb72ad99e2171c55195be23f2f11b2"
+  },
+  {
+   "fighter": "hinata",
+   "file": "/assets/audio/home/hinata.m4a",
+   "runtimeSha256": "48a3a69495cd9c447d8d46759efcfd27b441d5cf75c32c38ef6d3e29d555d97e"
+  },
+  {
+   "fighter": "gintoki",
+   "file": "/assets/audio/home/gintoki.m4a",
+   "runtimeSha256": "fefc35ceab0d1b0c741f1efce773deef5ef2ef0f87472879ce16cb7a940331b0"
+  },
+  {
+   "fighter": "tsunade",
+   "file": "/assets/audio/home/tsunade.m4a",
+   "runtimeSha256": "25758e31d25a6fd794ce64907d11d3ca1006286f72d7ea7f1c5c3a62abbaaff5"
+  },
+  {
+   "fighter": "jiraiya",
+   "file": "/assets/audio/home/jiraiya.m4a",
+   "runtimeSha256": "ad50955e7e81a55699c3ea124afbac567ecc95bc7d06d78ca75dfa35a6c22c00"
+  },
+  {
+   "fighter": "nanami",
+   "file": "/assets/audio/home/nanami.m4a",
+   "runtimeSha256": "33c8aa45f3f9f39bc665deb79b4b799a8708d3e598294e031ff98237d493878d"
+  },
+  {
+   "fighter": "josuke",
+   "file": "/assets/audio/home/josuke.m4a",
+   "runtimeSha256": "b02ba6a73cd9e65e099ab708dd66b1bfc9a7c02ac01c326efa5da171108e2e85"
+  },
+  {
+   "fighter": "blackbeard",
+   "file": "/assets/audio/home/blackbeard.m4a",
+   "runtimeSha256": "5addd896b3c7581d21190549bff773f3f9b7f1b5d2818f7c68475d8e05c6207f"
+  },
+  {
+   "fighter": "hisoka",
+   "file": "/assets/audio/home/hisoka.m4a",
+   "runtimeSha256": "44227c9951cb63fe43f35e995c624a2ef7e25146cce189ee4625257ab63e5611"
+  },
+  {
+   "fighter": "doflamingo",
+   "file": "/assets/audio/home/doflamingo.m4a",
+   "runtimeSha256": "16963886db1bffa02477cdb38f30bf3f9f740c58e28e93c394ff9b2ccfa0fd72"
+  },
+  {
+   "fighter": "aokiji",
+   "file": "/assets/audio/home/aokiji.m4a",
+   "runtimeSha256": "94aca7bc962cc8fd9e58aff6b2c01c041190bae0fe58e56c90f36daa2fc2f885"
+  },
+  {
+   "fighter": "sakura",
+   "file": "/assets/audio/home/sakura.m4a",
+   "runtimeSha256": "2305a518884bbd7861bd1b5c3e8c86a0aeea7f86ee00d84126618e33def2deb0"
+  },
+  {
+   "fighter": "hiei",
+   "file": "/assets/audio/home/hiei.m4a",
+   "runtimeSha256": "251b09162a1860d72405f24230d440123cb7b9b13fa4639cd5d6fe59555b1749"
+  },
+  {
+   "fighter": "meliodas",
+   "file": "/assets/audio/home/meliodas.m4a",
+   "runtimeSha256": "9115f22deaed8c63bf3e0d735fb2b0a6786e941500f68c5da4eaced662afc221"
+  },
+  {
+   "fighter": "escanor",
+   "file": "/assets/audio/home/escanor.m4a",
+   "runtimeSha256": "ac74f08984117b213e3dde40d4535e85314c969fe2cf2f57738339246589fc3d"
+  },
+  {
+   "fighter": "tatsumaki",
+   "file": "/assets/audio/home/tatsumaki.m4a",
+   "runtimeSha256": "370cf8b0ef5937312a55642195302df45ca8b0dd764ca697001d507142bf890b"
+  },
+  {
+   "fighter": "makima",
+   "file": "/assets/audio/home/makima.m4a",
+   "runtimeSha256": "f1f4eefee17f21607e032f7ec0eae96a221c19e556bf6f97c5dcb0db8151d306"
+  },
+  {
+   "fighter": "kenpachi",
+   "file": "/assets/audio/home/kenpachi.m4a",
+   "runtimeSha256": "fa7bfd4b40b3d558d426604f90997aa55471f143109915fc5cc51cafe543cd01"
+  },
+  {
+   "fighter": "minato",
+   "file": "/assets/audio/home/minato.m4a",
+   "runtimeSha256": "ecf743fdac3022402009a4b083ccc5accd7512a837162008873aee72e768fa7b"
+  },
+  {
+   "fighter": "edward-elric",
+   "file": "/assets/audio/home/edward-elric.m4a",
+   "runtimeSha256": "de0c5e6773595a97b607638ac471a1a04ef78f059dcac64dc615a74f15442727"
+  },
+  {
+   "fighter": "pain",
+   "file": "/assets/audio/home/pain.m4a",
+   "runtimeSha256": "29088bbcd4c7518a23d2ed31bd27f44a77158d3e2bee2100bd0340d0ab1723f5"
+  },
+  {
+   "fighter": "yamamoto",
+   "file": "/assets/audio/home/yamamoto.m4a",
+   "runtimeSha256": "1a61e08a046a496735cd84ece786461cd6f42169aed1b69635997b371823419e"
+  },
+  {
+   "fighter": "byakuya",
+   "file": "/assets/audio/home/byakuya.m4a",
+   "runtimeSha256": "59bfda3aa6d96da1bf9827bb455bc8e78269fdf94314bcf9dab7d0a20e5fd369"
+  },
+  {
+   "fighter": "grimmjow",
+   "file": "/assets/audio/home/grimmjow.m4a",
+   "runtimeSha256": "7d3f1901920c83acbd8ec339821ad78b485beba109dba1416ae6b322b7d51f13"
+  },
+  {
+   "fighter": "ken-kaneki",
+   "file": "/assets/audio/home/ken-kaneki.m4a",
+   "runtimeSha256": "d0e937c5222f4b2be797ac65e0a3ce184cf2dbff5b75beef43fae130c5738ea5"
+  },
+  {
+   "fighter": "alphonse-elric",
+   "file": "/assets/audio/home/alphonse-elric.m4a",
+   "runtimeSha256": "918003c80d2b40117f208913999e80629965bf0f126fa3bb4a274a7ddebe7f3c"
+  },
+  {
+   "fighter": "mikasa",
+   "file": "/assets/audio/home/mikasa.m4a",
+   "runtimeSha256": "7f69532a5194278c88ed4fb0fcd3db26085b9a4f4265ad59def140f61e580018"
+  },
+  {
+   "fighter": "esdeath",
+   "file": "/assets/audio/home/esdeath.m4a",
+   "runtimeSha256": "042836615df875ee16d2a0bf7904187e8983a6f3f0a3fba090a002b455394f43"
+  },
+  {
+   "fighter": "garou",
+   "file": "/assets/audio/home/garou.m4a",
+   "runtimeSha256": "6538f4f822a3783c434b4cbe0f5cbd3488677637148e5073afdc36fa23b6ad0a"
+  },
+  {
+   "fighter": "pikachu",
+   "file": "/assets/audio/home/pikachu.m4a",
+   "runtimeSha256": "7ab839ec9de1e972c01287293ef7d57b36dcaf514ea21953a3193cf11ef06429"
+  },
+  {
+   "fighter": "akame",
+   "file": "/assets/audio/home/akame.m4a",
+   "runtimeSha256": "cb1283a5b7e485fa96689789da48f2a5ef6ef2abc90d7f7b78937adef69333fb"
+  },
+  {
+   "fighter": "might-guy",
+   "file": "/assets/audio/home/might-guy.m4a",
+   "runtimeSha256": "6124dfaa7eec0b732817e010f37c8bcff746ab5be7eb3458cb56d8f33956d28a"
+  },
+  {
+   "fighter": "jolyne",
+   "file": "/assets/audio/home/jolyne.m4a",
+   "runtimeSha256": "dde3480cba681c3acef3c6f6d80540124543c184a6ccd2a6797120a5245d8531"
+  },
+  {
+   "fighter": "shinji",
+   "file": "/assets/audio/home/shinji.m4a",
+   "runtimeSha256": "b74758b846e5a6a867993abaabca11a980fbf2cdb957fa9a1c30a072103a31fd"
+  },
+  {
+   "fighter": "netero",
+   "file": "/assets/audio/home/netero.m4a",
+   "runtimeSha256": "9c67d812c51ba23dc5e198ea63e828dabf09b3add97372d8ba437b614770a07b"
+  },
+  {
+   "fighter": "asuka",
+   "file": "/assets/audio/home/asuka.m4a",
+   "runtimeSha256": "6f24f9bf59b64ba664687856dbf509f907288bedfbbaf027038599c2084b6c47"
+  },
+  {
+   "fighter": "eren",
+   "file": "/assets/audio/home/eren.m4a",
+   "runtimeSha256": "85191d2ef3a73c90ac2cf1bffa872982888ca5358063dc0cc4eddabd8b1c03c2"
+  },
+  {
+   "fighter": "kaiju-no-8",
+   "file": "/assets/audio/home/kaiju-no-8.m4a",
+   "runtimeSha256": "b1aed9bec19a5d75df42730c413064fadcc00b07f7cb94a522d97f402e58df51"
+  },
+  {
+   "fighter": "nico-robin",
+   "file": "/assets/audio/home/nico-robin.m4a",
+   "runtimeSha256": "92f75a88b5d8cbc35027b4eeceacf3279130f1e2dd67a385caec48aa16a2f383"
+  },
+  {
+   "fighter": "usopp",
+   "file": "/assets/audio/home/usopp.m4a",
+   "runtimeSha256": "1ae9efe3df439cb1661e36237e6142755ff0876ec5cbfccb0438c4a23c92bdbf"
+  },
+  {
+   "fighter": "crocodile",
+   "file": "/assets/audio/home/crocodile.m4a",
+   "runtimeSha256": "ae0b7f18168e3e87d30e942233a6a1b3ee62204f359465d424e80dc91afa9687"
+  },
+  {
+   "fighter": "toji",
+   "file": "/assets/audio/home/toji.m4a",
+   "runtimeSha256": "b723715eb2786d33a0759713c39d55d0657ee26b3747f82c62b5ad5559d0552a"
+  }
+ ]
+}
